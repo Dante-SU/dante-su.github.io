@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/post/</link>
+      <atom:link href="https://dante-su.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>Latest News</title>
+      <link>https://dante-su.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Difference between processes and threads</title>
+      <link>https://dante-su.github.io/post/23-09-28-processed-and-threads/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/post/23-09-28-processed-and-threads/</guid>
+      <description>&lt;p&gt;From &lt;a href=&#34;https://www.zhihu.com/question/25532384/answer/411179772&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ZhiHu&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;类似”进程是资源分配的最小单位，线程是CPU调度的最小单位“这样的回答感觉太抽象，都不太容易让人理解。&lt;/p&gt;
+&lt;p&gt;做个简单的比喻：进程=火车，线程=车厢&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;线程在进程下行进（单纯的车厢无法运行）&lt;/li&gt;
+&lt;li&gt;一个进程可以包含多个线程（一辆火车可以有多个车厢）&lt;/li&gt;
+&lt;li&gt;不同进程间数据很难共享（一辆火车上的乘客很难换到另外一辆火车，比如站点换乘）&lt;/li&gt;
+&lt;li&gt;同一进程下不同线程间数据很易共享（A车厢换到B车厢很容易）&lt;/li&gt;
+&lt;li&gt;进程要比线程消耗更多的计算机资源（采用多列火车相比多个车厢更耗资源）&lt;/li&gt;
+&lt;li&gt;进程间不会相互影响，一个线程挂掉将导致整个进程挂掉（一列火车不会影响到另外一列火车，但是如果一列火车上中间的一节车厢着火了，将影响到所有车厢）&lt;/li&gt;
+&lt;li&gt;进程可以拓展到多机，进程最多适合多核（不同火车可以开在多个轨道上，同一火车的车厢不能在行进的不同的轨道上）&lt;/li&gt;
+&lt;li&gt;进程使用的内存地址可以上锁，即一个线程使用某些共享内存时，其他线程必须等它结束，才能使用这一块内存。（比如火车上的洗手间）－&amp;ldquo;互斥锁&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;进程使用的内存地址可以限定使用量（比如火车上的餐厅，最多只允许多少人进入，如果满了需要在门口等，等有人出来了才能进去）－“信号量”&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Congratulations to Dante(me) for contributing to construct this website!</title>
+      <link>https://dante-su.github.io/post/23-09-20-construction-this-website/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/post/23-09-20-construction-this-website/</guid>
+      <description>&lt;p&gt;Congratulations to Dante(me) for contributing to construct this website!&lt;/p&gt;
+&lt;p&gt;Happy to see a new version of this notes website. This time, I choose wowchemy&amp;rsquo;s webiste template to renew this notes instead of the old one which is built with the help of gitbook, as gitbook would be no longer updated from 2021, a great pity.&lt;/p&gt;
+&lt;p&gt;This notebook was oringinally set for recording some shell command used in Linux. After the content&amp;rsquo;s being gathered togehter, I started to think that I need a far more efficient way than search it in my massed&amp;amp;messy documents to consult it once I have something need to know when writing code or debugging. So, I construct this webiste for me and also for you, the potential reader who found this website by accidence.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
