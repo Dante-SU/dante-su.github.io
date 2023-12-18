@@ -5,12 +5,25 @@
     <link>https://dante-su.github.io/post/</link>
       <atom:link href="https://dante-su.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://dante-su.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Deep Learning study notes</title>
+      <link>https://dante-su.github.io/post/23-12-18-deep-learning/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/post/23-12-18-deep-learning/</guid>
+      <description>&lt;h2 id=&#34;fully-connected-layer&#34;&gt;Fully-connected Layer&lt;/h2&gt;
+&lt;p&gt;对于线性回归，每个输入都与每个输出相连，我们将这种变换成为全连接层（fully-connected layer）或称为稠密层（dense layer）。&lt;/p&gt;
+&lt;h2 id=&#34;key-points-in-deeping-learning&#34;&gt;Key points in deeping learning&lt;/h2&gt;
+&lt;p&gt;机器学习模型中的关键要素是训练数据、损失函数、优化算法，还有模型本身。&lt;/p&gt;
+&lt;h2 id=&#34;简单性&#34;&gt;简单性&lt;/h2&gt;
+&lt;p&gt;简单性的另一个角度是平滑性，即函数不应该对其输入的微小变化敏感。 例如，当我们对图像进行分类时，我们预计向像素添加一些随机噪声应该是基本无影响的。 1995年，克里斯托弗·毕晓普证明了 具有输入噪声的训练等价于Tikhonov正则化 (Bishop, 1995)。 这项工作用数学证实了“要求函数光滑”和“要求函数对输入的随机噪声具有适应性”之间的联系。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Difference between processes and threads</title>

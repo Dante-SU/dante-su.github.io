@@ -12,5 +12,13 @@
       <link>https://dante-su.github.io/authors/</link>
     </image>
     
+    <item>
+      <title></title>
+      <link>https://dante-su.github.io/author/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/author/config.yml</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

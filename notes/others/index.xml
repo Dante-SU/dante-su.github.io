@@ -309,6 +309,19 @@
     </item>
     
     <item>
+      <title>HTML</title>
+      <link>https://dante-su.github.io/notes/others/html/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/others/html/</guid>
+      <description>&lt;p&gt;Notes&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;name&lt;/summary&gt;
+  &lt;p&gt;url&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
       <title>Messy</title>
       <link>https://dante-su.github.io/notes/others/messy/</link>
       <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>

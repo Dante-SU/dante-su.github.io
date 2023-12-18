@@ -71,7 +71,7 @@
   
   
 
-  <meta name="author" content="Dante BO" />
+  <meta name="author" content="Dante" />
 
   
   
@@ -743,6 +743,12 @@
     <li><a href="#usage">Usage</a>
       <ul>
         <li><a href="#torchset_printoptions">torch.set_printoptions</a></li>
+        <li><a href="#torchgrad">torch.grad</a></li>
+        <li><a href="#torchmatmul">torch.matmul</a></li>
+        <li><a href="#torchnumel">torch.numel</a></li>
+        <li><a href="#torchnnmoduleapply">torch.nn.module.apply</a></li>
+        <li><a href="#torchflatten">torch.flatten</a></li>
+        <li><a href="#torchnnflatten">torch.nn.Flatten()</a></li>
       </ul>
     </li>
   </ul>
@@ -841,14 +847,14 @@
 <p>See more at Pytorch official website: <a href="https://pytorch.org/get-started/locally/" target="_blank" rel="noopener">link</a></p>
 <h3 id="an-instance">An instance</h3>
 <p><em>For CUDA 11.3</em></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">conda install pytorch torchvision torchaudio <span class="nv">cudatoolkit</span><span class="o">=</span>11.3 -c pytorch -c conda-forge
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">conda install pytorch torchvision torchaudio <span class="nv">cudatoolkit</span><span class="o">=</span>11.3 -c pytorch -c conda-forge
 </span></span></code></pre></div><p>If you are at Mainland of China, you may need TsingHua&rsquo;s source</p>
 <p><strong>Address</strong></p>
 <p><a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/</a></p>
 <p><a href="https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/" target="_blank" rel="noopener">https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/</a></p>
 <p><strong>command</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">conda install <span class="nv">cudatoolkit</span><span class="o">=</span>11.3 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
-</span></span><span class="line"><span class="cl">conda install pytorch torchvision torchaudio -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">conda install <span class="nv">cudatoolkit</span><span class="o">=</span>11.3 -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">conda install pytorch torchvision torchaudio -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/
 </span></span></code></pre></div><div class="alert alert-note">
   <div>
     Be patient here to ensure the version of Pytorch to install is GPU.
@@ -869,7 +875,93 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">torch</span><span class="o">.</span><span class="n">set_printoptions</span><span class="p">(</span><span class="n">profile</span><span class="o">=</span><span class="s2">&#34;full&#34;</span><span class="p">)</span>
-</span></span></code></pre></div>
+</span></span></code></pre></div><h3 id="torchgrad">torch.grad</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="c1"># 清除以前的梯度</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span><span class="o">.</span><span class="n">grad</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">zero_</span><span class="p">()</span>
+</span></span></code></pre></div><h3 id="torchmatmul">torch.matmul</h3>
+<p>tensor的矩阵乘法</p>
+<p>e.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</span></span></code></pre></div><p><code>torch.size([3,2])</code></p>
+<div class="alert alert-note">
+  <div>
+    tensor维度不同时， 维度多出来的看作batch，其余再相乘
+  </div>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</span></span></code></pre></div><p><code>torch.size([5,3,2])</code></p>
+<div class="alert alert-note">
+  <div>
+    根据broadcast原则，首位不同时，应该将少的broadcast成多的
+  </div>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">))</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</span></span></code></pre></div><p><code>torch.size([2,5,4])</code></p>
+<div class="alert alert-note">
+  <div>
+    维度不同+提出batch后首位仍不同
+  </div>
+</div>
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">),</span> <span class="n">torch</span><span class="o">.</span><span class="n">ones</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</span></span></code></pre></div><p><code>torch.size([2,5,3,2])</code></p>
+<h3 id="torchnumel">torch.numel</h3>
+<p>显示tensor中元素的个数</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.6</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">,</span> <span class="mf">0.5</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">a</span><span class="o">.</span><span class="n">numel</span><span class="p">())</span>  <span class="c1"># 6</span>
+</span></span></code></pre></div><h3 id="torchnnmoduleapply">torch.nn.module.apply</h3>
+<p>将一个函数fn递归地应用到模块自身以及该模块的每一个子模块(即在函数.children()中返回的子模块).该方法通常用来初始化一个模型中的参数(另见torch-nn-init部分的内容).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">net</span> <span class="o">=</span> <span class="n">nn</span><span class="o">.</span><span class="n">Sequential</span><span class="p">(</span><span class="n">nn</span><span class="o">.</span><span class="n">Flatten</span><span class="p">(),</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">(</span><span class="mi">784</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">init_weights</span><span class="p">(</span><span class="n">m</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="nb">type</span><span class="p">(</span><span class="n">m</span><span class="p">)</span> <span class="o">==</span> <span class="n">nn</span><span class="o">.</span><span class="n">Linear</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">nn</span><span class="o">.</span><span class="n">init</span><span class="o">.</span><span class="n">normal_</span><span class="p">(</span><span class="n">m</span><span class="o">.</span><span class="n">weight</span><span class="p">,</span> <span class="n">std</span><span class="o">=</span><span class="mf">0.01</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">net</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">init_weights</span><span class="p">);</span>
+</span></span></code></pre></div><h3 id="torchflatten">torch.flatten</h3>
+<p>展平一个连续范围的维度，输出类型为Tensor</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">t</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">tensor</span><span class="p">([[[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                    <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]],</span>
+</span></span><span class="line"><span class="cl">                  <span class="p">[[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                   <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]],</span>
+</span></span><span class="line"><span class="cl">              <span class="p">[[</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">                   <span class="p">[</span><span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">]]])</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#当开始维度为0，最后维度为-1，展开为一维</span>
+</span></span><span class="line"><span class="cl"><span class="n">torch</span><span class="o">.</span><span class="n">flatten</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># output = tensor([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#当开始维度为0，最后维度为-1，展开为3x4，也就是说第一维度不变，后面的压缩</span>
+</span></span><span class="line"><span class="cl"><span class="n">torch</span><span class="o">.</span><span class="n">flatten</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">start_dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># tensor([[ 1,  2,  3,  4],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [ 5,  6,  7,  8],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [ 9, 10, 11, 12]])</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#下面的和上面进行对比应该就能看出是，当锁定最后的维度的时候</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#前面的就会合并</span>
+</span></span><span class="line"><span class="cl"><span class="n">torch</span><span class="o">.</span><span class="n">flatten</span><span class="p">(</span><span class="n">t</span><span class="p">,</span> <span class="n">start_dim</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">end_dim</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># tensor([[ 1,  2],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [ 3,  4],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [ 5,  6],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [ 7,  8],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [ 9, 10],</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#         [11, 12]])</span>
+</span></span></code></pre></div><h3 id="torchnnflatten">torch.nn.Flatten()</h3>
+<p>start_dim: first dim to flatten (default = 1).
+end_dim: last dim to flatten (default = -1).</p>
+<p>如无指定，该展平层会将除了第0维度（一般是batch_size）以外的所有维度展开成一维矩阵</p>
 
           </div>
 
