@@ -315,10 +315,10 @@
     
       <meta
         property="article:published_time"
-        content="2023-09-20T00:00:00&#43;00:00"
+        content="2023-12-18T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-09-20T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-12-18T00:00:00&#43;00:00">
   
 
   
@@ -768,10 +768,15 @@
         <li><a href="#tumx">tumx</a></li>
       </ul>
     </li>
-    <li><a href="#downloads">Downloads</a>
+    <li><a href="#downloads--upload">Downloads &amp; Upload</a>
       <ul>
         <li><a href="#wget">wget</a></li>
         <li><a href="#curl">curl</a></li>
+        <li><a href="#scp">scp</a></li>
+        <li><a href="#download-files-from-server-to-local">Download files from server to local</a></li>
+        <li><a href="#upload-files-from-local-to-server">Upload files from local to server</a></li>
+        <li><a href="#download-whole-directory-from-server-to-local">Download whole directory from server to local</a></li>
+        <li><a href="#upload-whole-directory-from-local-to-server">Upload whole directory from local to server</a></li>
       </ul>
     </li>
     <li><a href="#compression">Compression</a>
@@ -917,10 +922,15 @@
         <li><a href="#tumx">tumx</a></li>
       </ul>
     </li>
-    <li><a href="#downloads">Downloads</a>
+    <li><a href="#downloads--upload">Downloads &amp; Upload</a>
       <ul>
         <li><a href="#wget">wget</a></li>
         <li><a href="#curl">curl</a></li>
+        <li><a href="#scp">scp</a></li>
+        <li><a href="#download-files-from-server-to-local">Download files from server to local</a></li>
+        <li><a href="#upload-files-from-local-to-server">Upload files from local to server</a></li>
+        <li><a href="#download-whole-directory-from-server-to-local">Download whole directory from server to local</a></li>
+        <li><a href="#upload-whole-directory-from-local-to-server">Upload whole directory from local to server</a></li>
       </ul>
     </li>
     <li><a href="#compression">Compression</a>
@@ -1041,7 +1051,7 @@
 <p><code>screen kill &lt;id&gt;</code></p>
 <h3 id="tumx">tumx</h3>
 <p><a href="https://zhuanlan.zhihu.com/p/98384704" target="_blank" rel="noopener">Zhihu Link</a></p>
-<h2 id="downloads">Downloads</h2>
+<h2 id="downloads--upload">Downloads &amp; Upload</h2>
 <h3 id="wget">wget</h3>
 <p><code>wget [option] [url]</code></p>
 <p><code>[option]</code> could be blanck</p>
@@ -1078,10 +1088,29 @@
 <p><code>curl -C - -o &lt;name&gt; &lt;url&gt;</code></p>
 <h4 id="increase-attempts-1">Increase attempts</h4>
 <p><code>curl --retry 3 -o &lt;name&gt; &lt;url&gt;</code></p>
+<h3 id="scp">scp</h3>
+<h3 id="download-files-from-server-to-local">Download files from server to local</h3>
+<p><code>scp username@servername:/remote_path/filename ~/local_destination</code></p>
+<h3 id="upload-files-from-local-to-server">Upload files from local to server</h3>
+<p><code>scp ~/local_path/local_filename username@servername:/remote_path</code></p>
+<h3 id="download-whole-directory-from-server-to-local">Download whole directory from server to local</h3>
+<p><code>scp -r username@servername:/remote_path/remote_dir/ ~/local_destination</code></p>
+<h3 id="upload-whole-directory-from-local-to-server">Upload whole directory from local to server</h3>
+<p><code>scp  -r ~/local_dir username@servername:/remote_path/remote_dir</code></p>
+<div class="alert alert-note">
+  <div>
+    Use <code>scp -P PortId ...</code> instead if you need to specify a port to connect to the server
+  </div>
+</div>
+
 <h2 id="compression">Compression</h2>
 <h3 id="zip">zip</h3>
 <p><code>unzip [-cflptuvz][-agCjLMnoqsVX][-P &lt;password&gt;][.zip][file_name][-d &lt;dir&gt;][-x &lt;file&gt;]</code></p>
 <p><code>unzip [-Z]</code></p>
+<h4 id="example">Example</h4>
+<p><code>unzip test.zip</code></p>
+<p><code>unzip -n test.zip -d /tmp</code></p>
+<p><code>unzip -o test.zip -d tmp/</code></p>
 <h4 id="detailed-info">Detailed info</h4>
 <p>-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。</p>
 <p>-f 更新现有的文件。</p>
@@ -1142,7 +1171,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 20, 2023</p>
+          <p>Last updated on Dec 18, 2023</p>
 
           
 

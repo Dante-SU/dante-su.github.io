@@ -13,6 +13,388 @@
     </image>
     
     <item>
+      <title>Learning</title>
+      <link>https://dante-su.github.io/notes/links/learning/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/links/learning/</guid>
+      <description>&lt;p&gt;Links for learning&lt;/p&gt;
+&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;知乎&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Bilibili&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.bilibili.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;HK GOV holiday&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.gov.hk/tc/about/abouthk/holiday/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gov.hk/tc/about/abouthk/holiday/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Foundational courses of Machine Learning @Google&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://developers.google.com/machine-learning/foundational-courses&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://developers.google.com/machine-learning/foundational-courses&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;深入浅出PyTorch&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://datawhalechina.github.io/thorough-pytorch/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://datawhalechina.github.io/thorough-pytorch/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Pandas Document&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.pypandas.cn/docs/getting_started/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.pypandas.cn/docs/getting_started/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Baidu AI Paddle&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://aistudio.baidu.com/aistudio/index&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aistudio.baidu.com/aistudio/index&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;动手学深度学习&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zh-v2.d2l.ai/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zh-v2.d2l.ai/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;paperwithcode&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://paperswithcode.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://paperswithcode.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;connected papers&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.connectedpapers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.connectedpapers.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;爱可可爱生活的知乎&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/people/fly51fly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/people/fly51fly&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;台大李宏毅&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://speech.ee.ntu.edu.tw/~hylee/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://speech.ee.ntu.edu.tw/~hylee/index.php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rTqmWlnwz_0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=rTqmWlnwz_0&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;苏剑林的博客&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://kexue.fm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kexue.fm/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;豆约翰&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.jianshu.com/u/8b23f6864f5d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/u/8b23f6864f5d&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;远景论坛&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://bbs.pcbeta.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bbs.pcbeta.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;paperyy查重&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.paperyy.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.paperyy.cn/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;超星大雅查重&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;http://user.dayainfo.com/show/login&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://user.dayainfo.com/show/login&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;v2ray&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/freefq/tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/freefq/tutorials&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/wrfree/free&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/wrfree/free&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;JupyterLab，极其强大的下一代notebook！&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/87403131&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/87403131&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;english&#34;&gt;English&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;Duolinguo English Test&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://englishtest.duolingo.cn/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://englishtest.duolingo.cn/home&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;登登多邻国&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://det.91ddedu.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://det.91ddedu.com/#/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;Speak&amp;amp;Improve&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://speakandimprove.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://speakandimprove.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;Write&amp;amp;Improve&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://writeandimprove.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://writeandimprove.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://dante-su.github.io/notes/shell/linux/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/linux/</guid>
+      <description>&lt;p&gt;Some shell command when using Anaconda&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/linux.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#basic-command&#34;&gt;Basic command&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#clear-the-screen&#34;&gt;Clear the screen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#copy&#34;&gt;Copy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#move&#34;&gt;Move&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#pathway&#34;&gt;Pathway&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#folder&#34;&gt;Folder&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#search-file-by-name&#34;&gt;Search file by name&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#apt&#34;&gt;Apt&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#install-new-package&#34;&gt;Install new package&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-dict&#34;&gt;Update dict&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-installed-package&#34;&gt;Update installed package&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#nvidia-gpu&#34;&gt;NVIDIA GPU&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-cuda-version&#34;&gt;Check CUDA version&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-gpu-status&#34;&gt;Check GPU status&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-gpu-driver&#34;&gt;Check GPU driver&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-drivers-version&#34;&gt;Check driver&amp;rsquo;s version&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#system-info&#34;&gt;System info&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#cpu&#34;&gt;CPU&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#memory&#34;&gt;Memory&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#storage&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#kernel&#34;&gt;Kernel&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#ubuntu-version&#34;&gt;Ubuntu version&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#offline-program&#34;&gt;Offline program&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#screen&#34;&gt;screen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#tumx&#34;&gt;tumx&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#downloads--upload&#34;&gt;Downloads &amp;amp; Upload&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#wget&#34;&gt;wget&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#curl&#34;&gt;curl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#scp&#34;&gt;scp&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#download-files-from-server-to-local&#34;&gt;Download files from server to local&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#upload-files-from-local-to-server&#34;&gt;Upload files from local to server&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#download-whole-directory-from-server-to-local&#34;&gt;Download whole directory from server to local&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#upload-whole-directory-from-local-to-server&#34;&gt;Upload whole directory from local to server&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#compression&#34;&gt;Compression&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#zip&#34;&gt;zip&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;basic-command&#34;&gt;Basic command&lt;/h2&gt;
+&lt;h3 id=&#34;clear-the-screen&#34;&gt;Clear the screen&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;problem&#34;&gt;problem&lt;/h4&gt;
+&lt;p&gt;When &lt;code&gt;terminals database is inaccessible&lt;/code&gt; happened.&lt;/p&gt;
+&lt;p&gt;Add &lt;code&gt;xport TERMINFO=/usr/share/terminfo&lt;/code&gt; to &lt;code&gt;.bashrc&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
+&lt;h4 id=&#34;give-read-write-and-execute-permissions-for-everyone&#34;&gt;Give read, write, and execute permissions for everyone&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;chmod -R 777 &amp;lt;dir&amp;gt;/&amp;lt;folder_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;copy&#34;&gt;Copy&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cp &amp;lt;dir&amp;gt;/file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cp -r &amp;lt;dir&amp;gt;/* &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;move&#34;&gt;Move&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;mv &amp;lt;dir&amp;gt;/&amp;lt;file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It also could be used to change the name of file when two &lt;code&gt;&amp;lt;dir&amp;gt;&lt;/code&gt; are same.&lt;/p&gt;
+&lt;h3 id=&#34;pathway&#34;&gt;Pathway&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;folder&#34;&gt;Folder&lt;/h3&gt;
+&lt;h4 id=&#34;create-folder&#34;&gt;Create folder&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;mkdir &amp;lt;dir&amp;gt;/&amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g. &lt;code&gt;mkdir /home/user/new_folder&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;check-content-of-folder&#34;&gt;Check content of folder&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ls &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;search-file-by-name&#34;&gt;Search file by name&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;locate &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;find &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;apt&#34;&gt;Apt&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please be kindly notified that &lt;code&gt;apt-get&lt;/code&gt; could be short to &lt;code&gt;apt&lt;/code&gt; when using
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;install-new-package&#34;&gt;Install new package&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-dict&#34;&gt;Update dict&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-installed-package&#34;&gt;Update installed package&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get upgrade --only-upgrade &amp;lt;package_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;nvidia-gpu&#34;&gt;NVIDIA GPU&lt;/h2&gt;
+&lt;h3 id=&#34;check-cuda-version&#34;&gt;Check CUDA version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nvcc -V&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nvcc --version&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-gpu-status&#34;&gt;Check GPU status&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nvidia-smi&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;watch -n 1 -d nvidia-smi&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gpustat&lt;/code&gt;  (install it with &lt;code&gt;conda/pip install gpustat&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gpustat -i&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nvtop&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-gpu-driver&#34;&gt;Check GPU driver&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ubuntu-drivers devices&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;glxinfo | grep rendering&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-drivers-version&#34;&gt;Check driver&amp;rsquo;s version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt search nvidia-driver | grep nvidia-driver&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;system-info&#34;&gt;System info&lt;/h2&gt;
+&lt;h3 id=&#34;cpu&#34;&gt;CPU&lt;/h3&gt;
+&lt;h4 id=&#34;whole-info&#34;&gt;Whole info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cpu-model&#34;&gt;CPU model&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;core-number&#34;&gt;Core number&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo | grep physical | uniq -c&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;bit-width-3264&#34;&gt;Bit width (32/64)&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;getconf LONG_BIT&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;memory&#34;&gt;Memory&lt;/h3&gt;
+&lt;h4 id=&#34;whole-info-1&#34;&gt;Whole info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/meminfo&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;short-info&#34;&gt;Short info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;free -h&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;dynamic-info&#34;&gt;Dynamic info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;top&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;
+&lt;h4 id=&#34;whole-info-2&#34;&gt;Whole info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;info-of-current-device&#34;&gt;Info of current device&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;df -h &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g. &lt;code&gt;df -h ./&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;allocated-space&#34;&gt;Allocated space&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;du -sh &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;all-folders-allocated-space&#34;&gt;All folder&amp;rsquo;s allocated space&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;du -sh &amp;lt;dir&amp;gt;/*&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;dmesg | grep -i eth&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;kernel&#34;&gt;Kernel&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;uname -a&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ubuntu-version&#34;&gt;Ubuntu version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;lsb_release -a&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;offline-program&#34;&gt;Offline program&lt;/h2&gt;
+&lt;h3 id=&#34;screen&#34;&gt;screen&lt;/h3&gt;
+&lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;apt install screen&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;create-a-new-screen&#34;&gt;Create a new screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -S &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;check-all-screen&#34;&gt;Check all screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -ls&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;make-screen-offline&#34;&gt;Make screen offline&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -d &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;recover-screen&#34;&gt;Recover screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -r &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;back-to-terminal&#34;&gt;Back to terminal&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ctrl+A+D&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;delete-screen&#34;&gt;Delete screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -X -S &amp;lt;name&amp;gt; quit&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;screen kill &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;screen kill &amp;lt;id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tumx&#34;&gt;tumx&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/98384704&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu Link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;downloads--upload&#34;&gt;Downloads &amp;amp; Upload&lt;/h2&gt;
+&lt;h3 id=&#34;wget&#34;&gt;wget&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wget [option] [url]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[option]&lt;/code&gt; could be blanck&lt;/p&gt;
+&lt;h4 id=&#34;change-file-name&#34;&gt;Change file name&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -O &amp;lt;new_name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;change-file-path&#34;&gt;Change file path&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -P &amp;lt;new_path&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;continute-downloading-after-break&#34;&gt;Continute downloading after break&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -c &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;increase-attempts&#34;&gt;Increase attempts&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -t &amp;lt;num&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The default &lt;code&gt;&amp;lt;num&amp;gt;&lt;/code&gt; is 40&lt;/p&gt;
+&lt;h4 id=&#34;use-ftp&#34;&gt;use ftp&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget --ftp-user=&amp;lt;username&amp;gt; --ftp-password=&amp;lt;password&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;simulate-browser&#34;&gt;Simulate browser&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -U &#39;&amp;lt;browser_name&amp;gt;&#39; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;browser&amp;gt;&lt;/code&gt; could be one of {Mozilla/5.0 (Windows NT 10.0; Win64; x64), AppleWebKit/537.36 (KHTML, like Gecko), Chrome/81.0.4044.43, Safari/537.36}&lt;/p&gt;
+&lt;h4 id=&#34;downloads-on-background&#34;&gt;Downloads on background&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -b &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;check-download-log&#34;&gt;Check download log&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;tail -f wget-log&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;multi-files-download&#34;&gt;multi-files download&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;vim downloads.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget -i downloads.txt&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This command could also be used on Windows/MacOS
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;curl -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;continute-downloading-after-break-1&#34;&gt;Continute downloading after break&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;curl -C - -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;increase-attempts-1&#34;&gt;Increase attempts&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;curl --retry 3 -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;scp&#34;&gt;scp&lt;/h3&gt;
+&lt;h3 id=&#34;download-files-from-server-to-local&#34;&gt;Download files from server to local&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp username@servername:/remote_path/filename ~/local_destination&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;upload-files-from-local-to-server&#34;&gt;Upload files from local to server&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp ~/local_path/local_filename username@servername:/remote_path&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;download-whole-directory-from-server-to-local&#34;&gt;Download whole directory from server to local&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp -r username@servername:/remote_path/remote_dir/ ~/local_destination&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;upload-whole-directory-from-local-to-server&#34;&gt;Upload whole directory from local to server&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp  -r ~/local_dir username@servername:/remote_path/remote_dir&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Use &lt;code&gt;scp -P PortId ...&lt;/code&gt; instead if you need to specify a port to connect to the server
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
+&lt;h3 id=&#34;zip&#34;&gt;zip&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;unzip [-cflptuvz][-agCjLMnoqsVX][-P &amp;lt;password&amp;gt;][.zip][file_name][-d &amp;lt;dir&amp;gt;][-x &amp;lt;file&amp;gt;]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;unzip [-Z]&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;unzip test.zip&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;unzip -n test.zip -d /tmp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;unzip -o test.zip -d tmp/&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;detailed-info&#34;&gt;Detailed info&lt;/h4&gt;
+&lt;p&gt;-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。&lt;/p&gt;
+&lt;p&gt;-f 更新现有的文件。&lt;/p&gt;
+&lt;p&gt;-l 显示压缩文件内所包含的文件。&lt;/p&gt;
+&lt;p&gt;-p 与-c参数类似，会将解压缩的结果显示到屏幕上，但不会执行任何的转换。&lt;/p&gt;
+&lt;p&gt;-t 检查压缩文件是否正确。&lt;/p&gt;
+&lt;p&gt;-u 与-f参数类似，但是除了更新现有的文件外，也会将压缩文件中的其他文件解压缩到目录中。&lt;/p&gt;
+&lt;p&gt;-v 执行时显示详细的信息。&lt;/p&gt;
+&lt;p&gt;-z 仅显示压缩文件的备注文字。&lt;/p&gt;
+&lt;p&gt;-a 对文本文件进行必要的字符转换。&lt;/p&gt;
+&lt;p&gt;-b 不要对文本文件进行字符转换。&lt;/p&gt;
+&lt;p&gt;-C 压缩文件中的文件名称区分大小写。&lt;/p&gt;
+&lt;p&gt;-j 不处理压缩文件中原有的目录路径。&lt;/p&gt;
+&lt;p&gt;-L 将压缩文件中的全部文件名改为小写。&lt;/p&gt;
+&lt;p&gt;-M 将输出结果送到more程序处理。&lt;/p&gt;
+&lt;p&gt;-n 解压缩时不要覆盖原有的文件。&lt;/p&gt;
+&lt;p&gt;-o 不必先询问用户，unzip执行后覆盖原有文件。&lt;/p&gt;
+&lt;p&gt;-P&amp;lt;密码&amp;gt; 使用zip的密码选项。&lt;/p&gt;
+&lt;p&gt;-q 执行时不显示任何信息。&lt;/p&gt;
+&lt;p&gt;-s 将文件名中的空白字符转换为底线字符。&lt;/p&gt;
+&lt;p&gt;-V 保留VMS的文件版本信息。&lt;/p&gt;
+&lt;p&gt;-X 解压缩时同时回存文件原来的UID/GID。&lt;/p&gt;
+&lt;p&gt;[.zip文件] 指定.zip压缩文件。&lt;/p&gt;
+&lt;p&gt;[文件] 指定要处理.zip压缩文件中的哪些文件。&lt;/p&gt;
+&lt;p&gt;-d&amp;lt;目录&amp;gt; 指定文件解压缩后所要存储的目录。&lt;/p&gt;
+&lt;p&gt;-x&amp;lt;文件&amp;gt; 指定不要处理.zip压缩文件中的哪些文件。&lt;/p&gt;
+&lt;p&gt;-Z unzip -Z等于执行zipinfo指令。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Math for Computer Graphics</title>
       <link>https://dante-su.github.io/notes/computer_graphics/math/</link>
       <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
@@ -142,312 +524,6 @@ through a given set of points. First, the object in question is represented nume
 &lt;p&gt;&lt;code&gt;conda env create -f environment.yaml&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;usage-of-requirementstxt&#34;&gt;Usage of requirements.txt&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;conda install --yes --file requirements.txt&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Learning</title>
-      <link>https://dante-su.github.io/notes/links/learning/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/links/learning/</guid>
-      <description>&lt;p&gt;Links for learning&lt;/p&gt;
-&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;
-&lt;h3 id=&#34;知乎&#34;&gt;知乎&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;bilibili&#34;&gt;Bilibili&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.bilibili.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;hk-gov-holiday&#34;&gt;HK GOV holiday&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.gov.hk/tc/about/abouthk/holiday/2023.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.gov.hk/tc/about/abouthk/holiday/2023.htm&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;research&#34;&gt;Research&lt;/h2&gt;
-&lt;h3 id=&#34;baidu-ai-paddle&#34;&gt;Baidu AI Paddle&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://aistudio.baidu.com/aistudio/index&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://aistudio.baidu.com/aistudio/index&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;动手学深度学习&#34;&gt;动手学深度学习&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://zh-v2.d2l.ai/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zh-v2.d2l.ai/index.html&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;paperwithcode&#34;&gt;paperwithcode&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://paperswithcode.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://paperswithcode.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;connected-papers&#34;&gt;connected papers&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.connectedpapers.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.connectedpapers.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;爱可可爱生活的知乎&#34;&gt;爱可可爱生活的知乎&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.zhihu.com/people/fly51fly&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/people/fly51fly&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;台大李宏毅&#34;&gt;台大李宏毅&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://speech.ee.ntu.edu.tw/~hylee/index.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://speech.ee.ntu.edu.tw/~hylee/index.php&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rTqmWlnwz_0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.youtube.com/watch?v=rTqmWlnwz_0&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;苏剑林的博客&#34;&gt;苏剑林的博客&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://kexue.fm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://kexue.fm/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;豆约翰&#34;&gt;豆约翰&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.jianshu.com/u/8b23f6864f5d&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.jianshu.com/u/8b23f6864f5d&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;eic17-kexintang&#34;&gt;EIC17 KexinTANG&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/Kexin-Tang&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/Kexin-Tang&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;tools&#34;&gt;Tools&lt;/h2&gt;
-&lt;h3 id=&#34;远景论坛&#34;&gt;远景论坛&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://bbs.pcbeta.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bbs.pcbeta.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;paperyy查重&#34;&gt;paperyy查重&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.paperyy.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.paperyy.cn/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;超星大雅查重&#34;&gt;超星大雅查重&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;http://user.dayainfo.com/show/login&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://user.dayainfo.com/show/login&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;v2ray&#34;&gt;v2ray&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/freefq/tutorials&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/freefq/tutorials&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/wrfree/free&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/wrfree/free&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;jupyterlab极其强大的下一代notebook&#34;&gt;JupyterLab，极其强大的下一代notebook！&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/87403131&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/87403131&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;english&#34;&gt;English&lt;/h2&gt;
-&lt;h3 id=&#34;duolinguo-english-test&#34;&gt;Duolinguo English Test&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://englishtest.duolingo.cn/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://englishtest.duolingo.cn/home&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;登登多邻国&#34;&gt;登登多邻国&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://det.91ddedu.com/#/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://det.91ddedu.com/#/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;speakimprove&#34;&gt;Speak&amp;amp;Improve&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://speakandimprove.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://speakandimprove.com/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;writeimprove&#34;&gt;Write&amp;amp;Improve&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://writeandimprove.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://writeandimprove.com/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://dante-su.github.io/notes/shell/linux/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/shell/linux/</guid>
-      <description>&lt;p&gt;Some shell command when using Anaconda&lt;/p&gt;
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/linux.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#basic-command&#34;&gt;Basic command&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#clear-the-screen&#34;&gt;Clear the screen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#copy&#34;&gt;Copy&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#move&#34;&gt;Move&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#pathway&#34;&gt;Pathway&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#folder&#34;&gt;Folder&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#search-file-by-name&#34;&gt;Search file by name&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#apt&#34;&gt;Apt&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#install-new-package&#34;&gt;Install new package&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#update-dict&#34;&gt;Update dict&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#update-installed-package&#34;&gt;Update installed package&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#nvidia-gpu&#34;&gt;NVIDIA GPU&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#check-cuda-version&#34;&gt;Check CUDA version&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#check-gpu-status&#34;&gt;Check GPU status&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#check-gpu-driver&#34;&gt;Check GPU driver&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#check-drivers-version&#34;&gt;Check driver&amp;rsquo;s version&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#system-info&#34;&gt;System info&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#cpu&#34;&gt;CPU&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#memory&#34;&gt;Memory&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#storage&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#kernel&#34;&gt;Kernel&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#ubuntu-version&#34;&gt;Ubuntu version&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#offline-program&#34;&gt;Offline program&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#screen&#34;&gt;screen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#tumx&#34;&gt;tumx&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#downloads&#34;&gt;Downloads&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#wget&#34;&gt;wget&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#curl&#34;&gt;curl&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#compression&#34;&gt;Compression&lt;/a&gt;
-      &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#zip&#34;&gt;zip&lt;/a&gt;&lt;/li&gt;
-      &lt;/ul&gt;
-    &lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
-&lt;/details&gt;
-
-&lt;h2 id=&#34;basic-command&#34;&gt;Basic command&lt;/h2&gt;
-&lt;h3 id=&#34;clear-the-screen&#34;&gt;Clear the screen&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;problem&#34;&gt;problem&lt;/h4&gt;
-&lt;p&gt;When &lt;code&gt;terminals database is inaccessible&lt;/code&gt; happened.&lt;/p&gt;
-&lt;p&gt;Add &lt;code&gt;xport TERMINFO=/usr/share/terminfo&lt;/code&gt; to &lt;code&gt;.bashrc&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
-&lt;h4 id=&#34;give-read-write-and-execute-permissions-for-everyone&#34;&gt;Give read, write, and execute permissions for everyone&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;chmod -R 777 &amp;lt;dir&amp;gt;/&amp;lt;folder_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;copy&#34;&gt;Copy&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;cp &amp;lt;dir&amp;gt;/file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;cp -r &amp;lt;dir&amp;gt;/* &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;move&#34;&gt;Move&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;mv &amp;lt;dir&amp;gt;/&amp;lt;file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;It also could be used to change the name of file when two &lt;code&gt;&amp;lt;dir&amp;gt;&lt;/code&gt; are same.&lt;/p&gt;
-&lt;h3 id=&#34;pathway&#34;&gt;Pathway&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;folder&#34;&gt;Folder&lt;/h3&gt;
-&lt;h4 id=&#34;create-folder&#34;&gt;Create folder&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;mkdir &amp;lt;dir&amp;gt;/&amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;e.g. &lt;code&gt;mkdir /home/user/new_folder&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;check-content-of-folder&#34;&gt;Check content of folder&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;ls &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;search-file-by-name&#34;&gt;Search file by name&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;locate &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;find &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;apt&#34;&gt;Apt&lt;/h2&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Please be kindly notified that &lt;code&gt;apt-get&lt;/code&gt; could be short to &lt;code&gt;apt&lt;/code&gt; when using
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&#34;install-new-package&#34;&gt;Install new package&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;update-dict&#34;&gt;Update dict&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;update-installed-package&#34;&gt;Update installed package&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo apt-get upgrade&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;sudo apt-get upgrade --only-upgrade &amp;lt;package_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;nvidia-gpu&#34;&gt;NVIDIA GPU&lt;/h2&gt;
-&lt;h3 id=&#34;check-cuda-version&#34;&gt;Check CUDA version&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;nvcc -V&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;nvcc --version&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;check-gpu-status&#34;&gt;Check GPU status&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;nvidia-smi&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;watch -n 1 -d nvidia-smi&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gpustat&lt;/code&gt;  (install it with &lt;code&gt;conda/pip install gpustat&lt;/code&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gpustat -i&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;nvtop&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;check-gpu-driver&#34;&gt;Check GPU driver&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;ubuntu-drivers devices&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;glxinfo | grep rendering&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;check-drivers-version&#34;&gt;Check driver&amp;rsquo;s version&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;sudo apt search nvidia-driver | grep nvidia-driver&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;system-info&#34;&gt;System info&lt;/h2&gt;
-&lt;h3 id=&#34;cpu&#34;&gt;CPU&lt;/h3&gt;
-&lt;h4 id=&#34;whole-info&#34;&gt;Whole info&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;cpu-model&#34;&gt;CPU model&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;core-number&#34;&gt;Core number&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo | grep physical | uniq -c&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;bit-width-3264&#34;&gt;Bit width (32/64)&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;getconf LONG_BIT&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;memory&#34;&gt;Memory&lt;/h3&gt;
-&lt;h4 id=&#34;whole-info-1&#34;&gt;Whole info&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;cat /proc/meminfo&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;short-info&#34;&gt;Short info&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;free -h&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;dynamic-info&#34;&gt;Dynamic info&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;top&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;
-&lt;h4 id=&#34;whole-info-2&#34;&gt;Whole info&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;info-of-current-device&#34;&gt;Info of current device&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;df -h &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;e.g. &lt;code&gt;df -h ./&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;allocated-space&#34;&gt;Allocated space&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;du -sh &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;all-folders-allocated-space&#34;&gt;All folder&amp;rsquo;s allocated space&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;du -sh &amp;lt;dir&amp;gt;/*&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;dmesg | grep -i eth&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;kernel&#34;&gt;Kernel&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;uname -a&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;ubuntu-version&#34;&gt;Ubuntu version&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;lsb_release -a&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;offline-program&#34;&gt;Offline program&lt;/h2&gt;
-&lt;h3 id=&#34;screen&#34;&gt;screen&lt;/h3&gt;
-&lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;apt install screen&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;create-a-new-screen&#34;&gt;Create a new screen&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;screen -S &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;check-all-screen&#34;&gt;Check all screen&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;screen -ls&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;make-screen-offline&#34;&gt;Make screen offline&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;screen -d &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;recover-screen&#34;&gt;Recover screen&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;screen -r &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;back-to-terminal&#34;&gt;Back to terminal&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;ctrl+A+D&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;delete-screen&#34;&gt;Delete screen&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;screen -X -S &amp;lt;name&amp;gt; quit&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;screen kill &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;screen kill &amp;lt;id&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;tumx&#34;&gt;tumx&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/98384704&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu Link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
-&lt;h3 id=&#34;wget&#34;&gt;wget&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;wget [option] [url]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;[option]&lt;/code&gt; could be blanck&lt;/p&gt;
-&lt;h4 id=&#34;change-file-name&#34;&gt;Change file name&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget -O &amp;lt;new_name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;change-file-path&#34;&gt;Change file path&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget -P &amp;lt;new_path&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;continute-downloading-after-break&#34;&gt;Continute downloading after break&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget -c &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;increase-attempts&#34;&gt;Increase attempts&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget -t &amp;lt;num&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;The default &lt;code&gt;&amp;lt;num&amp;gt;&lt;/code&gt; is 40&lt;/p&gt;
-&lt;h4 id=&#34;use-ftp&#34;&gt;use ftp&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget --ftp-user=&amp;lt;username&amp;gt; --ftp-password=&amp;lt;password&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;simulate-browser&#34;&gt;Simulate browser&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget -U &#39;&amp;lt;browser_name&amp;gt;&#39; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;&amp;lt;browser&amp;gt;&lt;/code&gt; could be one of {Mozilla/5.0 (Windows NT 10.0; Win64; x64), AppleWebKit/537.36 (KHTML, like Gecko), Chrome/81.0.4044.43, Safari/537.36}&lt;/p&gt;
-&lt;h4 id=&#34;downloads-on-background&#34;&gt;Downloads on background&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;wget -b &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;check-download-log&#34;&gt;Check download log&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;tail -f wget-log&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;multi-files-download&#34;&gt;multi-files download&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;vim downloads.txt&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;wget -i downloads.txt&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    This command could also be used on Windows/MacOS
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code&gt;curl -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;continute-downloading-after-break-1&#34;&gt;Continute downloading after break&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;curl -C - -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;increase-attempts-1&#34;&gt;Increase attempts&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;curl --retry 3 -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
-&lt;h3 id=&#34;zip&#34;&gt;zip&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;unzip [-cflptuvz][-agCjLMnoqsVX][-P &amp;lt;password&amp;gt;][.zip][file_name][-d &amp;lt;dir&amp;gt;][-x &amp;lt;file&amp;gt;]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;unzip [-Z]&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;detailed-info&#34;&gt;Detailed info&lt;/h4&gt;
-&lt;p&gt;-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。&lt;/p&gt;
-&lt;p&gt;-f 更新现有的文件。&lt;/p&gt;
-&lt;p&gt;-l 显示压缩文件内所包含的文件。&lt;/p&gt;
-&lt;p&gt;-p 与-c参数类似，会将解压缩的结果显示到屏幕上，但不会执行任何的转换。&lt;/p&gt;
-&lt;p&gt;-t 检查压缩文件是否正确。&lt;/p&gt;
-&lt;p&gt;-u 与-f参数类似，但是除了更新现有的文件外，也会将压缩文件中的其他文件解压缩到目录中。&lt;/p&gt;
-&lt;p&gt;-v 执行时显示详细的信息。&lt;/p&gt;
-&lt;p&gt;-z 仅显示压缩文件的备注文字。&lt;/p&gt;
-&lt;p&gt;-a 对文本文件进行必要的字符转换。&lt;/p&gt;
-&lt;p&gt;-b 不要对文本文件进行字符转换。&lt;/p&gt;
-&lt;p&gt;-C 压缩文件中的文件名称区分大小写。&lt;/p&gt;
-&lt;p&gt;-j 不处理压缩文件中原有的目录路径。&lt;/p&gt;
-&lt;p&gt;-L 将压缩文件中的全部文件名改为小写。&lt;/p&gt;
-&lt;p&gt;-M 将输出结果送到more程序处理。&lt;/p&gt;
-&lt;p&gt;-n 解压缩时不要覆盖原有的文件。&lt;/p&gt;
-&lt;p&gt;-o 不必先询问用户，unzip执行后覆盖原有文件。&lt;/p&gt;
-&lt;p&gt;-P&amp;lt;密码&amp;gt; 使用zip的密码选项。&lt;/p&gt;
-&lt;p&gt;-q 执行时不显示任何信息。&lt;/p&gt;
-&lt;p&gt;-s 将文件名中的空白字符转换为底线字符。&lt;/p&gt;
-&lt;p&gt;-V 保留VMS的文件版本信息。&lt;/p&gt;
-&lt;p&gt;-X 解压缩时同时回存文件原来的UID/GID。&lt;/p&gt;
-&lt;p&gt;[.zip文件] 指定.zip压缩文件。&lt;/p&gt;
-&lt;p&gt;[文件] 指定要处理.zip压缩文件中的哪些文件。&lt;/p&gt;
-&lt;p&gt;-d&amp;lt;目录&amp;gt; 指定文件解压缩后所要存储的目录。&lt;/p&gt;
-&lt;p&gt;-x&amp;lt;文件&amp;gt; 指定不要处理.zip压缩文件中的哪些文件。&lt;/p&gt;
-&lt;p&gt;-Z unzip -Z等于执行zipinfo指令。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -1503,178 +1579,66 @@ through a given set of points. First, the object in question is represented nume
     </item>
     
     <item>
-      <title>Debug</title>
-      <link>https://dante-su.github.io/notes/links/debug/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/links/debug/</guid>
-      <description>&lt;p&gt;Links for dealing with specific situation when debugging.&lt;/p&gt;
-&lt;h2 id=&#34;mirror&#34;&gt;Mirror&lt;/h2&gt;
+      <title>Collection</title>
+      <link>https://dante-su.github.io/notes/links/collection/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/links/collection/</guid>
+      <description>&lt;p&gt;My Collection&lt;/p&gt;
+&lt;h2 id=&#34;recruit&#34;&gt;Recruit&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
-  &lt;summary&gt;清华源&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;IBM&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.ibm.com/cn-zh/employment/internship/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ibm.com/cn-zh/employment/internship/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;dp&#34;&gt;DP&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
-  &lt;summary&gt;pytorch 加载大数据集 内存不够 的处理方式&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/cjs8348797/article/details/115708811&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/cjs8348797/article/details/115708811&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.cnblogs.com/aminor/p/14336767.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/aminor/p/14336767.html&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.zhihu.com/question/386743819/answer/1989311050&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/question/386743819/answer/1989311050&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.cnblogs.com/xiaosongshine/p/10750908.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/xiaosongshine/p/10750908.html&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;MSRA&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.msra.cn/zh-cn/jobs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.msra.cn/zh-cn/jobs&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
+&lt;h2 id=&#34;hkbu&#34;&gt;HKBU&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
-  &lt;summary&gt;AdaptivePooling与Max/AvgPooling相互转换&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/xiaosongshine/p/10750908.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/xiaosongshine/p/10750908.html&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;用户资料&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.comp.hkbu.edu.hk/v1/index.php?page=staff_docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.comp.hkbu.edu.hk/v1/index.php?page=staff_docs&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
-  &lt;summary&gt;Python中生成并绘制混淆矩阵&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/kane7csdn/article/details/83756583&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/kane7csdn/article/details/83756583&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;VPN设置指引&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.comp.hkbu.edu.hk/v1/index.php?page=vpn_rpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.comp.hkbu.edu.hk/v1/index.php?page=vpn_rpg&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
-  &lt;summary&gt;Pytorch 完整的模型训练套路&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_45468845/article/details/122971739&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_45468845/article/details/122971739&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/464796719&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/464796719&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://blog.csdn.net/FUTEROX/article/details/122724634&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/FUTEROX/article/details/122724634&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;COMP邮箱&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://imail.comp.hkbu.edu.hk/webmail/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://imail.comp.hkbu.edu.hk/webmail/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
-  &lt;summary&gt;pytorch中根据神经网络结构确定输入图片尺寸/根据图片尺寸修改神经网络结构&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43423455/article/details/99096580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_43423455/article/details/99096580&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;存储服务器&lt;/summary&gt;
+  &lt;p&gt;http://158.182.7.131:5000&lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;h2 id=&#34;entertainment&#34;&gt;Entertainment&lt;/h2&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
-  &lt;summary&gt;torch.nn.AdaptiveAvgPool1d(N)函数解读&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_40178291/article/details/102699493&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_40178291/article/details/102699493&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;低端影视&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;&lt;a href=&#34;https://ddrk.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ddrk.me/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ddys.love&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ddys.love&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ddys.pro/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ddys.pro/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ddys.mov/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ddys.mov/&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
-  &lt;summary&gt;torch.view()详解及-1参数是什么意思&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/MartinLwx/p/10543604.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/MartinLwx/p/10543604.html&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;美剧7&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.meiju7.cc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meiju7.cc/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
-  &lt;summary&gt;Pytorch常用的交叉熵损失函数CrossEntropyLoss()详解&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/98785902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/98785902&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;韩剧看看&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.hanjukankan.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.hanjukankan.com/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
-  &lt;summary&gt;PyTorch 多分类损失函数&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/jacke121/article/details/104665912/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/jacke121/article/details/104665912/&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;爱壹帆影视&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.aiyifan.tv/drama&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.aiyifan.tv/drama&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
-  &lt;summary&gt;pytorch的各种loss&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_22764813/article/details/104867431&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_22764813/article/details/104867431&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
-  &lt;summary&gt;PyTorch Bert文本分类&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_44912902/article/details/123886825&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_44912902/article/details/123886825&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
-  &lt;summary&gt;二分类问题：基于BERT的文本分类实践！附完整代码&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Datawhale/article/details/104871803?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;amp;utm_relevant_index=6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/Datawhale/article/details/104871803?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;utm_relevant_index=6&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
-  &lt;summary&gt;BERT-使用tf生成pytorch_model.bin&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://www.freesion.com/article/9725381185/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.freesion.com/article/9725381185/&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
-  &lt;summary&gt;PyTorch之nn.ReLU与F.ReLU的区别&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/u011501388/article/details/86602275&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/u011501388/article/details/86602275&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
-  &lt;summary&gt;Pytorch入门教程（十）：ResNet图片分类实战&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43472830/article/details/95871258?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;amp;utm_relevant_index=5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_43472830/article/details/95871258?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;utm_relevant_index=5&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
-  &lt;summary&gt;pytorch版yolov3训练自己数据集&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/pprp/p/10863496.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/pprp/p/10863496.html&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/BobLiu20/YOLOv3_PyTorch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/BobLiu20/YOLOv3_PyTorch&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/cxjaicj/keras-yolo3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/cxjaicj/keras-yolo3&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/pprp/yolov3.keras&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/pprp/yolov3.keras&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
-  &lt;summary&gt;ImportError:无法从“tensorflow”导入名称“Session”&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://www.cnpython.com/qa/1297701&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnpython.com/qa/1297701&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
-  &lt;summary&gt;Adam优化算法详细解析&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/luoxuexiong/article/details/90412213&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/luoxuexiong/article/details/90412213&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.cnblogs.com/wuchengze/p/13610500.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/wuchengze/p/13610500.html&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
-  &lt;summary&gt;理解语言的 Transformer 模型&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://tensorflow.google.cn/tutorials/text/transformer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://tensorflow.google.cn/tutorials/text/transformer&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;h2 id=&#34;papers&#34;&gt;papers&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
-  &lt;summary&gt;Vision Transformer 必读系列之图像分类综述(一)：概述&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/459828118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/459828118&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
-  &lt;summary&gt;面向多场景低资源加密流量分类的加密流量预训练技术&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/483285843&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/483285843&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
-  &lt;summary&gt;跨模态检索 Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/398898919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/398898919&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
-  &lt;summary&gt;跨模态检索论文解读 Similarity Reasoning and Filtration for Image-Text Matching&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/394203914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/394203914&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
-  &lt;summary&gt;论文笔记 FPN —— 特征金字塔&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/92005927&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/92005927&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
-  &lt;summary&gt;中国医学影像 AI 的 20 年「大变局」万字长文&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://baijiahao.baidu.com/s?id=1722558686425634791&amp;amp;wfr=spider&amp;amp;for=pc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://baijiahao.baidu.com/s?id=1722558686425634791&amp;wfr=spider&amp;for=pc&lt;/a&gt;&lt;/p&gt;
+  &lt;summary&gt;Untitled&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;http://transition.vipray.cn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://transition.vipray.cn/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
 &lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
-  &lt;summary&gt;解决 Failed to connect to github.com port 443:connection timed out&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Hodors/article/details/103226958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/Hodors/article/details/103226958&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
-  &lt;summary&gt;python工具-将视频按帧截取图片（附代码）&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_36190978/article/details/85284484&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_36190978/article/details/85284484&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
-  &lt;summary&gt;python中sorted是什么&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://m.php.cn/article/423733.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://m.php.cn/article/423733.html&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
-  &lt;summary&gt;Python3创建目录mkdir&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_51697369/article/details/119864944&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_51697369/article/details/119864944&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
-  &lt;summary&gt;python enumerate用法总结&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/churximi/article/details/51648388&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/churximi/article/details/51648388&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
-  &lt;summary&gt;python的文件操作&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zhandar44/article/details/95995091&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/zhandar44/article/details/95995091&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
-  &lt;summary&gt;词袋模型&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://github.com/gurkandemir/Bag-of-Visual-Words&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gurkandemir/Bag-of-Visual-Words&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/cleanlii/bow-image-retrieval&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/cleanlii/bow-image-retrieval&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
-  &lt;summary&gt;Standford cv reports 2017&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;http://cs231n.stanford.edu/reports/2017/pdfs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cs231n.stanford.edu/reports/2017/pdfs/&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
-  &lt;summary&gt;机器学习性能度量指标&lt;br&gt;precision、recall、PR曲线、F1、ROC、AUC、IOU、mAP）&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/xhj_enen/article/details/88639920&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/xhj_enen/article/details/88639920&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
-  &lt;summary&gt;Transformer 模型详解&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://baijiahao.baidu.com/s?id=1651219987457222196&amp;amp;wfr=spider&amp;amp;for=pc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://baijiahao.baidu.com/s?id=1651219987457222196&amp;wfr=spider&amp;for=pc&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
-  &lt;summary&gt;A Step by Step Backpropagation Example&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
-  &lt;summary&gt;Math for Computer Graphics&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://faculty.cc.gatech.edu/~turk/math_gr_new.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://faculty.cc.gatech.edu/~turk/math_gr_new.html&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
-  &lt;summary&gt;用Python读取CSV文件的5种方式&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_40907977/article/details/108054088&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_40907977/article/details/108054088&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
-  &lt;summary&gt;Shell脚本编写&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_35784267/article/details/116582780&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_35784267/article/details/116582780&lt;/a&gt;&lt;/p&gt;
-&lt;/details&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-40&#34;&gt;
-  &lt;summary&gt;markdown表格&lt;/summary&gt;
-  &lt;p&gt;&lt;a href=&#34;https://www.runoob.com/markdown/md-table.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.runoob.com/markdown/md-table.html&lt;/a&gt;&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;新加坡工作指南&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.965work.in/archives/work-guide-for-singapore/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.965work.in/archives/work-guide-for-singapore/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;</description>
     </item>
     
@@ -1908,167 +1872,243 @@ through a given set of points. First, the object in question is represented nume
     </item>
     
     <item>
-      <title>HTML</title>
-      <link>https://dante-su.github.io/notes/others/html/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/others/html/</guid>
-      <description>&lt;p&gt;Notes&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
-  &lt;summary&gt;name&lt;/summary&gt;
-  &lt;p&gt;url&lt;/p&gt;
-&lt;/details&gt;</description>
-    </item>
-    
-    <item>
-      <title>Related papers</title>
-      <link>https://dante-su.github.io/notes/computer_graphics/papers/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/computer_graphics/papers/</guid>
-      <description>&lt;p&gt;Related papers of Computer Graphics&lt;/p&gt;
-&lt;h2 id=&#34;3dv&#34;&gt;3DV&lt;/h2&gt;
-&lt;h3 id=&#34;detailed-human-avatars-from-monocular-video&#34;&gt;Detailed Human Avatars from Monocular Video&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; 3DV&#39;2018&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1808.01338.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/semantic_human_texture_stitching&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;wacv&#34;&gt;WACV&lt;/h2&gt;
-&lt;h3 id=&#34;smplpix-neural-avatars-from-3d-human-models&#34;&gt;SMPLpix: Neural Avatars from 3D Human Models&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; WACV&#39;2021&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ps.is.mpg.de/code/smplpix-neural-avatars-from-3d-human-models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2008.06872.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/sergeyprokudin/smplpix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;iccv&#34;&gt;ICCV&lt;/h2&gt;
-&lt;h3 id=&#34;tex2shape&#34;&gt;Tex2shape&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2019&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://virtualhumans.mpi-inf.mpg.de/tex2shape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1904.08645v2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/tex2shape&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
-&lt;p&gt;Generate 3D human body model with details of garment from an RGB image(without depth information)&lt;/p&gt;
-&lt;h4 id=&#34;motivation&#34;&gt;Motivation&lt;/h4&gt;
-&lt;p&gt;Regression from image pixels directly to 3D mesh displacements is not so good:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Ignoring the rich illumination and shading information contained in RGB values&lt;/li&gt;
-&lt;li&gt;inputs and outputs are not aligned&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;novelity&#34;&gt;Novelity&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;propose to regress shape as UV-space displacement and normal map&lt;/li&gt;
-&lt;li&gt;turn a hard full-body shape reconstruction problem into an easier 3D pose-independent image-to-image translation problem&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;cons&#34;&gt;Cons&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;the photo must taken from the front&lt;/li&gt;
-&lt;li&gt;pose is strictly to A pose&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;liquid-warping-gan-a-unified-framework-for-human-motion-imitation-appearance-transfer-and-novel-view-synthesis&#34;&gt;Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2019&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://svip-lab.github.io/project/impersonator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1909.12224.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/svip-lab/impersonator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://svip-lab.github.io/dataset/iPER_dataset.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;the-power-of-points-for-modeling-humans-in-clothing&#34;&gt;The Power of Points for Modeling Humans in Clothing&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2021&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://qianlim.github.io/POP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2109.01137.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/qianlim/POP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://pop.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;eccv&#34;&gt;ECCV&lt;/h2&gt;
-&lt;h3 id=&#34;keep-it-smpl-automatic-estimation-of-3d-human-pose-and-shape-from-a-single-image&#34;&gt;Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ECCV&#39;2016&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1607.08128.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; or &lt;a href=&#34;https://files.is.tue.mpg.de/black/papers/BogoECCV2016.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/RhythmJnh/TF_SMPL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;bodynet-volumetric-inference-of-3d-human-bodyshapes&#34;&gt;Bodynet: Volumetric inference of 3D human bodyshapes&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ECCV&#39;2018&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.di.ens.fr/willow/research/bodynet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1804.04875.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/gulvarol/bodynet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;cvpr&#34;&gt;CVPR&lt;/h2&gt;
-&lt;h3 id=&#34;video-based-reconstruction-of-3d-people-models&#34;&gt;Video Based Reconstruction of 3D People Models&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2018&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://vcai.mpi-inf.mpg.de/projects/wxu/VideoAvatar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1803.04758.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/videoavatars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://graphics.tu-bs.de/people-snapshot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;learning-to-reconstruct-people-in-clothing-from-a-single-rgb-camera&#34;&gt;Learning to reconstruct people in clothing from a single RGB camera&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2019&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1903.05885.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/octopus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
-&lt;p&gt;Max Planck Institute for Informatics, Germany&lt;/p&gt;
-&lt;p&gt;Octopus, a learning-based model to infer the personalized 3D shape of people from a few frames (1-8) of a monocular video in which the person is moving with a reconstruction accuracy of 4 to 5mm&lt;/p&gt;
-&lt;h4 id=&#34;human-representation&#34;&gt;Human Representation&lt;/h4&gt;
-&lt;img src=&#39;../img/4.png&#39; style=&#39;zoom:0.25&#39;&gt;
-&lt;p&gt;While D here is free-form deformations&lt;/p&gt;
-&lt;h4 id=&#34;dataset&#34;&gt;Dataset&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;163 scans from renderpeople.com&lt;/li&gt;
-&lt;li&gt;54 from axyzdesign.com&lt;/li&gt;
-&lt;li&gt;1826 scans from Twindom&lt;/li&gt;
-&lt;li&gt;generate synthetic 3D data by non-rigidly registering SMPL+D to each of the scans&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;method&#34;&gt;Method&lt;/h4&gt;
-&lt;img src=&#39;../img/5.png&#39; style=&#39;zoom:0.4&#39;&gt;
-&lt;img src=&#39;../img/6.png&#39; style=&#39;zoom:0.4&#39;&gt;
-&lt;img src=&#39;../img/7.png&#39; style=&#39;zoom:0.4&#39;&gt;
-&lt;h3 id=&#34;function4d-real-time-human-volumetric-capture-from-very-sparse-consumer-rgbd-sensors&#34;&gt;Function4D: Real-time Human Volumetric Capture from Very Sparse Consumer RGBD Sensors&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2021&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.liuyebin.com/Function4D/Function4D.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2105.01859.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/ytrock/THuman2.0-Dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;high-fidelity-human-avatars-from-a-single-rgb-camera&#34;&gt;High-Fidelity Human Avatars from a Single RGB Camera&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2022&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/assets/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/hzhao1997/HF-Avatar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://drive.google.com/file/d/1qh1dj5ZoUBst_02UJY7IWstQMhb8L5IA/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;intro-1&#34;&gt;Intro&lt;/h4&gt;
-&lt;p&gt;A coarse-to-fine framework to reconstruct a personalized high-fidelity human avatar from a monocular video&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A single RGB camera&lt;/li&gt;
-&lt;li&gt;A single video&lt;/li&gt;
-&lt;li&gt;300 frames&lt;/li&gt;
-&lt;li&gt;A single person&lt;/li&gt;
-&lt;li&gt;Rotate with A-pose&lt;/li&gt;
-&lt;li&gt;relieve the misalignment caused by changed pose and shape in different frames&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;methods&#34;&gt;Methods&lt;/h4&gt;
-&lt;img src=&#39;../img/1.png&#39; style=&#39;zoom:0.4&#39;&gt;
-&lt;img src=&#39;../img/2.png&#39; style=&#39;zoom:0.4&#39;&gt;
-&lt;img src=&#39;../img/3.png&#39; style=&#39;zoom:0.4&#39;&gt;</description>
-    </item>
-    
-    <item>
-      <title>Collection</title>
-      <link>https://dante-su.github.io/notes/links/collection/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/links/collection/</guid>
-      <description>&lt;p&gt;My Collection&lt;/p&gt;
-&lt;h2 id=&#34;recruit&#34;&gt;Recruit&lt;/h2&gt;
-&lt;h3 id=&#34;ibm&#34;&gt;IBM&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.ibm.com/cn-zh/employment/internship/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ibm.com/cn-zh/employment/internship/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;hkbu&#34;&gt;HKBU&lt;/h2&gt;
-&lt;h3 id=&#34;用户资料&#34;&gt;用户资料&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.comp.hkbu.edu.hk/v1/index.php?page=staff_docs&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.comp.hkbu.edu.hk/v1/index.php?page=staff_docs&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;vpn设置指引&#34;&gt;VPN设置指引&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.comp.hkbu.edu.hk/v1/index.php?page=vpn_rpg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.comp.hkbu.edu.hk/v1/index.php?page=vpn_rpg&lt;/a&gt;&lt;/p&gt;
-&lt;!-- ### 存储服务器
-http://158.182.7.131:5000 --&gt;
-&lt;h3 id=&#34;comp邮箱&#34;&gt;COMP邮箱&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://imail.comp.hkbu.edu.hk/webmail/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://imail.comp.hkbu.edu.hk/webmail/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;entertainment&#34;&gt;Entertainment&lt;/h2&gt;
-&lt;h3 id=&#34;低端影视&#34;&gt;低端影视&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://ddrk.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ddrk.me/&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;美剧7&#34;&gt;美剧7&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.meiju7.cc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.meiju7.cc/&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;others&#34;&gt;Others&lt;/h2&gt;
-&lt;h3 id=&#34;新加坡工作指南&#34;&gt;新加坡工作指南&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.965work.in/archives/work-guide-for-singapore/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.965work.in/archives/work-guide-for-singapore/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>https://dante-su.github.io/notes/shell/docker/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/shell/docker/</guid>
-      <description>&lt;p&gt;Some documents of docker&lt;/p&gt;
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/docker.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
-  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
-  &lt;nav id=&#34;TableOfContents&#34;&gt;
-  &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#updating&#34;&gt;Updating&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/nav&gt;
+      <title>Others</title>
+      <link>https://dante-su.github.io/notes/links/others/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/links/others/</guid>
+      <description>&lt;p&gt;Links for dealing with specific situation when debugging.&lt;/p&gt;
+&lt;!-- &lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/details&gt; --&gt;
+&lt;h2 id=&#34;mirror&#34;&gt;Mirror&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;清华源&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/linux-64/&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/linux-64/&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
-
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;</description>
+&lt;h2 id=&#34;accepted-paper-list&#34;&gt;Accepted Paper List&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;MICCAI 2021&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://miccai2021.org/openaccess/paperlinks/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://miccai2021.org/openaccess/paperlinks/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;MICCAI 2022&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://conferences.miccai.org/2022/papers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://conferences.miccai.org/2022/papers/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-4&#34;&gt;
+  &lt;summary&gt;MICCAI 2023&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://conferences.miccai.org/2023/papers/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://conferences.miccai.org/2023/papers/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;CVPR 2023&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cvpr2023.thecvf.com/Conferences/2023/AcceptedPapers&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;medcial-image-analysis&#34;&gt;Medcial Image Analysis&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;batchgenerators by MIC@DKFZ (Data augmentation for 2D/3D image classification/segmentation)&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://github.com/MIC-DKFZ/batchgenerators&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/MIC-DKFZ/batchgenerators&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;deep-learning&#34;&gt;Deep Learning&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
+  &lt;summary&gt;pytorch 加载大数据集 内存不够 的处理方式&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/cjs8348797/article/details/115708811&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/cjs8348797/article/details/115708811&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.cnblogs.com/aminor/p/14336767.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/aminor/p/14336767.html&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.zhihu.com/question/386743819/answer/1989311050&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/question/386743819/answer/1989311050&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.cnblogs.com/xiaosongshine/p/10750908.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/xiaosongshine/p/10750908.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
+  &lt;summary&gt;AdaptivePooling与Max/AvgPooling相互转换&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/xiaosongshine/p/10750908.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/xiaosongshine/p/10750908.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-9&#34;&gt;
+  &lt;summary&gt;Python中生成并绘制混淆矩阵&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/kane7csdn/article/details/83756583&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/kane7csdn/article/details/83756583&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-10&#34;&gt;
+  &lt;summary&gt;Pytorch 完整的模型训练套路&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_45468845/article/details/122971739&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_45468845/article/details/122971739&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/464796719&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/464796719&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://blog.csdn.net/FUTEROX/article/details/122724634&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/FUTEROX/article/details/122724634&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-11&#34;&gt;
+  &lt;summary&gt;pytorch中根据神经网络结构确定输入图片尺寸/根据图片尺寸修改神经网络结构&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43423455/article/details/99096580&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_43423455/article/details/99096580&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-12&#34;&gt;
+  &lt;summary&gt;torch.nn.AdaptiveAvgPool1d(N)函数解读&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_40178291/article/details/102699493&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_40178291/article/details/102699493&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-13&#34;&gt;
+  &lt;summary&gt;torch.view()详解及-1参数是什么意思&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/MartinLwx/p/10543604.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/MartinLwx/p/10543604.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-14&#34;&gt;
+  &lt;summary&gt;Pytorch常用的交叉熵损失函数CrossEntropyLoss()详解&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/98785902&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/98785902&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-15&#34;&gt;
+  &lt;summary&gt;PyTorch 多分类损失函数&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/jacke121/article/details/104665912/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/jacke121/article/details/104665912/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-16&#34;&gt;
+  &lt;summary&gt;pytorch的各种loss&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_22764813/article/details/104867431&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_22764813/article/details/104867431&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-17&#34;&gt;
+  &lt;summary&gt;PyTorch Bert文本分类&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_44912902/article/details/123886825&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_44912902/article/details/123886825&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-18&#34;&gt;
+  &lt;summary&gt;二分类问题：基于BERT的文本分类实践！附完整代码&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Datawhale/article/details/104871803?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;amp;utm_relevant_index=6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/Datawhale/article/details/104871803?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-104871803-blog-123886825.pc_relevant_default&amp;utm_relevant_index=6&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-19&#34;&gt;
+  &lt;summary&gt;BERT-使用tf生成pytorch_model.bin&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.freesion.com/article/9725381185/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.freesion.com/article/9725381185/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-20&#34;&gt;
+  &lt;summary&gt;PyTorch之nn.ReLU与F.ReLU的区别&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/u011501388/article/details/86602275&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/u011501388/article/details/86602275&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-21&#34;&gt;
+  &lt;summary&gt;Pytorch入门教程（十）：ResNet图片分类实战&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_43472830/article/details/95871258?spm=1001.2101.3001.6650.3&amp;amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;amp;utm_relevant_index=5&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_43472830/article/details/95871258?spm=1001.2101.3001.6650.3&amp;utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-3-95871258-blog-107028785.pc_relevant_default&amp;utm_relevant_index=5&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-22&#34;&gt;
+  &lt;summary&gt;pytorch版yolov3训练自己数据集&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/pprp/p/10863496.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/pprp/p/10863496.html&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/BobLiu20/YOLOv3_PyTorch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/BobLiu20/YOLOv3_PyTorch&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/cxjaicj/keras-yolo3&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/cxjaicj/keras-yolo3&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/pprp/yolov3.keras&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/pprp/yolov3.keras&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-23&#34;&gt;
+  &lt;summary&gt;ImportError:无法从“tensorflow”导入名称“Session”&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnpython.com/qa/1297701&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnpython.com/qa/1297701&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-24&#34;&gt;
+  &lt;summary&gt;Adam优化算法详细解析&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/luoxuexiong/article/details/90412213&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/luoxuexiong/article/details/90412213&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://www.cnblogs.com/wuchengze/p/13610500.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/wuchengze/p/13610500.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-25&#34;&gt;
+  &lt;summary&gt;理解语言的 Transformer 模型&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://tensorflow.google.cn/tutorials/text/transformer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://tensorflow.google.cn/tutorials/text/transformer&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-26&#34;&gt;
+  &lt;summary&gt;CLIP解读-博客园&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/lxmj/p/15945772.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/lxmj/p/15945772.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-27&#34;&gt;
+  &lt;summary&gt;使用Pytorch框架自己制作做数据集进行图像分类（一）&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zwy_697198/article/details/123561769&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/zwy_697198/article/details/123561769&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-28&#34;&gt;
+  &lt;summary&gt;使用Pytorch框架自己制作做数据集进行图像分类（二）&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zwy_697198/article/details/123587399&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/zwy_697198/article/details/123587399&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-29&#34;&gt;
+  &lt;summary&gt;使用Pytorch框架自己制作做数据集进行图像分类（三）&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zwy_697198/article/details/123584396&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/zwy_697198/article/details/123584396&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-30&#34;&gt;
+  &lt;summary&gt;Pytorch 运行错误 ValueError: too many dimensions &amp;lsquo;str&amp;rsquo; 解决方案&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/ZhangHT97/p/13497169.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/ZhangHT97/p/13497169.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-31&#34;&gt;
+  &lt;summary&gt;一文弄懂pytorch搭建网络流程+多分类评价指标&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://cloud.tencent.com/developer/article/1825669&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://cloud.tencent.com/developer/article/1825669&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-32&#34;&gt;
+  &lt;summary&gt;Pytorch 创建Tensor&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weicao1990/article/details/93495523&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weicao1990/article/details/93495523&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;papers&#34;&gt;papers&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-33&#34;&gt;
+  &lt;summary&gt;Vision Transformer 必读系列之图像分类综述(一)：概述&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/459828118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/459828118&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-34&#34;&gt;
+  &lt;summary&gt;面向多场景低资源加密流量分类的加密流量预训练技术&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/483285843&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/483285843&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-35&#34;&gt;
+  &lt;summary&gt;跨模态检索 Iterative Matching with Recurrent Attention Memory for Cross-Modal Image-Text Retrieval&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/398898919&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/398898919&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-36&#34;&gt;
+  &lt;summary&gt;跨模态检索论文解读 Similarity Reasoning and Filtration for Image-Text Matching&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/394203914&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/394203914&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-37&#34;&gt;
+  &lt;summary&gt;论文笔记 FPN —— 特征金字塔&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/92005927&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhuanlan.zhihu.com/p/92005927&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-38&#34;&gt;
+  &lt;summary&gt;中国医学影像 AI 的 20 年「大变局」万字长文&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://baijiahao.baidu.com/s?id=1722558686425634791&amp;amp;wfr=spider&amp;amp;for=pc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://baijiahao.baidu.com/s?id=1722558686425634791&amp;wfr=spider&amp;for=pc&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;unsorted&#34;&gt;Unsorted&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-39&#34;&gt;
+  &lt;summary&gt;解决 Failed to connect to github.com port 443:connection timed out&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/Hodors/article/details/103226958&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/Hodors/article/details/103226958&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-40&#34;&gt;
+  &lt;summary&gt;python工具-将视频按帧截取图片（附代码）&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_36190978/article/details/85284484&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_36190978/article/details/85284484&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-41&#34;&gt;
+  &lt;summary&gt;python中sorted是什么&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://m.php.cn/article/423733.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://m.php.cn/article/423733.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-42&#34;&gt;
+  &lt;summary&gt;Python3创建目录mkdir&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_51697369/article/details/119864944&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_51697369/article/details/119864944&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-43&#34;&gt;
+  &lt;summary&gt;python enumerate用法总结&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/churximi/article/details/51648388&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/churximi/article/details/51648388&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-44&#34;&gt;
+  &lt;summary&gt;python的文件操作&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/zhandar44/article/details/95995091&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/zhandar44/article/details/95995091&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-45&#34;&gt;
+  &lt;summary&gt;词袋模型&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://github.com/gurkandemir/Bag-of-Visual-Words&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/gurkandemir/Bag-of-Visual-Words&lt;/a&gt;&lt;br&gt;&lt;a href=&#34;https://github.com/cleanlii/bow-image-retrieval&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/cleanlii/bow-image-retrieval&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-46&#34;&gt;
+  &lt;summary&gt;Standford cv reports 2017&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;http://cs231n.stanford.edu/reports/2017/pdfs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cs231n.stanford.edu/reports/2017/pdfs/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-47&#34;&gt;
+  &lt;summary&gt;机器学习性能度量指标&lt;br&gt;precision、recall、PR曲线、F1、ROC、AUC、IOU、mAP）&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/xhj_enen/article/details/88639920&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/xhj_enen/article/details/88639920&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-48&#34;&gt;
+  &lt;summary&gt;Transformer 模型详解&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://baijiahao.baidu.com/s?id=1651219987457222196&amp;amp;wfr=spider&amp;amp;for=pc&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://baijiahao.baidu.com/s?id=1651219987457222196&amp;wfr=spider&amp;for=pc&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-49&#34;&gt;
+  &lt;summary&gt;A Step by Step Backpropagation Example&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-50&#34;&gt;
+  &lt;summary&gt;Math for Computer Graphics&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://faculty.cc.gatech.edu/~turk/math_gr_new.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://faculty.cc.gatech.edu/~turk/math_gr_new.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-51&#34;&gt;
+  &lt;summary&gt;用Python读取CSV文件的5种方式&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/qq_40907977/article/details/108054088&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/qq_40907977/article/details/108054088&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-52&#34;&gt;
+  &lt;summary&gt;Shell脚本编写&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_35784267/article/details/116582780&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_35784267/article/details/116582780&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-53&#34;&gt;
+  &lt;summary&gt;markdown表格&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.runoob.com/markdown/md-table.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.runoob.com/markdown/md-table.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-54&#34;&gt;
+  &lt;summary&gt;利用python怎么完整打印长数据&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.yisu.com/zixun/392228.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.yisu.com/zixun/392228.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
     </item>
     
     <item>
       <title>Pytorch</title>
       <link>https://dante-su.github.io/notes/python/pytorch/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/python/pytorch/</guid>
       <description>&lt;p&gt;Pytorch documents&lt;/p&gt;
 &lt;figure  &gt;
@@ -2194,6 +2234,144 @@ http://158.182.7.131:5000 --&gt;
 &lt;p&gt;start_dim: first dim to flatten (default = 1).
 end_dim: last dim to flatten (default = -1).&lt;/p&gt;
 &lt;p&gt;如无指定，该展平层会将除了第0维度（一般是batch_size）以外的所有维度展开成一维矩阵&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Related papers</title>
+      <link>https://dante-su.github.io/notes/computer_graphics/papers/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/computer_graphics/papers/</guid>
+      <description>&lt;p&gt;Related papers of Computer Graphics&lt;/p&gt;
+&lt;h2 id=&#34;3dv&#34;&gt;3DV&lt;/h2&gt;
+&lt;h3 id=&#34;detailed-human-avatars-from-monocular-video&#34;&gt;Detailed Human Avatars from Monocular Video&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; 3DV&#39;2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1808.01338.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/semantic_human_texture_stitching&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;wacv&#34;&gt;WACV&lt;/h2&gt;
+&lt;h3 id=&#34;smplpix-neural-avatars-from-3d-human-models&#34;&gt;SMPLpix: Neural Avatars from 3D Human Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; WACV&#39;2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ps.is.mpg.de/code/smplpix-neural-avatars-from-3d-human-models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2008.06872.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/sergeyprokudin/smplpix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;iccv&#34;&gt;ICCV&lt;/h2&gt;
+&lt;h3 id=&#34;tex2shape&#34;&gt;Tex2shape&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://virtualhumans.mpi-inf.mpg.de/tex2shape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1904.08645v2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/tex2shape&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
+&lt;p&gt;Generate 3D human body model with details of garment from an RGB image(without depth information)&lt;/p&gt;
+&lt;h4 id=&#34;motivation&#34;&gt;Motivation&lt;/h4&gt;
+&lt;p&gt;Regression from image pixels directly to 3D mesh displacements is not so good:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ignoring the rich illumination and shading information contained in RGB values&lt;/li&gt;
+&lt;li&gt;inputs and outputs are not aligned&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;novelity&#34;&gt;Novelity&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;propose to regress shape as UV-space displacement and normal map&lt;/li&gt;
+&lt;li&gt;turn a hard full-body shape reconstruction problem into an easier 3D pose-independent image-to-image translation problem&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;cons&#34;&gt;Cons&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;the photo must taken from the front&lt;/li&gt;
+&lt;li&gt;pose is strictly to A pose&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;liquid-warping-gan-a-unified-framework-for-human-motion-imitation-appearance-transfer-and-novel-view-synthesis&#34;&gt;Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://svip-lab.github.io/project/impersonator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1909.12224.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/svip-lab/impersonator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://svip-lab.github.io/dataset/iPER_dataset.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-power-of-points-for-modeling-humans-in-clothing&#34;&gt;The Power of Points for Modeling Humans in Clothing&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qianlim.github.io/POP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2109.01137.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/qianlim/POP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://pop.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;eccv&#34;&gt;ECCV&lt;/h2&gt;
+&lt;h3 id=&#34;keep-it-smpl-automatic-estimation-of-3d-human-pose-and-shape-from-a-single-image&#34;&gt;Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ECCV&#39;2016&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1607.08128.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; or &lt;a href=&#34;https://files.is.tue.mpg.de/black/papers/BogoECCV2016.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/RhythmJnh/TF_SMPL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bodynet-volumetric-inference-of-3d-human-bodyshapes&#34;&gt;Bodynet: Volumetric inference of 3D human bodyshapes&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ECCV&#39;2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.di.ens.fr/willow/research/bodynet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1804.04875.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/gulvarol/bodynet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cvpr&#34;&gt;CVPR&lt;/h2&gt;
+&lt;h3 id=&#34;video-based-reconstruction-of-3d-people-models&#34;&gt;Video Based Reconstruction of 3D People Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://vcai.mpi-inf.mpg.de/projects/wxu/VideoAvatar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1803.04758.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/videoavatars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://graphics.tu-bs.de/people-snapshot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;learning-to-reconstruct-people-in-clothing-from-a-single-rgb-camera&#34;&gt;Learning to reconstruct people in clothing from a single RGB camera&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1903.05885.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/octopus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
+&lt;p&gt;Max Planck Institute for Informatics, Germany&lt;/p&gt;
+&lt;p&gt;Octopus, a learning-based model to infer the personalized 3D shape of people from a few frames (1-8) of a monocular video in which the person is moving with a reconstruction accuracy of 4 to 5mm&lt;/p&gt;
+&lt;h4 id=&#34;human-representation&#34;&gt;Human Representation&lt;/h4&gt;
+&lt;img src=&#39;../img/4.png&#39; style=&#39;zoom:0.25&#39;&gt;
+&lt;p&gt;While D here is free-form deformations&lt;/p&gt;
+&lt;h4 id=&#34;dataset&#34;&gt;Dataset&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;163 scans from renderpeople.com&lt;/li&gt;
+&lt;li&gt;54 from axyzdesign.com&lt;/li&gt;
+&lt;li&gt;1826 scans from Twindom&lt;/li&gt;
+&lt;li&gt;generate synthetic 3D data by non-rigidly registering SMPL+D to each of the scans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;method&#34;&gt;Method&lt;/h4&gt;
+&lt;img src=&#39;../img/5.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/6.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/7.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;h3 id=&#34;function4d-real-time-human-volumetric-capture-from-very-sparse-consumer-rgbd-sensors&#34;&gt;Function4D: Real-time Human Volumetric Capture from Very Sparse Consumer RGBD Sensors&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.liuyebin.com/Function4D/Function4D.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2105.01859.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/ytrock/THuman2.0-Dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;high-fidelity-human-avatars-from-a-single-rgb-camera&#34;&gt;High-Fidelity Human Avatars from a Single RGB Camera&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2022&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/assets/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/hzhao1997/HF-Avatar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://drive.google.com/file/d/1qh1dj5ZoUBst_02UJY7IWstQMhb8L5IA/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;intro-1&#34;&gt;Intro&lt;/h4&gt;
+&lt;p&gt;A coarse-to-fine framework to reconstruct a personalized high-fidelity human avatar from a monocular video&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A single RGB camera&lt;/li&gt;
+&lt;li&gt;A single video&lt;/li&gt;
+&lt;li&gt;300 frames&lt;/li&gt;
+&lt;li&gt;A single person&lt;/li&gt;
+&lt;li&gt;Rotate with A-pose&lt;/li&gt;
+&lt;li&gt;relieve the misalignment caused by changed pose and shape in different frames&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;methods&#34;&gt;Methods&lt;/h4&gt;
+&lt;img src=&#39;../img/1.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/2.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/3.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;h2 id=&#34;siggraph&#34;&gt;SIGGRAPH&lt;/h2&gt;
+&lt;h3 id=&#34;posevocab-learning-joint-structured-pose-embeddings-for-human-avatar-modeling&#34;&gt;PoseVocab: Learning Joint-structured Pose Embeddings for Human Avatar Modeling&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; SOGGRAPH&#39;2023 (Conference Track)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lizhe00.github.io/projects/posevocab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2304.13006.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/lizhe00/posevocab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;icml&#34;&gt;ICML&lt;/h2&gt;
+&lt;h3 id=&#34;glide-towards-photorealistic-image-generation-and-editing-with-text-guided-diffusion-models&#34;&gt;GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICML&#39;2022&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gpt3demo.com/apps/openai-glide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://proceedings.mlr.press/v162/nichol22a/nichol22a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/openai/glide-text2im?tab=readme-ov-file&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://dante-su.github.io/notes/others/html/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/others/html/</guid>
+      <description>&lt;p&gt;Notes&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;name&lt;/summary&gt;
+  &lt;p&gt;url&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://dante-su.github.io/notes/shell/docker/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/docker/</guid>
+      <description>&lt;p&gt;Some documents of docker&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/docker.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#updating&#34;&gt;Updating&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;</description>
     </item>
     
     <item>
@@ -2590,7 +2768,7 @@ or
     <item>
       <title>Others</title>
       <link>https://dante-su.github.io/notes/python/others/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/python/others/</guid>
       <description>&lt;p&gt;Other useful package.&lt;/p&gt;
 &lt;h2 id=&#34;sklearn&#34;&gt;SkLearn&lt;/h2&gt;
@@ -2723,7 +2901,40 @@ or
 &lt;p&gt;类似type&lt;/p&gt;
 &lt;p&gt;区分：&lt;/p&gt;
 &lt;p&gt;type() 不会认为子类是一种父类类型，不考虑继承关系。&lt;/p&gt;
-&lt;p&gt;isinstance() 会认为子类是一种父类类型，考虑继承关系。&lt;/p&gt;</description>
+&lt;p&gt;isinstance() 会认为子类是一种父类类型，考虑继承关系。&lt;/p&gt;
+&lt;h2 id=&#34;hasattr&#34;&gt;hasattr()&lt;/h2&gt;
+&lt;p&gt;Check whether a property is in the given class or not&lt;/p&gt;
+&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;hasattr(object, name)&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;example&#34;&gt;Example&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ch&#34;&gt;#!/usr/bin/python&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -*- coding: UTF-8 -*-&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;class&lt;/span&gt; &lt;span class=&#34;nc&#34;&gt;Coordinate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;y&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;z&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;point1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;Coordinate&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;hasattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;point1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;x&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;hasattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;point1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;y&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;hasattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;point1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;z&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# True&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;hasattr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;point1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;no&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;  &lt;span class=&#34;c1&#34;&gt;# 没有该属性 False&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;tqdm&#34;&gt;tqdm&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;conda install tqdm&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install tqdm&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;example-1&#34;&gt;Example&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;time&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sleep&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;tqdm&lt;/span&gt; &lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tqdm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt; &lt;span class=&#34;ow&#34;&gt;in&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;tqdm&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;range&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;n&#34;&gt;sleep&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mf&#34;&gt;0.1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;round&#34;&gt;round()&lt;/h2&gt;
+&lt;h3 id=&#34;usage-1&#34;&gt;Usage&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;round( x [, n]  )&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;x &amp;ndash; 数值表达式。&lt;/p&gt;
+&lt;p&gt;n &amp;ndash; 数值表达式，表示从小数点位数。&lt;/p&gt;
+&lt;p&gt;返回浮点数x的四舍五入值&lt;/p&gt;</description>
     </item>
     
     <item>

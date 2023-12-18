@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/linux/</link>
       <atom:link href="https://dante-su.github.io/tag/linux/index.xml" rel="self" type="application/rss+xml" />
     <description>Linux</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>Linux</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Linux</title>
       <link>https://dante-su.github.io/notes/shell/linux/</link>
-      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/shell/linux/</guid>
       <description>&lt;p&gt;Some shell command when using Anaconda&lt;/p&gt;
 &lt;figure  &gt;
@@ -68,10 +68,15 @@
         &lt;li&gt;&lt;a href=&#34;#tumx&#34;&gt;tumx&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
-    &lt;li&gt;&lt;a href=&#34;#downloads&#34;&gt;Downloads&lt;/a&gt;
+    &lt;li&gt;&lt;a href=&#34;#downloads--upload&#34;&gt;Downloads &amp;amp; Upload&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#wget&#34;&gt;wget&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#curl&#34;&gt;curl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#scp&#34;&gt;scp&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#download-files-from-server-to-local&#34;&gt;Download files from server to local&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#upload-files-from-local-to-server&#34;&gt;Upload files from local to server&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#download-whole-directory-from-server-to-local&#34;&gt;Download whole directory from server to local&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#upload-whole-directory-from-local-to-server&#34;&gt;Upload whole directory from local to server&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#compression&#34;&gt;Compression&lt;/a&gt;
@@ -192,7 +197,7 @@
 &lt;p&gt;&lt;code&gt;screen kill &amp;lt;id&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;tumx&#34;&gt;tumx&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/98384704&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu Link&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;downloads&#34;&gt;Downloads&lt;/h2&gt;
+&lt;h2 id=&#34;downloads--upload&#34;&gt;Downloads &amp;amp; Upload&lt;/h2&gt;
 &lt;h3 id=&#34;wget&#34;&gt;wget&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;wget [option] [url]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;[option]&lt;/code&gt; could be blanck&lt;/p&gt;
@@ -229,10 +234,29 @@
 &lt;p&gt;&lt;code&gt;curl -C - -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;increase-attempts-1&#34;&gt;Increase attempts&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;curl --retry 3 -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;scp&#34;&gt;scp&lt;/h3&gt;
+&lt;h3 id=&#34;download-files-from-server-to-local&#34;&gt;Download files from server to local&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp username@servername:/remote_path/filename ~/local_destination&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;upload-files-from-local-to-server&#34;&gt;Upload files from local to server&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp ~/local_path/local_filename username@servername:/remote_path&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;download-whole-directory-from-server-to-local&#34;&gt;Download whole directory from server to local&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp -r username@servername:/remote_path/remote_dir/ ~/local_destination&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;upload-whole-directory-from-local-to-server&#34;&gt;Upload whole directory from local to server&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;scp  -r ~/local_dir username@servername:/remote_path/remote_dir&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Use &lt;code&gt;scp -P PortId ...&lt;/code&gt; instead if you need to specify a port to connect to the server
+  &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
 &lt;h3 id=&#34;zip&#34;&gt;zip&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;unzip [-cflptuvz][-agCjLMnoqsVX][-P &amp;lt;password&amp;gt;][.zip][file_name][-d &amp;lt;dir&amp;gt;][-x &amp;lt;file&amp;gt;]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;unzip [-Z]&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;unzip test.zip&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;unzip -n test.zip -d /tmp&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;unzip -o test.zip -d tmp/&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;detailed-info&#34;&gt;Detailed info&lt;/h4&gt;
 &lt;p&gt;-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。&lt;/p&gt;
 &lt;p&gt;-f 更新现有的文件。&lt;/p&gt;

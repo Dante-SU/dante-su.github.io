@@ -315,10 +315,10 @@
     
       <meta
         property="article:published_time"
-        content="2023-09-28T00:00:00&#43;00:00"
+        content="2023-12-18T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-09-28T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-12-18T00:00:00&#43;00:00">
   
 
   
@@ -751,6 +751,22 @@
       </ul>
     </li>
     <li><a href="#isinstance">isinstance</a></li>
+    <li><a href="#hasattr">hasattr()</a>
+      <ul>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#example">Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#tqdm">tqdm</a>
+      <ul>
+        <li><a href="#example-1">Example</a></li>
+      </ul>
+    </li>
+    <li><a href="#round">round()</a>
+      <ul>
+        <li><a href="#usage-1">Usage</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -970,6 +986,39 @@
 <p>区分：</p>
 <p>type() 不会认为子类是一种父类类型，不考虑继承关系。</p>
 <p>isinstance() 会认为子类是一种父类类型，考虑继承关系。</p>
+<h2 id="hasattr">hasattr()</h2>
+<p>Check whether a property is in the given class or not</p>
+<h3 id="usage">Usage</h3>
+<p><code>hasattr(object, name)</code></p>
+<h3 id="example">Example</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="ch">#!/usr/bin/python</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># -*- coding: UTF-8 -*-</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="k">class</span> <span class="nc">Coordinate</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">x</span> <span class="o">=</span> <span class="mi">10</span>
+</span></span><span class="line"><span class="cl">    <span class="n">y</span> <span class="o">=</span> <span class="o">-</span><span class="mi">5</span>
+</span></span><span class="line"><span class="cl">    <span class="n">z</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl"> 
+</span></span><span class="line"><span class="cl"><span class="n">point1</span> <span class="o">=</span> <span class="n">Coordinate</span><span class="p">()</span> 
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">hasattr</span><span class="p">(</span><span class="n">point1</span><span class="p">,</span> <span class="s1">&#39;x&#39;</span><span class="p">))</span>  <span class="c1"># True</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">hasattr</span><span class="p">(</span><span class="n">point1</span><span class="p">,</span> <span class="s1">&#39;y&#39;</span><span class="p">))</span>  <span class="c1"># True</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">hasattr</span><span class="p">(</span><span class="n">point1</span><span class="p">,</span> <span class="s1">&#39;z&#39;</span><span class="p">))</span>  <span class="c1"># True</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="nb">hasattr</span><span class="p">(</span><span class="n">point1</span><span class="p">,</span> <span class="s1">&#39;no&#39;</span><span class="p">))</span>  <span class="c1"># 没有该属性 False</span>
+</span></span></code></pre></div><h2 id="tqdm">tqdm</h2>
+<p><code>conda install tqdm</code></p>
+<p><code>pip install tqdm</code></p>
+<h3 id="example-1">Example</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">sleep</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">tqdm</span> <span class="kn">import</span> <span class="n">tqdm</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tqdm</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">100</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">sleep</span><span class="p">(</span><span class="mf">0.1</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="round">round()</h2>
+<h3 id="usage-1">Usage</h3>
+<p><code>round( x [, n]  )</code></p>
+<p>x &ndash; 数值表达式。</p>
+<p>n &ndash; 数值表达式，表示从小数点位数。</p>
+<p>返回浮点数x的四舍五入值</p>
 
           </div>
 
@@ -1002,7 +1051,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 28, 2023</p>
+          <p>Last updated on Dec 18, 2023</p>
 
           
 

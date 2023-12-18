@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/computer-graphics/</link>
       <atom:link href="https://dante-su.github.io/tag/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
     <description>Computer Graphics</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>Computer Graphics</title>
@@ -66,7 +66,7 @@ through a given set of points. First, the object in question is represented nume
     <item>
       <title>Related papers</title>
       <link>https://dante-su.github.io/notes/computer_graphics/papers/</link>
-      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/computer_graphics/papers/</guid>
       <description>&lt;p&gt;Related papers of Computer Graphics&lt;/p&gt;
 &lt;h2 id=&#34;3dv&#34;&gt;3DV&lt;/h2&gt;
@@ -155,7 +155,15 @@ through a given set of points. First, the object in question is represented nume
 &lt;h4 id=&#34;methods&#34;&gt;Methods&lt;/h4&gt;
 &lt;img src=&#39;../img/1.png&#39; style=&#39;zoom:0.4&#39;&gt;
 &lt;img src=&#39;../img/2.png&#39; style=&#39;zoom:0.4&#39;&gt;
-&lt;img src=&#39;../img/3.png&#39; style=&#39;zoom:0.4&#39;&gt;</description>
+&lt;img src=&#39;../img/3.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;h2 id=&#34;siggraph&#34;&gt;SIGGRAPH&lt;/h2&gt;
+&lt;h3 id=&#34;posevocab-learning-joint-structured-pose-embeddings-for-human-avatar-modeling&#34;&gt;PoseVocab: Learning Joint-structured Pose Embeddings for Human Avatar Modeling&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; SOGGRAPH&#39;2023 (Conference Track)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lizhe00.github.io/projects/posevocab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2304.13006.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/lizhe00/posevocab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;icml&#34;&gt;ICML&lt;/h2&gt;
+&lt;h3 id=&#34;glide-towards-photorealistic-image-generation-and-editing-with-text-guided-diffusion-models&#34;&gt;GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICML&#39;2022&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gpt3demo.com/apps/openai-glide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://proceedings.mlr.press/v162/nichol22a/nichol22a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/openai/glide-text2im?tab=readme-ov-file&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
