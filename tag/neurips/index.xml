@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>neurips | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/neurips/</link>
+      <atom:link href="https://dante-su.github.io/tag/neurips/index.xml" rel="self" type="application/rss+xml" />
+    <description>neurips</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>neurips</title>
+      <link>https://dante-su.github.io/tag/neurips/</link>
+    </image>
+    
+    <item>
+      <title>NeurIPS</title>
+      <link>https://dante-su.github.io/notes/paper_reading/neurips/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/neurips/</guid>
+      <description>&lt;p&gt;The Annual Conference on Neural Information Processing System&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

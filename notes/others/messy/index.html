@@ -489,6 +489,8 @@
               
                 <a class="dropdown-item" href="/notes/computer_graphics/"><span>Computer graphics</span></a>
               
+                <a class="dropdown-item" href="/notes/paper_reading/"><span>Paper reading</span></a>
+              
                 <a class="dropdown-item" href="/notes/links/"><span>Links</span></a>
               
                 <a class="dropdown-item" href="/notes/others/"><span>Others</span></a>
@@ -845,8 +847,8 @@
 <ol>
 <li>Open the remote server and type <code>tmux new -s &lt;session-name&gt;</code> to open a new backstage process (screen could does this too)</li>
 <li>Activate the specific conda env you are using (if your code runs on conda env) and type <code>python -m visdom.server</code> to open a local visdom server</li>
-<li>Open the terminal of local device and type <code>ssh -L 8097:127.0.0.1:8097 &lt;username&gt;@&lt;server_address&gt;</code></li>
-<li>When you successfully get access to your remote server, open the page <code>127.0.0.1:8097</code></li>
+<li>Open the terminal of local device and type <code>ssh -L 8097:127.0.0.1:8097 &lt;username&gt;@&lt;server_address&gt;</code> or <code>ssh -L 8097:localhost:8097 &lt;username&gt;@&lt;server_address&gt;</code> while 8097 is as an example of port id.</li>
+<li>When you successfully get access to your remote server, open the page <code>127.0.0.1:8097</code> or <code>localhost:8097</code></li>
 </ol>
 <p>When you want to terminate the visdom&rsquo;s mapping, just kill the process of visdom on the remote server, e.g. <code>tmux kill-session -t &lt;session-name&gt;</code></p>
 <h2 id="windows">Windows</h2>
@@ -974,7 +976,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 

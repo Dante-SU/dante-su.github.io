@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eccv | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/eccv/</link>
+      <atom:link href="https://dante-su.github.io/tag/eccv/index.xml" rel="self" type="application/rss+xml" />
+    <description>eccv</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>eccv</title>
+      <link>https://dante-su.github.io/tag/eccv/</link>
+    </image>
+    
+    <item>
+      <title>ECCV</title>
+      <link>https://dante-su.github.io/notes/paper_reading/eccv/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/eccv/</guid>
+      <description>&lt;p&gt;European Conference on Computer Vision&lt;/p&gt;
+&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

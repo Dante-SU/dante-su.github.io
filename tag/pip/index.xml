@@ -28,7 +28,7 @@
 &lt;p&gt;&lt;code&gt;pip install &amp;lt;package_name&amp;gt;==&amp;lt;version&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;requirementstxt&#34;&gt;requirements.txt&lt;/h3&gt;
 &lt;h4 id=&#34;create-a-requirementstxt&#34;&gt;Create a requirements.txt&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;pip freeze &amp;gt;requirements.txt&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip freeze &amp;gt; requirements.txt&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;install-packages-from-requirementstxt&#34;&gt;Install packages from requirements.txt&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;pip install -r requirements.txt&lt;/code&gt;&lt;/p&gt;</description>
     </item>

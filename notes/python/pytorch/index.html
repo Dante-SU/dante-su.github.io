@@ -315,10 +315,10 @@
     
       <meta
         property="article:published_time"
-        content="2023-12-18T00:00:00&#43;00:00"
+        content="2023-12-20T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-12-18T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-12-20T00:00:00&#43;00:00">
   
 
   
@@ -488,6 +488,8 @@
                 <a class="dropdown-item" href="/notes/code_instance/"><span>Code instance</span></a>
               
                 <a class="dropdown-item" href="/notes/computer_graphics/"><span>Computer graphics</span></a>
+              
+                <a class="dropdown-item" href="/notes/paper_reading/"><span>Paper reading</span></a>
               
                 <a class="dropdown-item" href="/notes/links/"><span>Links</span></a>
               
@@ -749,6 +751,7 @@
         <li><a href="#torchnnmoduleapply">torch.nn.module.apply</a></li>
         <li><a href="#torchflatten">torch.flatten</a></li>
         <li><a href="#torchnnflatten">torch.nn.Flatten()</a></li>
+        <li><a href="#torchshape">torch.shape</a></li>
       </ul>
     </li>
   </ul>
@@ -962,6 +965,14 @@
 <p>start_dim: first dim to flatten (default = 1).
 end_dim: last dim to flatten (default = -1).</p>
 <p>如无指定，该展平层会将除了第0维度（一般是batch_size）以外的所有维度展开成一维矩阵</p>
+<h3 id="torchshape">torch.shape</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">torch</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">rand</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;a.shape = &#39;</span><span class="p">,</span> <span class="n">a</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;a.shape[0] = &#39;</span><span class="p">,</span> <span class="n">a</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</span></span></code></pre></div>
 
           </div>
 
@@ -1002,7 +1013,7 @@ end_dim: last dim to flatten (default = -1).</p>
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Dec 18, 2023</p>
+          <p>Last updated on Dec 20, 2023</p>
 
           
 
@@ -1078,7 +1089,7 @@ end_dim: last dim to flatten (default = -1).</p>
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 

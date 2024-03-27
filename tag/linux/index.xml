@@ -160,7 +160,9 @@
 &lt;h4 id=&#34;short-info&#34;&gt;Short info&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;free -h&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;dynamic-info&#34;&gt;Dynamic info&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;top&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;top&lt;/code&gt; or &lt;code&gt;htop&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;former-opt-code&#34;&gt;Former opt code&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ps aux&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;
 &lt;h4 id=&#34;whole-info-2&#34;&gt;Whole info&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;

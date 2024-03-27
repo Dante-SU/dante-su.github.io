@@ -346,8 +346,8 @@
 &lt;ol&gt;
 &lt;li&gt;Open the remote server and type &lt;code&gt;tmux new -s &amp;lt;session-name&amp;gt;&lt;/code&gt; to open a new backstage process (screen could does this too)&lt;/li&gt;
 &lt;li&gt;Activate the specific conda env you are using (if your code runs on conda env) and type &lt;code&gt;python -m visdom.server&lt;/code&gt; to open a local visdom server&lt;/li&gt;
-&lt;li&gt;Open the terminal of local device and type &lt;code&gt;ssh -L 8097:127.0.0.1:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;When you successfully get access to your remote server, open the page &lt;code&gt;127.0.0.1:8097&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Open the terminal of local device and type &lt;code&gt;ssh -L 8097:127.0.0.1:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt; or &lt;code&gt;ssh -L 8097:localhost:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt; while 8097 is as an example of port id.&lt;/li&gt;
+&lt;li&gt;When you successfully get access to your remote server, open the page &lt;code&gt;127.0.0.1:8097&lt;/code&gt; or &lt;code&gt;localhost:8097&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;When you want to terminate the visdom&amp;rsquo;s mapping, just kill the process of visdom on the remote server, e.g. &lt;code&gt;tmux kill-session -t &amp;lt;session-name&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;

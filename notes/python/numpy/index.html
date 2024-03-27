@@ -321,10 +321,10 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
     
       <meta
         property="article:published_time"
-        content="2023-09-28T00:00:00&#43;00:00"
+        content="2023-12-20T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2023-09-28T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-12-20T00:00:00&#43;00:00">
   
 
   
@@ -494,6 +494,8 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
                 <a class="dropdown-item" href="/notes/code_instance/"><span>Code instance</span></a>
               
                 <a class="dropdown-item" href="/notes/computer_graphics/"><span>Computer graphics</span></a>
+              
+                <a class="dropdown-item" href="/notes/paper_reading/"><span>Paper reading</span></a>
               
                 <a class="dropdown-item" href="/notes/links/"><span>Links</span></a>
               
@@ -748,6 +750,8 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
         <li><a href="#npmax">np.max</a></li>
         <li><a href="#npset_printoptions">np.set_printoptions</a></li>
         <li><a href="#npwhere">np.where</a></li>
+        <li><a href="#nppowerx1-x2">np.power(x1, x2)</a></li>
+        <li><a href="#npshape">np.shape</a></li>
       </ul>
     </li>
   </ul>
@@ -880,7 +884,7 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
 </span></span><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">9</span><span class="p">)</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">(</span><span class="n">a</span> <span class="o">==</span><span class="mi">7</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">b</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="numpypowerx1-x2">numpy.power(x1, x2)</h4>
+</span></span></code></pre></div><h3 id="nppowerx1-x2">np.power(x1, x2)</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">x1</span> <span class="o">=</span> <span class="nb">range</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x1</span><span class="p">)</span>  <span class="c1"># [0, 1, 2, 3, 4, 5]</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>  <span class="c1"># array([  0,   1,   8,  27,  64, 125])</span>
@@ -891,6 +895,11 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
 </span></span><span class="line"><span class="cl"><span class="n">x2</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">],</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">]])</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">x2</span><span class="p">)</span>  <span class="c1"># array([[1, 2, 3, 3, 2, 1], [1, 2, 3, 3, 2, 1]])</span>
 </span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">power</span><span class="p">(</span><span class="n">x1</span><span class="p">,</span> <span class="n">x2</span><span class="p">))</span>  <span class="c1"># array([[ 0,  1,  8, 27, 16,  5], [ 0,  1,  8, 27, 16,  5]])</span>
+</span></span></code></pre></div><h3 id="npshape">np.shape</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">],[</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]])</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;a.shape = &#39;</span><span class="p">,</span> <span class="n">a</span><span class="o">.</span> <span class="n">shape</span><span class="p">)</span>
 </span></span></code></pre></div>
 
           </div>
@@ -934,7 +943,7 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 28, 2023</p>
+          <p>Last updated on Dec 20, 2023</p>
 
           
 
@@ -1010,7 +1019,7 @@ Usage np.append import numpy as np # for a list [] a = [] a.append([1,2,3]) # fo
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 

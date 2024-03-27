@@ -4,6 +4,8 @@
   
   
   <url>
+    <loc>https://dante-su.github.io/notes/paper_reading/cvpr/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dante-su.github.io/notes/links/learning/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/notes/shell/linux/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -16,6 +18,8 @@
   <url>
     <loc>https://dante-su.github.io/notes/code_instance/python/</loc><lastmod>2023-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dante-su.github.io/notes/paper_reading/iccv/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dante-su.github.io/notes/links/collection/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/notes/others/gitbook/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
@@ -26,9 +30,11 @@
   <url>
     <loc>https://dante-su.github.io/notes/shell/windows/</loc><lastmod>2023-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dante-su.github.io/notes/links/others/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dante-su.github.io/notes/paper_reading/eccv/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dante-su.github.io/notes/python/pytorch/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dante-su.github.io/notes/python/pytorch/</loc><lastmod>2023-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/notes/links/others/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/notes/computer_graphics/papers/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -36,7 +42,9 @@
   <url>
     <loc>https://dante-su.github.io/notes/shell/docker/</loc><lastmod>2023-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dante-su.github.io/notes/python/numpy/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dante-su.github.io/notes/paper_reading/siggraph/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/notes/python/numpy/</loc><lastmod>2023-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/notes/others/messy/</loc><lastmod>2023-09-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -44,27 +52,55 @@
   <url>
     <loc>https://dante-su.github.io/notes/shell/wsl/</loc><lastmod>2023-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>https://dante-su.github.io/notes/paper_reading/neurips/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>https://dante-su.github.io/notes/python/os/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/notes/paper_reading/arxiv/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/notes/python/others/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dante-su.github.io/notes/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>https://dante-su.github.io/notes/paper_reading/others/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/notes/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/arxiv/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/cvpr/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/post/23-12-18-deep-learning/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/post/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/paper/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tags/</loc><lastmod>2024-03-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/eccv/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/iccv/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/neurips/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/notes/paper_reading/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/papers/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/siggraph/</loc><lastmod>2024-03-25T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/numpy/</loc><lastmod>2023-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/python/</loc><lastmod>2023-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>https://dante-su.github.io/tag/pytorch/</loc><lastmod>2023-12-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/tag/computer-graphics/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dante-su.github.io/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dante-su.github.io/post/23-12-18-deep-learning/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dante-su.github.io/post/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/tag/links/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/tag/linux/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dante-su.github.io/tag/pytorch/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dante-su.github.io/tags/</loc><lastmod>2023-12-18T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/tag/code/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -74,11 +110,7 @@
   <url>
     <loc>https://dante-su.github.io/tag/math/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>https://dante-su.github.io/tag/numpy/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
     <loc>https://dante-su.github.io/tag/os/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>https://dante-su.github.io/tag/python/</loc><lastmod>2023-09-28T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>https://dante-su.github.io/tag/anaconda/</loc><lastmod>2023-09-20T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
