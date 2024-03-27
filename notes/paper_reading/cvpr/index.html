@@ -834,9 +834,29 @@
             <p>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</p>
 <h2 id="2024">2024</h2>
 <h2 id="2023">2023</h2>
+<details class="spoiler "  id="spoiler-0">
+  <summary>CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion</summary>
+  <p><p>[ <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.pdf" target="_blank" rel="noopener">paper</a> | <a href="https://github.com/Zhaozixiang1228/MMIF-CDDFuse" target="_blank" rel="noopener">code</a> ]</p>
+<p><strong>Keywords:</strong> <em>multi-modality, image fusion, dual branch feature decomposition</em></p>
+<p><strong>Aim:</strong> Render fused images that maintain the merits of different modalities, e.g., functional highlight and detailed textures.</p>
+<p><strong>Contribution:</strong></p>
+<ol>
+<li>We propose a dual-branch Transformer-CNN framework for extracting and fusing global and local features, which better reflects the distinct modality-specific and modality-shared features.</li>
+<li>We refine the CNN and Transformer blocks for a better adaptation to the MMIF task. Specifically, we are the first to utilize the INN blocks for lossless information transmission and the LT blocks for trading-off fusion quality and computational cost.</li>
+<li>We propose a correlation-driven decomposition loss function to enforce the modality shared/specific feature decomposition, which makes the cross-modality base features correlated while decorrelates the detailed high-frequency features in different modalities.
+• Our method achieves leading image fusion performance for both IVF and MIF. We also present a unified measurement benchmark to justify how the IVF fusion im- ages facilitate downstream MM object detection and semantic segmentation tasks.</li>
+</ol>
+<p><strong>Motivation:</strong> Our assumption is that, in the MMIF task, the input features of the two modalities are correlated at low frequencies, representing the modality-shared information, while the high-frequency feature is irrelevant and represents the unique characteristics of the respective modalities.</p>
+<p><strong>Architecture:</strong></p>
+<img src='../img/cvpr/2023_1.png' style='zoom:1'>
+<p>Our CDDFuse contains four modules, i.e., a dual-branch encoder for feature extraction and decomposition, a decoder for reconstructing original images (in training stage
+I) or generating fusion images (in training stage II), and the base/detail fusion layer to fuse the different frequency features, respectively. Within the dual-branch encoder, Base Transformer Encoder focus low-frequency global cross-modality information while the Detail CNN Encoder focus on high-frequency local inner-modality information. And a correlation-driven decomposition loss function is designed to reduce the local similarity of different modality, enlarge the global similarity of different modality.</p>
+<p><strong>Comparison models:</strong> DIDFuse@IJCAI'20, Sdnet@IJCV'21, U2fusion@TPAMI'22, Rfnet@CVPR'22, TarD@CVPR'22, DeFusion@ECCV'22, Reconet@ECCV'22</p>
+</p>
+</details>
 <h2 id="2022">2022</h2>
 <h2 id="2021">2021</h2>
-<details class="spoiler "  id="spoiler-0">
+<details class="spoiler "  id="spoiler-1">
   <summary>D-NeRF: Neural Radiance Fields for Dynamic Scenes</summary>
   <p><p>[ <a href="https://www.albertpumarola.com/research/D-NeRF/index.html" target="_blank" rel="noopener">homepage</a> | <a href="https://openaccess.thecvf.com/content/CVPR2021/papers/Pumarola_D-NeRF_Neural_Radiance_Fields_for_Dynamic_Scenes_CVPR_2021_paper.pdf" target="_blank" rel="noopener">paper</a> | <a href="https://github.com/albertpumarola/D-NeRF" target="_blank" rel="noopener">code</a> ]</p>
 <p><strong>Keywords:</strong> <em>NeRF, dynamic scene</em></p>
