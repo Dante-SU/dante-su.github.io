@@ -1,0 +1,1518 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.6.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Dante" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Some shell command when using Anaconda" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://dante-su.github.io/notes/shell/linux/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#0072ff" />
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.b26dcb045aa1974da1e20b270720a258.css" />
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  
+  <link rel="icon" type="image/png" href="/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://dante-su.github.io/notes/shell/linux/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="Dante&#39;s notebook" />
+  <meta property="og:url" content="https://dante-su.github.io/notes/shell/linux/" />
+  <meta property="og:title" content="Linux | Dante&#39;s notebook" />
+  <meta property="og:description" content="Some shell command when using Anaconda" /><meta property="og:image" content="https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2024-04-09T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2024-04-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+  
+
+
+  <title>Linux | Dante&#39;s notebook</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="988519889a49102d182f970721583247" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.1ee5462d74c6c0de1f8881b384ecc58d.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">Dante&#39;s notebook</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">Dante&#39;s notebook</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Notes</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/notes/shell/"><span>Shell</span></a>
+              
+                <a class="dropdown-item" href="/notes/python/"><span>Python</span></a>
+              
+                <a class="dropdown-item" href="/notes/code_instance/"><span>Code instance</span></a>
+              
+                <a class="dropdown-item" href="/notes/computer_graphics/"><span>Computer graphics</span></a>
+              
+                <a class="dropdown-item" href="/notes/paper_reading/"><span>Paper reading</span></a>
+              
+                <a class="dropdown-item" href="/notes/links/"><span>Links</span></a>
+              
+                <a class="dropdown-item" href="/notes/others/"><span>Others</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/post/"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/contact/"><span>Contact</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    
+
+
+
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      <form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <div class="d-flex">
+      <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
+        
+        
+          Shell
+        
+      </span>
+      <span><i class="fas fa-chevron-down"></i></span>
+    </div>
+  </button>
+
+  
+  <button class="form-control sidebar-search js-search d-none d-md-flex">
+    <i class="fas fa-search pr-2"></i>
+    <span class="sidebar-search-text">Search...</span>
+    <span class="sidebar-search-shortcut">/</span>
+  </button>
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+  
+  
+  
+  
+  
+
+  
+  
+    
+
+    
+      
+
+      <ul class="nav docs-sidenav">
+        <li><a href="/notes/"><i class="fas fa-arrow-left pr-1"></i>📒 Notes</a></li>
+      </ul>
+
+      
+      
+        
+          
+        
+      
+
+
+  
+    
+    
+    
+    
+      
+    
+    
+
+    
+      <div class="docs-toc-item">
+        <a class="docs-toc-link " href="/notes/shell/">Shell</a>
+    
+      
+        <ul class="nav docs-sidenav">
+      
+
+
+  <li class="active"><a href="/notes/shell/linux/">Linux</a></li>
+
+
+
+  <li class=""><a href="/notes/shell/windows/">Windows</a></li>
+
+
+
+  <li class=""><a href="/notes/shell/docker/">Docker</a></li>
+
+
+
+  <li class=""><a href="/notes/shell/wsl/">WSL</a></li>
+
+      
+        </ul>
+      
+    
+
+    
+      </div>
+    
+
+    
+  
+</nav>
+
+    </div>
+
+    
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#basic-command">Basic command</a>
+      <ul>
+        <li><a href="#clear-the-screen">Clear the screen</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#copy">Copy</a></li>
+        <li><a href="#move">Move</a></li>
+        <li><a href="#pathway">Pathway</a></li>
+        <li><a href="#folder">Folder</a></li>
+        <li><a href="#search-file">Search file</a></li>
+        <li><a href="#kill">kill</a></li>
+        <li><a href="#touch">touch</a></li>
+      </ul>
+    </li>
+    <li><a href="#apt">Apt</a>
+      <ul>
+        <li><a href="#install-new-package">Install new package</a></li>
+        <li><a href="#update-dict">Update dict</a></li>
+        <li><a href="#update-installed-package">Update installed package</a></li>
+      </ul>
+    </li>
+    <li><a href="#nvidia-gpu">NVIDIA GPU</a>
+      <ul>
+        <li><a href="#cuda-version">CUDA version</a></li>
+        <li><a href="#gpu-status">GPU status</a></li>
+        <li><a href="#gpu-driver">GPU driver</a></li>
+      </ul>
+    </li>
+    <li><a href="#system-info">System info</a>
+      <ul>
+        <li><a href="#cpu">CPU</a></li>
+        <li><a href="#memory">Memory</a></li>
+        <li><a href="#storage">Storage</a></li>
+        <li><a href="#network-interface-controllercard">Network interface controller/card</a></li>
+        <li><a href="#kernel">Kernel</a></li>
+        <li><a href="#ubuntu-version">Ubuntu version</a></li>
+      </ul>
+    </li>
+    <li><a href="#offline-program">Offline program</a>
+      <ul>
+        <li><a href="#screen">screen</a></li>
+        <li><a href="#tumx">tumx</a></li>
+      </ul>
+    </li>
+    <li><a href="#downloads--upload">Downloads &amp; Upload</a>
+      <ul>
+        <li><a href="#wget">wget</a></li>
+        <li><a href="#curl">curl</a></li>
+        <li><a href="#scp">scp</a></li>
+      </ul>
+    </li>
+    <li><a href="#compression">Compression</a>
+      <ul>
+        <li><a href="#zip">zip</a></li>
+      </ul>
+    </li>
+    <li><a href="#execution">Execution</a>
+      <ul>
+        <li><a href="#bin">.bin</a></li>
+        <li><a href="#cmake">cmake</a></li>
+        <li><a href="#nano">nano</a></li>
+        <li><a href="#sh">.sh</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          
+            
+  <nav class="d-none d-md-flex" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      
+  
+    
+  
+    
+  
+    
+  
+
+    <li class="breadcrumb-item">
+      <a href="/">
+        
+          Home
+        
+      </a>
+    </li>
+  
+
+    <li class="breadcrumb-item">
+      <a href="/notes/">
+        
+          📒 Notes
+        
+      </a>
+    </li>
+  
+
+    <li class="breadcrumb-item">
+      <a href="/notes/shell/">
+        
+          Shell
+        
+      </a>
+    </li>
+  
+
+      <li class="breadcrumb-item active" aria-current="page">
+        Linux
+      </li>
+    </ol>
+  </nav>
+
+
+
+
+          
+        </div>
+
+        
+        
+
+        <div class="docs-article-container">
+          
+          <h1>Linux</h1>
+
+          <div class="article-style">
+
+            
+            
+
+            <p>Some shell command when using Anaconda</p>
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img src="../img/linux.jpeg" alt="" loading="lazy" data-zoomable /></div>
+  </div></figure>
+<details class="toc-inpage d-print-none d-xl-none " open>
+  <summary class="font-weight-bold">Table of Contents</summary>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#basic-command">Basic command</a>
+      <ul>
+        <li><a href="#clear-the-screen">Clear the screen</a></li>
+        <li><a href="#permissions">Permissions</a></li>
+        <li><a href="#copy">Copy</a></li>
+        <li><a href="#move">Move</a></li>
+        <li><a href="#pathway">Pathway</a></li>
+        <li><a href="#folder">Folder</a></li>
+        <li><a href="#search-file">Search file</a></li>
+        <li><a href="#kill">kill</a></li>
+        <li><a href="#touch">touch</a></li>
+      </ul>
+    </li>
+    <li><a href="#apt">Apt</a>
+      <ul>
+        <li><a href="#install-new-package">Install new package</a></li>
+        <li><a href="#update-dict">Update dict</a></li>
+        <li><a href="#update-installed-package">Update installed package</a></li>
+      </ul>
+    </li>
+    <li><a href="#nvidia-gpu">NVIDIA GPU</a>
+      <ul>
+        <li><a href="#cuda-version">CUDA version</a></li>
+        <li><a href="#gpu-status">GPU status</a></li>
+        <li><a href="#gpu-driver">GPU driver</a></li>
+      </ul>
+    </li>
+    <li><a href="#system-info">System info</a>
+      <ul>
+        <li><a href="#cpu">CPU</a></li>
+        <li><a href="#memory">Memory</a></li>
+        <li><a href="#storage">Storage</a></li>
+        <li><a href="#network-interface-controllercard">Network interface controller/card</a></li>
+        <li><a href="#kernel">Kernel</a></li>
+        <li><a href="#ubuntu-version">Ubuntu version</a></li>
+      </ul>
+    </li>
+    <li><a href="#offline-program">Offline program</a>
+      <ul>
+        <li><a href="#screen">screen</a></li>
+        <li><a href="#tumx">tumx</a></li>
+      </ul>
+    </li>
+    <li><a href="#downloads--upload">Downloads &amp; Upload</a>
+      <ul>
+        <li><a href="#wget">wget</a></li>
+        <li><a href="#curl">curl</a></li>
+        <li><a href="#scp">scp</a></li>
+      </ul>
+    </li>
+    <li><a href="#compression">Compression</a>
+      <ul>
+        <li><a href="#zip">zip</a></li>
+      </ul>
+    </li>
+    <li><a href="#execution">Execution</a>
+      <ul>
+        <li><a href="#bin">.bin</a></li>
+        <li><a href="#cmake">cmake</a></li>
+        <li><a href="#nano">nano</a></li>
+        <li><a href="#sh">.sh</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</details>
+
+<h2 id="basic-command">Basic command</h2>
+<h3 id="clear-the-screen">Clear the screen</h3>
+<p><code>clear</code></p>
+<h4 id="problem">problem</h4>
+<p>When <code>terminals database is inaccessible</code> happened.</p>
+<p>Add <code>xport TERMINFO=/usr/share/terminfo</code> to <code>.bashrc</code></p>
+<h3 id="permissions">Permissions</h3>
+<h4 id="give-read-write-and-execute-permissions-for-everyone">Give read, write, and execute permissions for everyone</h4>
+<p><code>chmod -R 777 &lt;dir&gt;/&lt;folder_name&gt;</code></p>
+<h3 id="copy">Copy</h3>
+<p><code>cp &lt;dir&gt;/file_name&gt; &lt;dir&gt;/&lt;new_name&gt;</code>
+</br>
+<code>cp -r &lt;dir&gt;/* &lt;dir&gt;</code></p>
+<h3 id="move">Move</h3>
+<p><code>mv &lt;dir&gt;/&lt;file_name&gt; &lt;dir&gt;/&lt;new_name&gt;</code></p>
+<p>It also could be used to change the name of file when two <code>&lt;dir&gt;</code> are same.</p>
+<h3 id="pathway">Pathway</h3>
+<p><code>pwd</code></p>
+<h3 id="folder">Folder</h3>
+<h4 id="create-folder">Create folder</h4>
+<p><code>mkdir &lt;dir&gt;/&lt;name&gt;</code></p>
+<p>e.g. <code>mkdir /home/user/new_folder</code></p>
+<h4 id="check-content-of-folder">Check content of folder</h4>
+<p><code>ls</code>
+</br>
+<code>ls &lt;dir&gt;</code></p>
+<h4 id="files-count">Files count</h4>
+<p><code>ls -l | grep &quot;^-&quot; | wc -l</code> (Count files number in this path, NOT containing subpath)
+</br>
+<code>ls -lR| grep &quot;^-&quot; | wc -l</code> (Count files number in this path, containing subpath)
+</br>
+<code>ls -lR | grep &quot;^d&quot; | wc -l</code> (Count folders number in this path, containing subpath)</p>
+<h3 id="search-file">Search file</h3>
+<p><code>locate &lt;name&gt;</code>
+</br>
+<code>find &lt;name&gt;</code></p>
+<h3 id="kill">kill</h3>
+<p><code>kill &lt;pid&gt;</code>
+</br>
+<code>kill -9 &lt;pid&gt;</code> (-9 stands for mandatory)
+</br>
+<code>killall &lt;program_name&gt;</code>
+</br>
+<code>pkill &lt;program_name&gt;</code>
+</br>
+<code>xkill</code> (Available on graphical interface)</p>
+<h3 id="touch">touch</h3>
+<p><code>touch &lt;file_name&gt;</code></p>
+<p>Create a new file(Do nothing if the file already exists)</p>
+<h2 id="apt">Apt</h2>
+<div class="alert alert-note">
+  <div>
+    Please be kindly notified that <code>apt-get</code> could be short to <code>apt</code> when using
+  </div>
+</div>
+
+<h3 id="install-new-package">Install new package</h3>
+<p><code>sudo apt-get install &lt;package_name&gt;</code></p>
+<h3 id="update-dict">Update dict</h3>
+<p><code>sudo apt-get update</code></p>
+<h3 id="update-installed-package">Update installed package</h3>
+<p><code>sudo apt-get upgrade</code>
+</br>
+<code>sudo apt-get upgrade --only-upgrade &lt;package_name&gt;</code></p>
+<h2 id="nvidia-gpu">NVIDIA GPU</h2>
+<h3 id="cuda-version">CUDA version</h3>
+<p><code>nvcc -V</code>
+</br>
+<code>nvcc --version</code></p>
+<h3 id="gpu-status">GPU status</h3>
+<p><code>nvidia-smi</code>
+</br>
+<code>watch -n 1 -d nvidia-smi</code>
+</br>
+<code>gpustat</code>  (install it with <code>conda/pip install gpustat</code>)
+</br>
+<code>gpustat -i</code>
+</br>
+<code>nvtop</code></p>
+<h3 id="gpu-driver">GPU driver</h3>
+<p><code>ubuntu-drivers devices</code>
+</br>
+<code>glxinfo | grep rendering</code>
+</br>
+<code>sudo apt search nvidia-driver | grep nvidia-driver</code></p>
+<h2 id="system-info">System info</h2>
+<h3 id="cpu">CPU</h3>
+<h4 id="whole-info">Whole info</h4>
+<p><code>cat /proc/cpuinfo</code></p>
+<h4 id="cpu-model">CPU model</h4>
+<p><code>cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c</code></p>
+<h4 id="core-number">Core number</h4>
+<p><code>cat /proc/cpuinfo | grep physical | uniq -c</code></p>
+<h4 id="bit-width-3264">Bit width (32/64)</h4>
+<p><code>getconf LONG_BIT</code></p>
+<h3 id="memory">Memory</h3>
+<h4 id="whole-info-1">Whole info</h4>
+<p><code>cat /proc/meminfo</code></p>
+<h4 id="short-info">Short info</h4>
+<p><code>free -h</code></p>
+<h4 id="dynamic-info">Dynamic info</h4>
+<p><code>top</code> or <code>htop</code></p>
+<h4 id="process-status">Process status</h4>
+<p><code>ps &lt;option&gt;</code></p>
+<p><code>&lt;option&gt;</code> could be one of below:</p>
+<p><code>-A</code> (List all process)
+</br>
+<code>-w</code> (Wider list)
+</br>
+<code>-au</code> (List with more details)
+</br>
+<code>-aux</code> (List all processes of all users)
+</br>
+<code>-ef</code> (List of all process with terminal type info)
+</br>
+<code>-u root</code> (List the processes run by root)
+</br>
+<code>-ef | grep &lt;key_word&gt;</code> (List of processes with given key word)</p>
+<h3 id="storage">Storage</h3>
+<h4 id="whole-info-2">Whole info</h4>
+<p><code>df -h</code></p>
+<h4 id="info-of-current-device">Info of current device</h4>
+<p><code>df -h &lt;dir&gt;</code></p>
+<p>e.g. <code>df -h ./</code></p>
+<h4 id="allocated-space">Allocated space</h4>
+<p><code>du -sh &lt;dir&gt;</code></p>
+<h4 id="all-folders-allocated-space">All folder&rsquo;s allocated space</h4>
+<p><code>du -sh &lt;dir&gt;/*</code></p>
+<h3 id="network-interface-controllercard">Network interface controller/card</h3>
+<p><code>dmesg | grep -i eth</code></p>
+<h3 id="kernel">Kernel</h3>
+<p><code>uname -a</code></p>
+<h3 id="ubuntu-version">Ubuntu version</h3>
+<p><code>lsb_release -a</code></p>
+<h2 id="offline-program">Offline program</h2>
+<h3 id="screen">screen</h3>
+<h4 id="installation">Installation</h4>
+<p><code>apt install screen</code></p>
+<h4 id="create-a-new-screen">Create a new screen</h4>
+<p><code>screen -S &lt;name&gt;</code></p>
+<h4 id="check-all-screen">Check all screen</h4>
+<p><code>screen -ls</code></p>
+<h4 id="make-screen-offline">Make screen offline</h4>
+<p><code>screen -d &lt;name&gt;</code></p>
+<h4 id="recover-screen">Recover screen</h4>
+<p><code>screen -r &lt;name&gt;</code></p>
+<h4 id="back-to-terminal">Back to terminal</h4>
+<p><code>ctrl+A+D</code></p>
+<h4 id="delete-screen">Delete screen</h4>
+<p><code>screen -X -S &lt;name&gt; quit</code>
+</br>
+<code>screen kill &lt;name&gt;</code>
+</br>
+<code>screen kill &lt;id&gt;</code></p>
+<h3 id="tumx">tumx</h3>
+<p><a href="https://zhuanlan.zhihu.com/p/98384704" target="_blank" rel="noopener">Zhihu Link</a></p>
+<h2 id="downloads--upload">Downloads &amp; Upload</h2>
+<h3 id="wget">wget</h3>
+<p><code>wget [option] [url]</code></p>
+<p><code>[option]</code> could be blanck</p>
+<h4 id="change-file-name">Change file name</h4>
+<p><code>wget -O &lt;new_name&gt; &lt;url&gt;</code></p>
+<h4 id="change-file-path">Change file path</h4>
+<p><code>wget -P &lt;new_path&gt; &lt;url&gt;</code></p>
+<h4 id="continute-downloading-after-break">Continute downloading after break</h4>
+<p><code>wget -c &lt;url&gt;</code></p>
+<h4 id="increase-attempts">Increase attempts</h4>
+<p><code>wget -t &lt;num&gt; &lt;url&gt;</code></p>
+<p>The default <code>&lt;num&gt;</code> is 40</p>
+<h4 id="use-ftp">use ftp</h4>
+<p><code>wget --ftp-user=&lt;username&gt; --ftp-password=&lt;password&gt; &lt;url&gt;</code></p>
+<h4 id="simulate-browser">Simulate browser</h4>
+<p><code>wget -U '&lt;browser_name&gt;' &lt;url&gt;</code>
+</br>
+<code>&lt;browser&gt;</code> could be one of {Mozilla/5.0 (Windows NT 10.0; Win64; x64), AppleWebKit/537.36 (KHTML, like Gecko), Chrome/81.0.4044.43, Safari/537.36}</p>
+<h4 id="downloads-on-background">Downloads on background</h4>
+<p><code>wget -b &lt;url&gt;</code></p>
+<h4 id="check-download-log">Check download log</h4>
+<p><code>tail -f wget-log</code></p>
+<h4 id="multi-files-download">multi-files download</h4>
+<p><code>vim downloads.txt</code>
+</br>
+<code>wget -i downloads.txt</code></p>
+<h3 id="curl">curl</h3>
+<div class="alert alert-note">
+  <div>
+    This command could also be used on Windows/MacOS
+  </div>
+</div>
+
+<p><code>curl -o &lt;name&gt; &lt;url&gt;</code></p>
+<h4 id="continute-downloading-after-break-1">Continute downloading after break</h4>
+<p><code>curl -C - -o &lt;name&gt; &lt;url&gt;</code></p>
+<h4 id="increase-attempts-1">Increase attempts</h4>
+<p><code>curl --retry 3 -o &lt;name&gt; &lt;url&gt;</code></p>
+<h3 id="scp">scp</h3>
+<h4 id="download-files-from-server-to-local">Download files from server to local</h4>
+<p><code>scp username@servername:/remote_path/filename ~/local_destination</code></p>
+<h4 id="upload-files-from-local-to-server">Upload files from local to server</h4>
+<p><code>scp ~/local_path/local_filename username@servername:/remote_path</code></p>
+<h4 id="download-whole-directory-from-server-to-local">Download whole directory from server to local</h4>
+<p><code>scp -r username@servername:/remote_path/remote_dir/ ~/local_destination</code></p>
+<h4 id="upload-whole-directory-from-local-to-server">Upload whole directory from local to server</h4>
+<p><code>scp  -r ~/local_dir username@servername:/remote_path/remote_dir</code></p>
+<div class="alert alert-note">
+  <div>
+    Use <code>scp -P PortId ...</code> instead if you need to specify a port to connect to the server
+  </div>
+</div>
+
+<h2 id="compression">Compression</h2>
+<h3 id="zip">zip</h3>
+<p><code>unzip [-cflptuvz][-agCjLMnoqsVX][-P &lt;password&gt;][.zip][file_name][-d &lt;dir&gt;][-x &lt;file&gt;]</code></p>
+<p><code>unzip [-Z]</code></p>
+<h4 id="example">Example</h4>
+<p><code>unzip test.zip</code>
+</br>
+<code>unzip -n test.zip -d /tmp</code>
+</br>
+<code>unzip -o test.zip -d tmp/</code></p>
+<details class="spoiler "  id="spoiler-5">
+  <summary>Detailed info</summary>
+  <p><p>-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。</p>
+<p>-f 更新现有的文件。</p>
+<p>-l 显示压缩文件内所包含的文件。</p>
+<p>-p 与-c参数类似，会将解压缩的结果显示到屏幕上，但不会执行任何的转换。</p>
+<p>-t 检查压缩文件是否正确。</p>
+<p>-u 与-f参数类似，但是除了更新现有的文件外，也会将压缩文件中的其他文件解压缩到目录中。</p>
+<p>-v 执行时显示详细的信息。</p>
+<p>-z 仅显示压缩文件的备注文字。</p>
+<p>-a 对文本文件进行必要的字符转换。</p>
+<p>-b 不要对文本文件进行字符转换。</p>
+<p>-C 压缩文件中的文件名称区分大小写。</p>
+<p>-j 不处理压缩文件中原有的目录路径。</p>
+<p>-L 将压缩文件中的全部文件名改为小写。</p>
+<p>-M 将输出结果送到more程序处理。</p>
+<p>-n 解压缩时不要覆盖原有的文件。</p>
+<p>-o 不必先询问用户，unzip执行后覆盖原有文件。</p>
+<p>-P&lt;密码&gt; 使用zip的密码选项。</p>
+<p>-q 执行时不显示任何信息。</p>
+<p>-s 将文件名中的空白字符转换为底线字符。</p>
+<p>-V 保留VMS的文件版本信息。</p>
+<p>-X 解压缩时同时回存文件原来的UID/GID。</p>
+<p>[.zip文件] 指定.zip压缩文件。</p>
+<p>[文件] 指定要处理.zip压缩文件中的哪些文件。</p>
+<p>-d&lt;目录&gt; 指定文件解压缩后所要存储的目录。</p>
+<p>-x&lt;文件&gt; 指定不要处理.zip压缩文件中的哪些文件。</p>
+<p>-Z unzip -Z等于执行zipinfo指令。</p>
+</p>
+</details>
+<h2 id="execution">Execution</h2>
+<h3 id="bin">.bin</h3>
+<p>Using <strong>chmod</strong> command to assign the execution permission to the file with &lsquo;.bin&rsquo; suffix.</p>
+<p><code>chmod +x filename.bin</code></p>
+<p>And then, the file with &lsquo;.bin&rsquo; suffix could be executed by the following.</p>
+<p><code>./filename.bin</code></p>
+<h3 id="cmake">cmake</h3>
+<details class="spoiler "  id="spoiler-6">
+  <summary>在Linux上安装其他版本的cmake 或 升级cmake</summary>
+  <p><a href="https://blog.csdn.net/weixin_41010198/article/details/109343347" target="_blank" rel="noopener">https://blog.csdn.net/weixin_41010198/article/details/109343347</a></p>
+</details>
+<h3 id="nano">nano</h3>
+<h4 id="usage">Usage</h4>
+<p><code>nano ./file.sh</code></p>
+<h4 id="jump-to-the-end-of-file">Jump to the end of file</h4>
+<p><code>Alt</code>+<code>/</code></p>
+<h4 id="jump-to-given-word">Jump to given word</h4>
+<p><code>Ctrl</code>+<code>w</code></p>
+<p>Input the word you want to find and it will help you.</p>
+<p><code>Ctrl</code>+<code>v</code></p>
+<p>This could also help you reach the end of file</p>
+<h3 id="sh">.sh</h3>
+<p><code>./file.sh</code>
+</br>
+<code>bash ./file.sh</code>
+</br>
+<code>source ./file.sh</code></p>
+<h4 id="construct-a-sh-file">Construct a .sh file</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nb">cd</span> &lt;path&gt;
+</span></span><span class="line"><span class="cl">conda activate &lt;env_name&gt;
+</span></span><span class="line"><span class="cl">python main.py --data <span class="m">1</span> <span class="p">&amp;</span>
+</span></span><span class="line"><span class="cl">python main.py --data <span class="m">1</span> <span class="o">&amp;&amp;</span>
+</span></span><span class="line"><span class="cl">python main.py --data <span class="m">1</span> <span class="o">||</span>
+</span></span></code></pre></div><p>In file.sh like above:
+</br>
+<code>&amp;</code> stands for executing simultaneously the command of this line and next line.
+</br>
+<code>&amp;&amp;</code> stands for executing the command of this line and next line one by one.
+</br>
+<code>||</code> stands for terminating the execution of next command when command of this line successfully executed.</p>
+
+          </div>
+
+          
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/linux/">Linux</a>
+  
+</div>
+
+
+
+          
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/notes/shell/windows/" rel="prev">Windows</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on Apr 9, 2024</p>
+
+          
+
+
+
+
+
+
+  
+
+<p class="edit-page">
+  <a href="https://github.com//edit/main/content/notes/shell/linux.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+          
+
+
+
+
+          
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    
+  
+  
+    
+  
+
+  
+
+  
+  <p class="powered-by copyright-license-text">
+    © 2024 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+  </p>
+  
+
+  <p class="powered-by footer-license-icons">
+    <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank" aria-label="Creative Commons">
+      <i class="fab fa-creative-commons fa-2x" aria-hidden="true"></i>
+      <i class="fab fa-creative-commons-by fa-2x" aria-hidden="true"></i>
+      
+        <i class="fab fa-creative-commons-nc fa-2x" aria-hidden="true"></i>
+      
+      
+        <i class="fab fa-creative-commons-nd fa-2x" aria-hidden="true"></i>
+      
+    </a>
+  </p>
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.d26509351aa0ff874abbee824e982e9b.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@4.2.2/anchor.min.js" integrity="sha512-I7w3ZdSFzw5j3jU3ZkNikBNeIrl3i+hEuEdwNmqUJvwNcaBUNcijnP2gd9DtGlgVYDplfjGoD8vTNsID+lCjqg==" crossorigin="anonymous"></script>
+<script>
+  anchors.add();
+</script>
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.54dd6e4d8f2e4b1d098381b57f18dd83.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

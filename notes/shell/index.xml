@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🎹 Shell | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/notes/shell/</link>
+      <atom:link href="https://dante-su.github.io/notes/shell/index.xml" rel="self" type="application/rss+xml" />
+    <description>🎹 Shell</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/notes/shell/featured.png</url>
+      <title>🎹 Shell</title>
+      <link>https://dante-su.github.io/notes/shell/</link>
+    </image>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://dante-su.github.io/notes/shell/linux/</link>
+      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/linux/</guid>
+      <description>&lt;p&gt;Some shell command when using Anaconda&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/linux.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#basic-command&#34;&gt;Basic command&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#clear-the-screen&#34;&gt;Clear the screen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#copy&#34;&gt;Copy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#move&#34;&gt;Move&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#pathway&#34;&gt;Pathway&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#folder&#34;&gt;Folder&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#search-file&#34;&gt;Search file&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#kill&#34;&gt;kill&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#touch&#34;&gt;touch&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#apt&#34;&gt;Apt&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#install-new-package&#34;&gt;Install new package&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-dict&#34;&gt;Update dict&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-installed-package&#34;&gt;Update installed package&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#nvidia-gpu&#34;&gt;NVIDIA GPU&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#cuda-version&#34;&gt;CUDA version&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#gpu-status&#34;&gt;GPU status&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#gpu-driver&#34;&gt;GPU driver&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#system-info&#34;&gt;System info&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#cpu&#34;&gt;CPU&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#memory&#34;&gt;Memory&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#storage&#34;&gt;Storage&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#kernel&#34;&gt;Kernel&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#ubuntu-version&#34;&gt;Ubuntu version&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#offline-program&#34;&gt;Offline program&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#screen&#34;&gt;screen&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#tumx&#34;&gt;tumx&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#downloads--upload&#34;&gt;Downloads &amp;amp; Upload&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#wget&#34;&gt;wget&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#curl&#34;&gt;curl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#scp&#34;&gt;scp&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#compression&#34;&gt;Compression&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#zip&#34;&gt;zip&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#execution&#34;&gt;Execution&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#bin&#34;&gt;.bin&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#cmake&#34;&gt;cmake&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#nano&#34;&gt;nano&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#sh&#34;&gt;.sh&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;basic-command&#34;&gt;Basic command&lt;/h2&gt;
+&lt;h3 id=&#34;clear-the-screen&#34;&gt;Clear the screen&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;clear&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;problem&#34;&gt;problem&lt;/h4&gt;
+&lt;p&gt;When &lt;code&gt;terminals database is inaccessible&lt;/code&gt; happened.&lt;/p&gt;
+&lt;p&gt;Add &lt;code&gt;xport TERMINFO=/usr/share/terminfo&lt;/code&gt; to &lt;code&gt;.bashrc&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
+&lt;h4 id=&#34;give-read-write-and-execute-permissions-for-everyone&#34;&gt;Give read, write, and execute permissions for everyone&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;chmod -R 777 &amp;lt;dir&amp;gt;/&amp;lt;folder_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;copy&#34;&gt;Copy&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cp &amp;lt;dir&amp;gt;/file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;cp -r &amp;lt;dir&amp;gt;/* &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;move&#34;&gt;Move&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;mv &amp;lt;dir&amp;gt;/&amp;lt;file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It also could be used to change the name of file when two &lt;code&gt;&amp;lt;dir&amp;gt;&lt;/code&gt; are same.&lt;/p&gt;
+&lt;h3 id=&#34;pathway&#34;&gt;Pathway&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;folder&#34;&gt;Folder&lt;/h3&gt;
+&lt;h4 id=&#34;create-folder&#34;&gt;Create folder&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;mkdir &amp;lt;dir&amp;gt;/&amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g. &lt;code&gt;mkdir /home/user/new_folder&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;check-content-of-folder&#34;&gt;Check content of folder&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ls&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;ls &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;files-count&#34;&gt;Files count&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ls -l | grep &amp;quot;^-&amp;quot; | wc -l&lt;/code&gt; (Count files number in this path, NOT containing subpath)
+&lt;/br&gt;
+&lt;code&gt;ls -lR| grep &amp;quot;^-&amp;quot; | wc -l&lt;/code&gt; (Count files number in this path, containing subpath)
+&lt;/br&gt;
+&lt;code&gt;ls -lR | grep &amp;quot;^d&amp;quot; | wc -l&lt;/code&gt; (Count folders number in this path, containing subpath)&lt;/p&gt;
+&lt;h3 id=&#34;search-file&#34;&gt;Search file&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;locate &amp;lt;name&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;find &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;kill&#34;&gt;kill&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;kill &amp;lt;pid&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;kill -9 &amp;lt;pid&amp;gt;&lt;/code&gt; (-9 stands for mandatory)
+&lt;/br&gt;
+&lt;code&gt;killall &amp;lt;program_name&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;pkill &amp;lt;program_name&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;xkill&lt;/code&gt; (Available on graphical interface)&lt;/p&gt;
+&lt;h3 id=&#34;touch&#34;&gt;touch&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;touch &amp;lt;file_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Create a new file(Do nothing if the file already exists)&lt;/p&gt;
+&lt;h2 id=&#34;apt&#34;&gt;Apt&lt;/h2&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please be kindly notified that &lt;code&gt;apt-get&lt;/code&gt; could be short to &lt;code&gt;apt&lt;/code&gt; when using
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;install-new-package&#34;&gt;Install new package&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install &amp;lt;package_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-dict&#34;&gt;Update dict&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-installed-package&#34;&gt;Update installed package&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get upgrade&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;sudo apt-get upgrade --only-upgrade &amp;lt;package_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;nvidia-gpu&#34;&gt;NVIDIA GPU&lt;/h2&gt;
+&lt;h3 id=&#34;cuda-version&#34;&gt;CUDA version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nvcc -V&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;nvcc --version&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;gpu-status&#34;&gt;GPU status&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;nvidia-smi&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;watch -n 1 -d nvidia-smi&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;gpustat&lt;/code&gt;  (install it with &lt;code&gt;conda/pip install gpustat&lt;/code&gt;)
+&lt;/br&gt;
+&lt;code&gt;gpustat -i&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;nvtop&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;gpu-driver&#34;&gt;GPU driver&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ubuntu-drivers devices&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;glxinfo | grep rendering&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;sudo apt search nvidia-driver | grep nvidia-driver&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;system-info&#34;&gt;System info&lt;/h2&gt;
+&lt;h3 id=&#34;cpu&#34;&gt;CPU&lt;/h3&gt;
+&lt;h4 id=&#34;whole-info&#34;&gt;Whole info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;cpu-model&#34;&gt;CPU model&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;core-number&#34;&gt;Core number&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/cpuinfo | grep physical | uniq -c&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;bit-width-3264&#34;&gt;Bit width (32/64)&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;getconf LONG_BIT&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;memory&#34;&gt;Memory&lt;/h3&gt;
+&lt;h4 id=&#34;whole-info-1&#34;&gt;Whole info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;cat /proc/meminfo&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;short-info&#34;&gt;Short info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;free -h&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;dynamic-info&#34;&gt;Dynamic info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;top&lt;/code&gt; or &lt;code&gt;htop&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;process-status&#34;&gt;Process status&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ps &amp;lt;option&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;option&amp;gt;&lt;/code&gt; could be one of below:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-A&lt;/code&gt; (List all process)
+&lt;/br&gt;
+&lt;code&gt;-w&lt;/code&gt; (Wider list)
+&lt;/br&gt;
+&lt;code&gt;-au&lt;/code&gt; (List with more details)
+&lt;/br&gt;
+&lt;code&gt;-aux&lt;/code&gt; (List all processes of all users)
+&lt;/br&gt;
+&lt;code&gt;-ef&lt;/code&gt; (List of all process with terminal type info)
+&lt;/br&gt;
+&lt;code&gt;-u root&lt;/code&gt; (List the processes run by root)
+&lt;/br&gt;
+&lt;code&gt;-ef | grep &amp;lt;key_word&amp;gt;&lt;/code&gt; (List of processes with given key word)&lt;/p&gt;
+&lt;h3 id=&#34;storage&#34;&gt;Storage&lt;/h3&gt;
+&lt;h4 id=&#34;whole-info-2&#34;&gt;Whole info&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;df -h&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;info-of-current-device&#34;&gt;Info of current device&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;df -h &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g. &lt;code&gt;df -h ./&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;allocated-space&#34;&gt;Allocated space&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;du -sh &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;all-folders-allocated-space&#34;&gt;All folder&amp;rsquo;s allocated space&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;du -sh &amp;lt;dir&amp;gt;/*&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;dmesg | grep -i eth&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;kernel&#34;&gt;Kernel&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;uname -a&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;ubuntu-version&#34;&gt;Ubuntu version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;lsb_release -a&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;offline-program&#34;&gt;Offline program&lt;/h2&gt;
+&lt;h3 id=&#34;screen&#34;&gt;screen&lt;/h3&gt;
+&lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;apt install screen&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;create-a-new-screen&#34;&gt;Create a new screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -S &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;check-all-screen&#34;&gt;Check all screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -ls&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;make-screen-offline&#34;&gt;Make screen offline&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -d &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;recover-screen&#34;&gt;Recover screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -r &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;back-to-terminal&#34;&gt;Back to terminal&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;ctrl+A+D&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;delete-screen&#34;&gt;Delete screen&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;screen -X -S &amp;lt;name&amp;gt; quit&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;screen kill &amp;lt;name&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;screen kill &amp;lt;id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;tumx&#34;&gt;tumx&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/98384704&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zhihu Link&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;downloads--upload&#34;&gt;Downloads &amp;amp; Upload&lt;/h2&gt;
+&lt;h3 id=&#34;wget&#34;&gt;wget&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wget [option] [url]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;[option]&lt;/code&gt; could be blanck&lt;/p&gt;
+&lt;h4 id=&#34;change-file-name&#34;&gt;Change file name&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -O &amp;lt;new_name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;change-file-path&#34;&gt;Change file path&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -P &amp;lt;new_path&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;continute-downloading-after-break&#34;&gt;Continute downloading after break&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -c &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;increase-attempts&#34;&gt;Increase attempts&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -t &amp;lt;num&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;The default &lt;code&gt;&amp;lt;num&amp;gt;&lt;/code&gt; is 40&lt;/p&gt;
+&lt;h4 id=&#34;use-ftp&#34;&gt;use ftp&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget --ftp-user=&amp;lt;username&amp;gt; --ftp-password=&amp;lt;password&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;simulate-browser&#34;&gt;Simulate browser&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -U &#39;&amp;lt;browser_name&amp;gt;&#39; &amp;lt;url&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;&amp;lt;browser&amp;gt;&lt;/code&gt; could be one of {Mozilla/5.0 (Windows NT 10.0; Win64; x64), AppleWebKit/537.36 (KHTML, like Gecko), Chrome/81.0.4044.43, Safari/537.36}&lt;/p&gt;
+&lt;h4 id=&#34;downloads-on-background&#34;&gt;Downloads on background&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;wget -b &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;check-download-log&#34;&gt;Check download log&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;tail -f wget-log&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;multi-files-download&#34;&gt;multi-files download&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;vim downloads.txt&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;wget -i downloads.txt&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;curl&#34;&gt;curl&lt;/h3&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    This command could also be used on Windows/MacOS
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;curl -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;continute-downloading-after-break-1&#34;&gt;Continute downloading after break&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;curl -C - -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;increase-attempts-1&#34;&gt;Increase attempts&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;curl --retry 3 -o &amp;lt;name&amp;gt; &amp;lt;url&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;scp&#34;&gt;scp&lt;/h3&gt;
+&lt;h4 id=&#34;download-files-from-server-to-local&#34;&gt;Download files from server to local&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;scp username@servername:/remote_path/filename ~/local_destination&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;upload-files-from-local-to-server&#34;&gt;Upload files from local to server&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;scp ~/local_path/local_filename username@servername:/remote_path&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;download-whole-directory-from-server-to-local&#34;&gt;Download whole directory from server to local&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;scp -r username@servername:/remote_path/remote_dir/ ~/local_destination&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;upload-whole-directory-from-local-to-server&#34;&gt;Upload whole directory from local to server&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;scp  -r ~/local_dir username@servername:/remote_path/remote_dir&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Use &lt;code&gt;scp -P PortId ...&lt;/code&gt; instead if you need to specify a port to connect to the server
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
+&lt;h3 id=&#34;zip&#34;&gt;zip&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;unzip [-cflptuvz][-agCjLMnoqsVX][-P &amp;lt;password&amp;gt;][.zip][file_name][-d &amp;lt;dir&amp;gt;][-x &amp;lt;file&amp;gt;]&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;unzip [-Z]&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;unzip test.zip&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;unzip -n test.zip -d /tmp&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;unzip -o test.zip -d tmp/&lt;/code&gt;&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+  &lt;summary&gt;Detailed info&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。&lt;/p&gt;
+&lt;p&gt;-f 更新现有的文件。&lt;/p&gt;
+&lt;p&gt;-l 显示压缩文件内所包含的文件。&lt;/p&gt;
+&lt;p&gt;-p 与-c参数类似，会将解压缩的结果显示到屏幕上，但不会执行任何的转换。&lt;/p&gt;
+&lt;p&gt;-t 检查压缩文件是否正确。&lt;/p&gt;
+&lt;p&gt;-u 与-f参数类似，但是除了更新现有的文件外，也会将压缩文件中的其他文件解压缩到目录中。&lt;/p&gt;
+&lt;p&gt;-v 执行时显示详细的信息。&lt;/p&gt;
+&lt;p&gt;-z 仅显示压缩文件的备注文字。&lt;/p&gt;
+&lt;p&gt;-a 对文本文件进行必要的字符转换。&lt;/p&gt;
+&lt;p&gt;-b 不要对文本文件进行字符转换。&lt;/p&gt;
+&lt;p&gt;-C 压缩文件中的文件名称区分大小写。&lt;/p&gt;
+&lt;p&gt;-j 不处理压缩文件中原有的目录路径。&lt;/p&gt;
+&lt;p&gt;-L 将压缩文件中的全部文件名改为小写。&lt;/p&gt;
+&lt;p&gt;-M 将输出结果送到more程序处理。&lt;/p&gt;
+&lt;p&gt;-n 解压缩时不要覆盖原有的文件。&lt;/p&gt;
+&lt;p&gt;-o 不必先询问用户，unzip执行后覆盖原有文件。&lt;/p&gt;
+&lt;p&gt;-P&amp;lt;密码&amp;gt; 使用zip的密码选项。&lt;/p&gt;
+&lt;p&gt;-q 执行时不显示任何信息。&lt;/p&gt;
+&lt;p&gt;-s 将文件名中的空白字符转换为底线字符。&lt;/p&gt;
+&lt;p&gt;-V 保留VMS的文件版本信息。&lt;/p&gt;
+&lt;p&gt;-X 解压缩时同时回存文件原来的UID/GID。&lt;/p&gt;
+&lt;p&gt;[.zip文件] 指定.zip压缩文件。&lt;/p&gt;
+&lt;p&gt;[文件] 指定要处理.zip压缩文件中的哪些文件。&lt;/p&gt;
+&lt;p&gt;-d&amp;lt;目录&amp;gt; 指定文件解压缩后所要存储的目录。&lt;/p&gt;
+&lt;p&gt;-x&amp;lt;文件&amp;gt; 指定不要处理.zip压缩文件中的哪些文件。&lt;/p&gt;
+&lt;p&gt;-Z unzip -Z等于执行zipinfo指令。&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;execution&#34;&gt;Execution&lt;/h2&gt;
+&lt;h3 id=&#34;bin&#34;&gt;.bin&lt;/h3&gt;
+&lt;p&gt;Using &lt;strong&gt;chmod&lt;/strong&gt; command to assign the execution permission to the file with &amp;lsquo;.bin&amp;rsquo; suffix.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;chmod +x filename.bin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And then, the file with &amp;lsquo;.bin&amp;rsquo; suffix could be executed by the following.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;./filename.bin&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;cmake&#34;&gt;cmake&lt;/h3&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;在Linux上安装其他版本的cmake 或 升级cmake&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_41010198/article/details/109343347&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_41010198/article/details/109343347&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h3 id=&#34;nano&#34;&gt;nano&lt;/h3&gt;
+&lt;h4 id=&#34;usage&#34;&gt;Usage&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;nano ./file.sh&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;jump-to-the-end-of-file&#34;&gt;Jump to the end of file&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;Alt&lt;/code&gt;+&lt;code&gt;/&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;jump-to-given-word&#34;&gt;Jump to given word&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;w&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Input the word you want to find and it will help you.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;v&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This could also help you reach the end of file&lt;/p&gt;
+&lt;h3 id=&#34;sh&#34;&gt;.sh&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;./file.sh&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;bash ./file.sh&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;source ./file.sh&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;construct-a-sh-file&#34;&gt;Construct a .sh file&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;path&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;conda activate &amp;lt;env_name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python main.py --data &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python main.py --data &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;python main.py --data &lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;||&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In file.sh like above:
+&lt;/br&gt;
+&lt;code&gt;&amp;amp;&lt;/code&gt; stands for executing simultaneously the command of this line and next line.
+&lt;/br&gt;
+&lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; stands for executing the command of this line and next line one by one.
+&lt;/br&gt;
+&lt;code&gt;||&lt;/code&gt; stands for terminating the execution of next command when command of this line successfully executed.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://dante-su.github.io/notes/shell/windows/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/windows/</guid>
+      <description>&lt;p&gt;Powershell command in Windows&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/powershell.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#clear-the-screen&#34;&gt;Clear the screen&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#info&#34;&gt;Info&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#files-in-current-folder&#34;&gt;Files in current folder&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#current-pathway&#34;&gt;Current pathway&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#change-path&#34;&gt;Change path&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#gpu-status&#34;&gt;GPU status&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#memory-chip&#34;&gt;Memory chip&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install-anaconda-on-powershell&#34;&gt;Install anaconda on Powershell&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;clear-the-screen&#34;&gt;Clear the screen&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;cls&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;info&#34;&gt;Info&lt;/h2&gt;
+&lt;h3 id=&#34;files-in-current-folder&#34;&gt;Files in current folder&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;dir&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;current-pathway&#34;&gt;Current pathway&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;chdir&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;change-path&#34;&gt;Change path&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cd &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;gpu-status&#34;&gt;GPU status&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cd C:\Program Files\NVIDIA Corporation\NVSMI&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;nvidia-smi&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;memory-chip&#34;&gt;Memory chip&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wmic memorychip get /value&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;install-anaconda-on-powershell&#34;&gt;Install anaconda on Powershell&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://dante-su.github.io/notes/shell/docker/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/docker/</guid>
+      <description>&lt;p&gt;Some documents of docker&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/docker.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#updating&#34;&gt;Updating&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#bugs-record&#34;&gt;Bugs record&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#opencv-importerror&#34;&gt;Opencv ImportError&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-record&#34;&gt;Bugs record&lt;/h2&gt;
+&lt;h3 id=&#34;opencv-importerror&#34;&gt;Opencv ImportError&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you install opencv by &lt;code&gt;pip install opencv-python&lt;/code&gt; before, you could use the below method.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip uninstall opencv-python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install opencv-python-headless&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>WSL</title>
+      <link>https://dante-su.github.io/notes/shell/wsl/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/wsl/</guid>
+      <description>&lt;p&gt;Installation method and usage of WSL on Windows&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/wsl.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#see-the-installed-linux-distribution&#34;&gt;See the installed Linux distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#see-the-available-versions-to-install&#34;&gt;See the available versions to install&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#install-multipie-linux-distribution&#34;&gt;Install multipie Linux distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#import-the-distribution&#34;&gt;Import the distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#export-the-distribution&#34;&gt;Export the distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#remove-the-distribution&#34;&gt;Remove the distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#change-default-linux-distribution&#34;&gt;Change default Linux distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#shut-down-all-the-distributions&#34;&gt;Shut down all the distributions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#shut-down-specific-distribution&#34;&gt;Shut down specific distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-wsl&#34;&gt;Update wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-the-status-of-wsl&#34;&gt;Check the status of wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-the-version-of-wsl&#34;&gt;Check the version of wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-ip-address&#34;&gt;Check IP address&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#open-help-menu&#34;&gt;Open help menu&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#start-up-from-homeuser&#34;&gt;Start up from /home/user&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#exit-the-running-wsl&#34;&gt;Exit the running wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#open-vs-code-via-wsl&#34;&gt;Open VS Code via WSL&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#adjust-wsl-version&#34;&gt;Adjust wsl version&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#mount-the-disk&#34;&gt;Mount the disk&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#unmount-the-disk&#34;&gt;Unmount the disk&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#map-usb-device-from-windows-to-linux&#34;&gt;Map USB device from Windows to Linux&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-windows&#34;&gt;Installation on windows&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-liunx&#34;&gt;Installation on Liunx&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#usage-1&#34;&gt;Usage&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install-multipie-wsl-distributions&#34;&gt;Install multipie wsl distributions&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install-cuda-in-wsl&#34;&gt;Install &lt;code&gt;cuda&lt;/code&gt; in wsl&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mircosoft official document&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wsl --install&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;see-the-installed-linux-distribution&#34;&gt;See the installed Linux distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --list --verbose&lt;/code&gt;
+or
+&lt;code&gt;wsl -l -v&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;see-the-available-versions-to-install&#34;&gt;See the available versions to install&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --list --online&lt;/code&gt;
+or
+&lt;code&gt;wsl -l -v&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;install-multipie-linux-distribution&#34;&gt;Install multipie Linux distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --install -d &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;import-the-distribution&#34;&gt;Import the distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --import &amp;lt;distribution_name&amp;gt; &amp;lt;install_location&amp;gt; &amp;lt;file_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;export-the-distribution&#34;&gt;Export the distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --export &amp;lt;distribution_name&amp;gt; &amp;lt;file_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remove-the-distribution&#34;&gt;Remove the distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --unregister &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;change-default-linux-distribution&#34;&gt;Change default Linux distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --set-default &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shut-down-all-the-distributions&#34;&gt;Shut down all the distributions&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --shutdown&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shut-down-specific-distribution&#34;&gt;Shut down specific distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --terminate &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-wsl&#34;&gt;Update wsl&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --update&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-the-status-of-wsl&#34;&gt;Check the status of wsl&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --status&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-the-version-of-wsl&#34;&gt;Check the version of wsl&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --version&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-ip-address&#34;&gt;Check IP address&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;The address of Linux&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wsl hostname -i&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The address of Windows&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cat /etc/resolv.conf&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;open-help-menu&#34;&gt;Open help menu&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --help&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;start-up-from-homeuser&#34;&gt;Start up from /home/user&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl ~&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;exit-the-running-wsl&#34;&gt;Exit the running wsl&lt;/h3&gt;
+&lt;p&gt;Press &lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;A&lt;/code&gt;+&lt;code&gt;D&lt;/code&gt; at the same time&lt;/p&gt;
+&lt;h3 id=&#34;open-vs-code-via-wsl&#34;&gt;Open VS Code via WSL&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;code .&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;adjust-wsl-version&#34;&gt;Adjust wsl version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --set-version &amp;lt;distribution_name&amp;gt; &amp;lt;version_number&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;version_number&amp;gt;&lt;/code&gt; here is &lt;code&gt;1&lt;/code&gt; or &lt;code&gt;2&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mount-the-disk&#34;&gt;Mount the disk&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --mount &amp;lt;disk_path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;unmount-the-disk&#34;&gt;Unmount the disk&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --unmount &amp;lt;disk_path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;map-usb-device-from-windows-to-linux&#34;&gt;Map USB device from Windows to Linux&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/connect-usb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mircosoft Document&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/leiconghe/article/details/123877944&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSDN link&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;installation-on-windows&#34;&gt;Installation on windows&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;a href=&#34;https://github.com/dorssel/usbipd-win/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;usbipd-win&lt;/a&gt; and download the up-to-date released &lt;code&gt;.msi&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Install the downloaded file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;installation-on-liunx&#34;&gt;Installation on Liunx&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt install linux-tools-generic hwdata&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/*-generic/usbip 20&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;usage-1&#34;&gt;Usage&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open PowerShell and type in &lt;code&gt;usbipd wsl list&lt;/code&gt; to check all the connected USB device&lt;/li&gt;
+&lt;li&gt;Find the busid of needed device and type &lt;code&gt;usbipd wsl attach --busid &amp;lt;busid&amp;gt;&lt;/code&gt; in PowerShell&lt;/li&gt;
+&lt;li&gt;Open WSL and type in &lt;code&gt;lsusb&lt;/code&gt; to check if the need device has connected to the wsl or not&lt;/li&gt;
+&lt;li&gt;When we need to disconnect the needed device from wsl, type &lt;code&gt;usbipd wsl detach --busid &amp;lt;busid&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;install-multipie-wsl-distributions&#34;&gt;Install multipie wsl distributions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Install wsl2 with &lt;code&gt;wsl --install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Open &lt;a href=&#34;https://cloud-images.ubuntu.com/releases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ubuntu wsl2 images&lt;/a&gt; and download an image of needed version&lt;/li&gt;
+&lt;li&gt;Open PowerShell and type in &lt;code&gt;wsl --import &amp;lt;Distribution Name&amp;gt; &amp;lt;Installation Folder&amp;gt; &amp;lt;Ubuntu WSL2 Image Tarball path&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;wsl -l -v&lt;/code&gt; to check if the installation is successful or not&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt; wsl -d &amp;lt;distribution_name&amp;gt;&lt;/code&gt; to login the distribution we just installed&lt;/li&gt;
+&lt;li&gt;Type in &lt;code&gt;NEW_USER=&amp;lt;USERNAME&amp;gt;&lt;/code&gt; to create a new account&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;useradd -m -G sudo -s /bin/bash &amp;quot;$NEW_USER&amp;quot;&lt;/code&gt; + &lt;code&gt;passwd &amp;quot;$NEW_USER&amp;quot;&lt;/code&gt; and set a password for our new account&lt;/li&gt;
+&lt;li&gt;Input the code below to set our new user as the default one&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tee /etc/wsl.conf &lt;span class=&#34;s&#34;&gt;&amp;lt;&amp;lt;_EOF
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    [user]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    default=${NEW_USER}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    _EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;Press &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt; + &lt;code&gt;D&lt;/code&gt; at the same time to exit the distribution&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;wsl --terminate &amp;lt;distribution_name&lt;/code&gt; and &lt;code&gt;wsl -d &amp;lt;distribution_name&amp;gt;&lt;/code&gt; to restart the installed distribution&lt;/li&gt;
+&lt;li&gt;And find that we succeed in creating a new distribution&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;install-cuda-in-wsl&#34;&gt;Install &lt;code&gt;cuda&lt;/code&gt; in wsl&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/cuda-downloads?target_os=Linux&amp;amp;target_arch=x86_64&amp;amp;Distribution=WSL-Ubuntu&amp;amp;target_version=2.0&amp;amp;target_type=deb_local&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Documents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda-repo-wsl-ubuntu-12-2-local_12.2.2-1_amd64.deb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo dpkg -i cuda-repo-wsl-ubuntu-12-2-local_12.2.2-1_amd64.deb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo cp /var/cuda-repo-wsl-ubuntu-12-2-local/cuda-*-keyring.gpg /usr/share/keyrings/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get -y install cuda&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo ln -s /usr/lib/wsl/lib/libcuda.so.1 /usr/local/cuda/lib64/libcuda.so&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

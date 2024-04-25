@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GAMES101 | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/games101/</link>
+      <atom:link href="https://dante-su.github.io/tag/games101/index.xml" rel="self" type="application/rss+xml" />
+    <description>GAMES101</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>GAMES101</title>
+      <link>https://dante-su.github.io/tag/games101/</link>
+    </image>
+    
+    <item>
+      <title>GAMES101</title>
+      <link>https://dante-su.github.io/notes/computer_graphics/games101/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/computer_graphics/games101/</guid>
+      <description>&lt;p&gt;Notes for GAMES101&lt;/p&gt;
+&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://games-cn.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GAMES&lt;/a&gt; is short for &amp;lsquo;Graphics And Mixed Environment Symposium&amp;rsquo;, which is a study platium designed for sharing knowledge about &amp;lsquo;Computer Graphics&amp;rsquo; for those who haven&amp;rsquo;t or won&amp;rsquo;t have been enrolled in related course but have ambition and interest to learn it by themselves.&lt;/p&gt;
+&lt;p&gt;And &lt;a href=&#34;https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GAMES101&lt;/a&gt; is one of them, at the same time, the basicest one. It&amp;rsquo;s taught by &lt;a href=&#34;https://sites.cs.ucsb.edu/~lingqi/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Lingqi YAN&lt;/a&gt;, an Assist. Prof. of UCSB.&lt;/p&gt;
+&lt;h2 id=&#34;updating-soon&#34;&gt;Updating soon.&lt;/h2&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

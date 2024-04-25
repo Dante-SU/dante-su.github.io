@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>iccv | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/iccv/</link>
+      <atom:link href="https://dante-su.github.io/tag/iccv/index.xml" rel="self" type="application/rss+xml" />
+    <description>iccv</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 25 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>iccv</title>
+      <link>https://dante-su.github.io/tag/iccv/</link>
+    </image>
+    
+    <item>
+      <title>ICCV</title>
+      <link>https://dante-su.github.io/notes/paper_reading/iccv/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/iccv/</guid>
+      <description>&lt;p&gt;Proceedings of the IEEE/CVF International Conference on Computer Vision&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Task-Oriented Multi-Modal Mutual Leaning for Vision-Language Models&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2023/papers/Long_Task-Oriented_Multi-Modal_Mutual_Leaning_for_Vision-Language_Models_ICCV_2023_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; **&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/iccv/2023_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

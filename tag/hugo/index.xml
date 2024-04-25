@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/hugo/</link>
+      <atom:link href="https://dante-su.github.io/tag/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <description>hugo</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>hugo</title>
+      <link>https://dante-su.github.io/tag/hugo/</link>
+    </image>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://dante-su.github.io/notes/others/hugo/</link>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/others/hugo/</guid>
+      <description>&lt;p&gt;Notes&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;static-forwarding-in-lan&#34;&gt;Static forwarding in LAN&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;hugo server --bind 192.168.1.107 --baseURL http://192.168.1.107/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;hugo主题文档&lt;/summary&gt;
+  &lt;p&gt;&lt;a href=&#34;https://www.cnblogs.com/brady-wang/p/13830156.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.cnblogs.com/brady-wang/p/13830156.html&lt;/a&gt;&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

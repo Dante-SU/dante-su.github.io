@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cvpr | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/cvpr/</link>
+      <atom:link href="https://dante-su.github.io/tag/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    <description>cvpr</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>cvpr</title>
+      <link>https://dante-su.github.io/tag/cvpr/</link>
+    </image>
+    
+    <item>
+      <title>CVPR</title>
+      <link>https://dante-su.github.io/notes/paper_reading/cvpr/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/cvpr/</guid>
+      <description>&lt;p&gt;Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition&lt;/p&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/Zhaozixiang1228/MMIF-CDDFuse&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;multi-modality, image fusion, dual branch feature decomposition&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Render fused images that maintain the merits of different modalities, e.g., functional highlight and detailed textures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We propose a dual-branch Transformer-CNN framework for extracting and fusing global and local features, which better reflects the distinct modality-specific and modality-shared features.&lt;/li&gt;
+&lt;li&gt;We refine the CNN and Transformer blocks for a better adaptation to the MMIF task. Specifically, we are the first to utilize the INN blocks for lossless information transmission and the LT blocks for trading-off fusion quality and computational cost.&lt;/li&gt;
+&lt;li&gt;We propose a correlation-driven decomposition loss function to enforce the modality shared/specific feature decomposition, which makes the cross-modality base features correlated while decorrelates the detailed high-frequency features in different modalities.&lt;/li&gt;
+&lt;li&gt;Our method achieves leading image fusion performance for both IVF and MIF. We also present a unified measurement benchmark to justify how the IVF fusion im- ages facilitate downstream MM object detection and semantic segmentation tasks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Our assumption is that, in the MMIF task, the input features of the two modalities are correlated at low frequencies, representing the modality-shared information, while the high-frequency feature is irrelevant and represents the unique characteristics of the respective modalities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/cvpr/2023_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;Our CDDFuse contains four modules, i.e., a dual-branch encoder for feature extraction and decomposition, a decoder for reconstructing original images (in training stage
+I) or generating fusion images (in training stage II), and the base/detail fusion layer to fuse the different frequency features, respectively. Within the dual-branch encoder, Base Transformer Encoder focus low-frequency global cross-modality information while the Detail CNN Encoder focus on high-frequency local inner-modality information. And a correlation-driven decomposition loss function is designed to reduce the local similarity of different modality, enlarge the global similarity of different modality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; DIDFuse@IJCAI&#39;20, Sdnet@IJCV&#39;21, U2fusion@TPAMI&#39;22, Rfnet@CVPR&#39;22, TarD@CVPR&#39;22, DeFusion@ECCV&#39;22, Reconet@ECCV&#39;22&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
+&lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;D-NeRF: Neural Radiance Fields for Dynamic Scenes&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://www.albertpumarola.com/research/D-NeRF/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2021/papers/Pumarola_D-NeRF_Neural_Radiance_Fields_for_Dynamic_Scenes_CVPR_2021_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/albertpumarola/D-NeRF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;NeRF, dynamic scene&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Extend neural radiance fields to a dynamic domain, allowing to reconstruct and render novel images of objects under rigid and non-rigid motions from a single camera moving around the scene.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Proposed a new method: D-NeRF, which is the first approach able to generate a neural implicit representation for non-rigid and time-varying scenes, trained solely on monocular data without the need of 3D ground-truth supervision nor a multi-view camera setting.&lt;/li&gt;
+&lt;li&gt;Sufficient experiments were done to demonstrate the effectiveness of proposed approach on scenes with objects under rigid, articulated and non-rigid motions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Considering time as an additional input to the system, so we could split the learning process in two main stages: one that encodes the scene into a canon- ical space and another that maps this canonical representation into the deformed scene at a particular time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/cvpr/2021_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;D-NeRF consists of two main neural network modules, &lt;em&gt;Canonical Network&lt;/em&gt; and &lt;em&gt;Deformation Network&lt;/em&gt;, which parameterize the mappings $Ψ_t$(from point&amp;rsquo;s position in time-varying scene to point&amp;rsquo;s position in canonical scene), $Ψ_x$(from point&amp;rsquo;s position &amp;amp; viewing direction to emitted color &amp;amp; volume density).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; NeRF@ECCV&#39;20, T-NeRF(Time-conditioned NeRF)@This paper&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

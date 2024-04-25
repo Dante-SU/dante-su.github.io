@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wsl | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/wsl/</link>
+      <atom:link href="https://dante-su.github.io/tag/wsl/index.xml" rel="self" type="application/rss+xml" />
+    <description>wsl</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 20 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>wsl</title>
+      <link>https://dante-su.github.io/tag/wsl/</link>
+    </image>
+    
+    <item>
+      <title>WSL</title>
+      <link>https://dante-su.github.io/notes/shell/wsl/</link>
+      <pubDate>Wed, 20 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/wsl/</guid>
+      <description>&lt;p&gt;Installation method and usage of WSL on Windows&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/wsl.jpeg&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#see-the-installed-linux-distribution&#34;&gt;See the installed Linux distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#see-the-available-versions-to-install&#34;&gt;See the available versions to install&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#install-multipie-linux-distribution&#34;&gt;Install multipie Linux distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#import-the-distribution&#34;&gt;Import the distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#export-the-distribution&#34;&gt;Export the distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#remove-the-distribution&#34;&gt;Remove the distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#change-default-linux-distribution&#34;&gt;Change default Linux distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#shut-down-all-the-distributions&#34;&gt;Shut down all the distributions&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#shut-down-specific-distribution&#34;&gt;Shut down specific distribution&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-wsl&#34;&gt;Update wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-the-status-of-wsl&#34;&gt;Check the status of wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-the-version-of-wsl&#34;&gt;Check the version of wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#check-ip-address&#34;&gt;Check IP address&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#open-help-menu&#34;&gt;Open help menu&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#start-up-from-homeuser&#34;&gt;Start up from /home/user&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#exit-the-running-wsl&#34;&gt;Exit the running wsl&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#open-vs-code-via-wsl&#34;&gt;Open VS Code via WSL&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#adjust-wsl-version&#34;&gt;Adjust wsl version&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#mount-the-disk&#34;&gt;Mount the disk&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#unmount-the-disk&#34;&gt;Unmount the disk&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#map-usb-device-from-windows-to-linux&#34;&gt;Map USB device from Windows to Linux&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-windows&#34;&gt;Installation on windows&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#installation-on-liunx&#34;&gt;Installation on Liunx&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#usage-1&#34;&gt;Usage&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install-multipie-wsl-distributions&#34;&gt;Install multipie wsl distributions&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install-cuda-in-wsl&#34;&gt;Install &lt;code&gt;cuda&lt;/code&gt; in wsl&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/windows/wsl/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mircosoft official document&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wsl --install&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;see-the-installed-linux-distribution&#34;&gt;See the installed Linux distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --list --verbose&lt;/code&gt;
+or
+&lt;code&gt;wsl -l -v&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;see-the-available-versions-to-install&#34;&gt;See the available versions to install&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --list --online&lt;/code&gt;
+or
+&lt;code&gt;wsl -l -v&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;install-multipie-linux-distribution&#34;&gt;Install multipie Linux distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --install -d &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;import-the-distribution&#34;&gt;Import the distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --import &amp;lt;distribution_name&amp;gt; &amp;lt;install_location&amp;gt; &amp;lt;file_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;export-the-distribution&#34;&gt;Export the distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --export &amp;lt;distribution_name&amp;gt; &amp;lt;file_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;remove-the-distribution&#34;&gt;Remove the distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --unregister &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;change-default-linux-distribution&#34;&gt;Change default Linux distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --set-default &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shut-down-all-the-distributions&#34;&gt;Shut down all the distributions&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --shutdown&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;shut-down-specific-distribution&#34;&gt;Shut down specific distribution&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --terminate &amp;lt;distribution_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;update-wsl&#34;&gt;Update wsl&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --update&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-the-status-of-wsl&#34;&gt;Check the status of wsl&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --status&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-the-version-of-wsl&#34;&gt;Check the version of wsl&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --version&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;check-ip-address&#34;&gt;Check IP address&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;The address of Linux&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wsl hostname -i&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The address of Windows&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;cat /etc/resolv.conf&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;open-help-menu&#34;&gt;Open help menu&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --help&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;start-up-from-homeuser&#34;&gt;Start up from /home/user&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl ~&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;exit-the-running-wsl&#34;&gt;Exit the running wsl&lt;/h3&gt;
+&lt;p&gt;Press &lt;code&gt;Ctrl&lt;/code&gt;+&lt;code&gt;A&lt;/code&gt;+&lt;code&gt;D&lt;/code&gt; at the same time&lt;/p&gt;
+&lt;h3 id=&#34;open-vs-code-via-wsl&#34;&gt;Open VS Code via WSL&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;code .&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;adjust-wsl-version&#34;&gt;Adjust wsl version&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --set-version &amp;lt;distribution_name&amp;gt; &amp;lt;version_number&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;version_number&amp;gt;&lt;/code&gt; here is &lt;code&gt;1&lt;/code&gt; or &lt;code&gt;2&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;mount-the-disk&#34;&gt;Mount the disk&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --mount &amp;lt;disk_path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;unmount-the-disk&#34;&gt;Unmount the disk&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;wsl --unmount &amp;lt;disk_path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;map-usb-device-from-windows-to-linux&#34;&gt;Map USB device from Windows to Linux&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/connect-usb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mircosoft Document&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/leiconghe/article/details/123877944&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CSDN link&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;installation-on-windows&#34;&gt;Installation on windows&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open &lt;a href=&#34;https://github.com/dorssel/usbipd-win/releases&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;usbipd-win&lt;/a&gt; and download the up-to-date released &lt;code&gt;.msi&lt;/code&gt; file&lt;/li&gt;
+&lt;li&gt;Install the downloaded file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;installation-on-liunx&#34;&gt;Installation on Liunx&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;sudo apt install linux-tools-generic hwdata&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo update-alternatives --install /usr/local/bin/usbip usbip /usr/lib/linux-tools/*-generic/usbip 20&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;usage-1&#34;&gt;Usage&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Open PowerShell and type in &lt;code&gt;usbipd wsl list&lt;/code&gt; to check all the connected USB device&lt;/li&gt;
+&lt;li&gt;Find the busid of needed device and type &lt;code&gt;usbipd wsl attach --busid &amp;lt;busid&amp;gt;&lt;/code&gt; in PowerShell&lt;/li&gt;
+&lt;li&gt;Open WSL and type in &lt;code&gt;lsusb&lt;/code&gt; to check if the need device has connected to the wsl or not&lt;/li&gt;
+&lt;li&gt;When we need to disconnect the needed device from wsl, type &lt;code&gt;usbipd wsl detach --busid &amp;lt;busid&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;install-multipie-wsl-distributions&#34;&gt;Install multipie wsl distributions&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Install wsl2 with &lt;code&gt;wsl --install&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Open &lt;a href=&#34;https://cloud-images.ubuntu.com/releases/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ubuntu wsl2 images&lt;/a&gt; and download an image of needed version&lt;/li&gt;
+&lt;li&gt;Open PowerShell and type in &lt;code&gt;wsl --import &amp;lt;Distribution Name&amp;gt; &amp;lt;Installation Folder&amp;gt; &amp;lt;Ubuntu WSL2 Image Tarball path&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Type &lt;code&gt;wsl -l -v&lt;/code&gt; to check if the installation is successful or not&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt; wsl -d &amp;lt;distribution_name&amp;gt;&lt;/code&gt; to login the distribution we just installed&lt;/li&gt;
+&lt;li&gt;Type in &lt;code&gt;NEW_USER=&amp;lt;USERNAME&amp;gt;&lt;/code&gt; to create a new account&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;useradd -m -G sudo -s /bin/bash &amp;quot;$NEW_USER&amp;quot;&lt;/code&gt; + &lt;code&gt;passwd &amp;quot;$NEW_USER&amp;quot;&lt;/code&gt; and set a password for our new account&lt;/li&gt;
+&lt;li&gt;Input the code below to set our new user as the default one&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tee /etc/wsl.conf &lt;span class=&#34;s&#34;&gt;&amp;lt;&amp;lt;_EOF
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    [user]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    default=${NEW_USER}
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;    _EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;9&#34;&gt;
+&lt;li&gt;Press &lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;A&lt;/code&gt; + &lt;code&gt;D&lt;/code&gt; at the same time to exit the distribution&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;wsl --terminate &amp;lt;distribution_name&lt;/code&gt; and &lt;code&gt;wsl -d &amp;lt;distribution_name&amp;gt;&lt;/code&gt; to restart the installed distribution&lt;/li&gt;
+&lt;li&gt;And find that we succeed in creating a new distribution&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;install-cuda-in-wsl&#34;&gt;Install &lt;code&gt;cuda&lt;/code&gt; in wsl&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://developer.nvidia.com/cuda-downloads?target_os=Linux&amp;amp;target_arch=x86_64&amp;amp;Distribution=WSL-Ubuntu&amp;amp;target_version=2.0&amp;amp;target_type=deb_local&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NVIDIA Documents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo mv cuda-wsl-ubuntu.pin /etc/apt/preferences.d/cuda-repository-pin-600&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda-repo-wsl-ubuntu-12-2-local_12.2.2-1_amd64.deb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo dpkg -i cuda-repo-wsl-ubuntu-12-2-local_12.2.2-1_amd64.deb&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo cp /var/cuda-repo-wsl-ubuntu-12-2-local/cuda-*-keyring.gpg /usr/share/keyrings/&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get -y install cuda&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo ln -s /usr/lib/wsl/lib/libcuda.so.1 /usr/local/cuda/lib64/libcuda.so&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/docker/</link>
+      <atom:link href="https://dante-su.github.io/tag/docker/index.xml" rel="self" type="application/rss+xml" />
+    <description>Docker</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>Docker</title>
+      <link>https://dante-su.github.io/tag/docker/</link>
+    </image>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://dante-su.github.io/notes/shell/docker/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/shell/docker/</guid>
+      <description>&lt;p&gt;Some documents of docker&lt;/p&gt;
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;../img/docker.png&#34; alt=&#34;&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;details class=&#34;toc-inpage d-print-none d-xl-none &#34; open&gt;
+  &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
+  &lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#updating&#34;&gt;Updating&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#bugs-record&#34;&gt;Bugs record&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#opencv-importerror&#34;&gt;Opencv ImportError&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;/details&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+&lt;h2 id=&#34;bugs-record&#34;&gt;Bugs record&lt;/h2&gt;
+&lt;h3 id=&#34;opencv-importerror&#34;&gt;Opencv ImportError&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ImportError: libGL.so.1: cannot open shared object file: No such file or directory
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you install opencv by &lt;code&gt;pip install opencv-python&lt;/code&gt; before, you could use the below method.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip uninstall opencv-python&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install opencv-python-headless&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

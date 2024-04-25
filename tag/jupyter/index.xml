@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jupyter | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/jupyter/</link>
+      <atom:link href="https://dante-su.github.io/tag/jupyter/index.xml" rel="self" type="application/rss+xml" />
+    <description>jupyter</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>jupyter</title>
+      <link>https://dante-su.github.io/tag/jupyter/</link>
+    </image>
+    
+    <item>
+      <title>Jupyter</title>
+      <link>https://dante-su.github.io/notes/python/jupyter/</link>
+      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/python/jupyter/</guid>
+      <description>&lt;p&gt;Intro of Jupyter notebook&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;pip install jupyter notebook&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;way-to-use-jupyter-notebook-from-remote-server-on-local-device&#34;&gt;Way to use Jupyter notebook from remote server on local device&lt;/h2&gt;
+&lt;h3 id=&#34;on-server&#34;&gt;On server&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;conda activate your_env_name&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install jupyter notebook&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;jupyter notebook --generate-config&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ipython&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;from notebook.auth import passwd&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;passwd()&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then input the password you like and verify it by secondary input. After that, it will generate a hash file named &amp;lsquo;jupyter_notebook_config.json&amp;rsquo;. Open it and copy the hash code to your clipboard.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;nano ~/.jupyter/jupyter_notebook_config.py&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;(If &amp;rsquo;nano&amp;rsquo; does NOT exist, use &amp;lsquo;vim&amp;rsquo; instead)&lt;/p&gt;
+&lt;p&gt;Add the following codes to the end of just opened &amp;lsquo;jupyter_notebook_config.py&amp;rsquo; and be aware to substitute the &amp;lsquo;password&amp;rsquo; with your generated one in your clipboard.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.ip &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;*&amp;#39;&lt;/span&gt;                     &lt;span class=&#34;c1&#34;&gt;# 允许访问此服务器的 IP，星号表示任意 IP&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.password &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;argon2:$argon2id$v=19$m=10240,t=10,p=8$QplvWXtYUtp4TlXS1T1urQ$xulqNxrIqlJmCPrBHd7nGA&amp;#39;&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# 之前生成的密码 hash 字串, 粘贴进去&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.open_browser &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; False         &lt;span class=&#34;c1&#34;&gt;# 运行时不打开本机浏览器&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.port &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;m&#34;&gt;8890&lt;/span&gt;                  &lt;span class=&#34;c1&#34;&gt;# 使用的端口，随意设置，但是要记得你设定的这个端口&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.enable_mathjax &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; True        &lt;span class=&#34;c1&#34;&gt;# 启用 MathJax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.allow_remote_access &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; True   &lt;span class=&#34;c1&#34;&gt;#允许远程访问&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;c.NotebookApp.allow_root &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; True
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;After above all done, remember the port you set, input the below command to terminal and run. (It could also run in a window generating by &amp;lsquo;screen&amp;rsquo; command)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;jupyter notebook&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;on-local-device&#34;&gt;On local device&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ssh -L &amp;lt;local_port&amp;gt;:localhost:&amp;lt;remote_port&amp;gt; user_name@server_ip -p server_port&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;(&amp;lt;local_port&amp;gt; and &amp;lt;remote_port&amp;gt; could be set as you wish, e.g. 8890 as a default choice)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;jupyter notebook&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Then open the browser and open &lt;code&gt;localhost:&amp;lt;local_port&amp;gt;&lt;/code&gt;, e.g. &lt;code&gt;localhost:8890&lt;/code&gt;. Input the password you set and you could use jupyter notebook from remote server on your local device.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>📜 Paper reading | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/notes/paper_reading/</link>
+      <atom:link href="https://dante-su.github.io/notes/paper_reading/index.xml" rel="self" type="application/rss+xml" />
+    <description>📜 Paper reading</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/notes/paper_reading/featured.jpeg</url>
+      <title>📜 Paper reading</title>
+      <link>https://dante-su.github.io/notes/paper_reading/</link>
+    </image>
+    
+    <item>
+      <title>CVPR</title>
+      <link>https://dante-su.github.io/notes/paper_reading/cvpr/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/cvpr/</guid>
+      <description>&lt;p&gt;Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition&lt;/p&gt;
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2023/papers/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/Zhaozixiang1228/MMIF-CDDFuse&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;multi-modality, image fusion, dual branch feature decomposition&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Render fused images that maintain the merits of different modalities, e.g., functional highlight and detailed textures.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;We propose a dual-branch Transformer-CNN framework for extracting and fusing global and local features, which better reflects the distinct modality-specific and modality-shared features.&lt;/li&gt;
+&lt;li&gt;We refine the CNN and Transformer blocks for a better adaptation to the MMIF task. Specifically, we are the first to utilize the INN blocks for lossless information transmission and the LT blocks for trading-off fusion quality and computational cost.&lt;/li&gt;
+&lt;li&gt;We propose a correlation-driven decomposition loss function to enforce the modality shared/specific feature decomposition, which makes the cross-modality base features correlated while decorrelates the detailed high-frequency features in different modalities.&lt;/li&gt;
+&lt;li&gt;Our method achieves leading image fusion performance for both IVF and MIF. We also present a unified measurement benchmark to justify how the IVF fusion im- ages facilitate downstream MM object detection and semantic segmentation tasks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Our assumption is that, in the MMIF task, the input features of the two modalities are correlated at low frequencies, representing the modality-shared information, while the high-frequency feature is irrelevant and represents the unique characteristics of the respective modalities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/cvpr/2023_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;Our CDDFuse contains four modules, i.e., a dual-branch encoder for feature extraction and decomposition, a decoder for reconstructing original images (in training stage
+I) or generating fusion images (in training stage II), and the base/detail fusion layer to fuse the different frequency features, respectively. Within the dual-branch encoder, Base Transformer Encoder focus low-frequency global cross-modality information while the Detail CNN Encoder focus on high-frequency local inner-modality information. And a correlation-driven decomposition loss function is designed to reduce the local similarity of different modality, enlarge the global similarity of different modality.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; DIDFuse@IJCAI&#39;20, Sdnet@IJCV&#39;21, U2fusion@TPAMI&#39;22, Rfnet@CVPR&#39;22, TarD@CVPR&#39;22, DeFusion@ECCV&#39;22, Reconet@ECCV&#39;22&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
+&lt;h2 id=&#34;2021&#34;&gt;2021&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;D-NeRF: Neural Radiance Fields for Dynamic Scenes&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://www.albertpumarola.com/research/D-NeRF/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://openaccess.thecvf.com/content/CVPR2021/papers/Pumarola_D-NeRF_Neural_Radiance_Fields_for_Dynamic_Scenes_CVPR_2021_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/albertpumarola/D-NeRF&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;NeRF, dynamic scene&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Extend neural radiance fields to a dynamic domain, allowing to reconstruct and render novel images of objects under rigid and non-rigid motions from a single camera moving around the scene.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Proposed a new method: D-NeRF, which is the first approach able to generate a neural implicit representation for non-rigid and time-varying scenes, trained solely on monocular data without the need of 3D ground-truth supervision nor a multi-view camera setting.&lt;/li&gt;
+&lt;li&gt;Sufficient experiments were done to demonstrate the effectiveness of proposed approach on scenes with objects under rigid, articulated and non-rigid motions.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Considering time as an additional input to the system, so we could split the learning process in two main stages: one that encodes the scene into a canon- ical space and another that maps this canonical representation into the deformed scene at a particular time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/cvpr/2021_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;D-NeRF consists of two main neural network modules, &lt;em&gt;Canonical Network&lt;/em&gt; and &lt;em&gt;Deformation Network&lt;/em&gt;, which parameterize the mappings $Ψ_t$(from point&amp;rsquo;s position in time-varying scene to point&amp;rsquo;s position in canonical scene), $Ψ_x$(from point&amp;rsquo;s position &amp;amp; viewing direction to emitted color &amp;amp; volume density).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; NeRF@ECCV&#39;20, T-NeRF(Time-conditioned NeRF)@This paper&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>ICCV</title>
+      <link>https://dante-su.github.io/notes/paper_reading/iccv/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/iccv/</guid>
+      <description>&lt;p&gt;Proceedings of the IEEE/CVF International Conference on Computer Vision&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Task-Oriented Multi-Modal Mutual Leaning for Vision-Language Models&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://openaccess.thecvf.com/content/ICCV2023/papers/Long_Task-Oriented_Multi-Modal_Mutual_Leaning_for_Vision-Language_Models_ICCV_2023_paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; **&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/iccv/2023_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>ECCV</title>
+      <link>https://dante-su.github.io/notes/paper_reading/eccv/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/eccv/</guid>
+      <description>&lt;p&gt;European Conference on Computer Vision&lt;/p&gt;
+&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
+&lt;h2 id=&#34;2020&#34;&gt;2020&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://www.matthewtancik.com/nerf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/bmild/nerf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code-TensorFlow&lt;/a&gt; | &lt;a href=&#34;https://github.com/yenchenlin/nerf-pytorch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code-PyTorch&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;NeRF, image synthesis, volume rendering&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Propose Neural Radiance Field to synthesize novel views of complex scenes by optimizing an underlying continuous volumetric scene function using a sparse set of input views and MLP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An approach for representing continuous scenes with complex geometry and materials as 5D neural radiance fields, parameterized as basic MLP networks.&lt;/li&gt;
+&lt;li&gt;A differentiable rendering procedure based on classical volume rendering techniques, which we use to optimize these representations from standard RGB images. This includes a hierarchical sampling strategy to allocate the MLP’s capacity towards space with visible scene content.&lt;/li&gt;
+&lt;li&gt;A positional encoding to map each input 5D coordinate into a higher dimensional space, which enables us to successfully optimize neural radiance fields to represent high-frequency scene content.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Using MLPs to represent objects and scenes as continuous functions is of many benefits. As volume rendering is naturally differentiable, if only using MLPs to memorize and calculate the color and volume density of emitted radiance, the architecture of MLP won&amp;rsquo;t be too complex, so the performance would be superior.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/eccv/2020_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;NeRF takes x-y-z location in Cartesian coordinates of queried points and viewing direction as input. After passing a pure MLP, NeRF output the color of $RGB\alpha$ and its volume density. And then, classical volume rendering techniques will be applied to accumulate those colors and densities into a 2D image.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; LLFF@SIGGRAPH&#39;19, SRN@NeurIPS&#39;19, NV@SIGGRAPH&#39;19&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+    <item>
+      <title>SIGGRAPH</title>
+      <link>https://dante-su.github.io/notes/paper_reading/siggraph/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/siggraph/</guid>
+      <description>&lt;p&gt;Proceedings of ACM SIGGRAPH（Asia）/ ACM Transactions on Graphics&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>NeurIPS</title>
+      <link>https://dante-su.github.io/notes/paper_reading/neurips/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/neurips/</guid>
+      <description>&lt;p&gt;The Annual Conference on Neural Information Processing System&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>ArXiv</title>
+      <link>https://dante-su.github.io/notes/paper_reading/arxiv/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/arxiv/</guid>
+      <description>&lt;p&gt;ArXiv&lt;/p&gt;
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Others</title>
+      <link>https://dante-su.github.io/notes/paper_reading/others/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/others/</guid>
+      <description>&lt;p&gt;Other Conference/Journal&lt;/p&gt;
+&lt;h2 id=&#34;acm-mm&#34;&gt;ACM MM&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Proceedings of the ACM International Conference on Multimedia&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2023&#34;&gt;2023&lt;/h3&gt;
+&lt;h2 id=&#34;miccai&#34;&gt;MICCAI&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;International Conference in Medical Image Computing and Computer-Assisted Intervention&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;2022&#34;&gt;2022&lt;/h3&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Neural Rendering for Stereo 3D Reconstruction of Deformable Tissues in Robotic Surgery&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://med-air.github.io/EndoNeRF/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2206.15255.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/med-air/EndoNeRF/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;3D Reconstruction, Neural Rendering, Robotic Surgery&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/others/2022_2.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; Cetin et al.@STACOM&#39;17,&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h2 id=&#34;frontiers-of-information-technology--electronic-engineering&#34;&gt;Frontiers of Information Technology &amp;amp; Electronic Engineering&lt;/h2&gt;
+&lt;h3 id=&#34;2022-1&#34;&gt;2022&lt;/h3&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Visual recognition of cardiac pathology based on 3D parametric model reconstruction&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://www.jzus.zju.edu.cn/article.php?doi=10.1631/FITEE.2200102&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://link.springer.com/content/pdf/10.1631/FITEE.2200102.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;Cardiac, 3D parametric model, Cardiac pathology diagnosis&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Construct and use 3D parametric model as an augmentation to generate heart data for better training a classifier of cardiac pathology.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Construct 3D cardiac parametric model for each pathology and apply cardiac visual knowledge of different cardiac pathologies as parameters to generate reasonable 3D cardiac model.&lt;/li&gt;
+&lt;li&gt;Sample 3D cardiac data with changing parameters of 3D cardiac parametric model as an augmentation to avoid class imbalance.&lt;/li&gt;
+&lt;li&gt;Exract cardiac disease-based features and use it to make prediction.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Almost all the existing method use 2D slices of heart to extract features and make prediction. However, these 2D slices are collected from 3D imaging data, so using 2D slices may largely ignore geometric information characterizing adjacency in the 3D neighbourhood. Besides, after constructing 3D cardiac parametric model, generating reasonable cardiac data by changing the parameters of 3D cardiac model is a good way as data augmentation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/others/2022_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;First, they reconstruct 3D model from labeled 2D images, based on which they employ Statistical Shape Model(SSM) to obtain 3D cardiac parametric model. Then, after using PCA to determine the bases of the category, they use parameter variation to make prediction. Besides above, they could also random sample the parameters to generate reasonable cardiac data as an augmentation to train a better model for cardiac pathology&amp;rsquo;s classification.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; Cetin et al.@STACOM&#39;17, Isensee et al.@STACOM&#39;17, Khened et al.@STACOM&#39;17, Wolterink@STACOM‘17, Zheng et al.@MedIA&#39;19, Chang and Jun@NeuroComputing&#39;20, Ammar et al.@Comput Med Imag Graph&#39;21, Thermos@MICCAI&#39;21&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

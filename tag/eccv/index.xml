@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eccv | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/eccv/</link>
+      <atom:link href="https://dante-su.github.io/tag/eccv/index.xml" rel="self" type="application/rss+xml" />
+    <description>eccv</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>eccv</title>
+      <link>https://dante-su.github.io/tag/eccv/</link>
+    </image>
+    
+    <item>
+      <title>ECCV</title>
+      <link>https://dante-su.github.io/notes/paper_reading/eccv/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/paper_reading/eccv/</guid>
+      <description>&lt;p&gt;European Conference on Computer Vision&lt;/p&gt;
+&lt;h2 id=&#34;2022&#34;&gt;2022&lt;/h2&gt;
+&lt;h2 id=&#34;2020&#34;&gt;2020&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://www.matthewtancik.com/nerf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123460392.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/bmild/nerf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code-TensorFlow&lt;/a&gt; | &lt;a href=&#34;https://github.com/yenchenlin/nerf-pytorch&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code-PyTorch&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;NeRF, image synthesis, volume rendering&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt; Propose Neural Radiance Field to synthesize novel views of complex scenes by optimizing an underlying continuous volumetric scene function using a sparse set of input views and MLP.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;An approach for representing continuous scenes with complex geometry and materials as 5D neural radiance fields, parameterized as basic MLP networks.&lt;/li&gt;
+&lt;li&gt;A differentiable rendering procedure based on classical volume rendering techniques, which we use to optimize these representations from standard RGB images. This includes a hierarchical sampling strategy to allocate the MLP’s capacity towards space with visible scene content.&lt;/li&gt;
+&lt;li&gt;A positional encoding to map each input 5D coordinate into a higher dimensional space, which enables us to successfully optimize neural radiance fields to represent high-frequency scene content.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt; Using MLPs to represent objects and scenes as continuous functions is of many benefits. As volume rendering is naturally differentiable, if only using MLPs to memorize and calculate the color and volume density of emitted radiance, the architecture of MLP won&amp;rsquo;t be too complex, so the performance would be superior.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/eccv/2020_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;NeRF takes x-y-z location in Cartesian coordinates of queried points and viewing direction as input. After passing a pure MLP, NeRF output the color of $RGB\alpha$ and its volume density. And then, classical volume rendering techniques will be applied to accumulate those colors and densities into a 2D image.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt; LLFF@SIGGRAPH&#39;19, SRN@NeurIPS&#39;19, NV@SIGGRAPH&#39;19&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

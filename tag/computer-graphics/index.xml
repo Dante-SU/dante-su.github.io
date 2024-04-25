@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Graphics | Dante&#39;s notebook</title>
+    <link>https://dante-su.github.io/tag/computer-graphics/</link>
+      <atom:link href="https://dante-su.github.io/tag/computer-graphics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Graphics</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
+      <title>Computer Graphics</title>
+      <link>https://dante-su.github.io/tag/computer-graphics/</link>
+    </image>
+    
+    <item>
+      <title>Math for Computer Graphics</title>
+      <link>https://dante-su.github.io/notes/computer_graphics/math/</link>
+      <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/computer_graphics/math/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Greg Turk, August 2019&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Twenty-two years ago, I wrote an essay about what math is important for computer graphics. That document is now fairly dated, and I have decided that it is time to re-visit this question. I am writing this essay in part for college students who want to know what courses may be relevant to the study of computer graphics. For this reason, I will remark on the departments that are likely to offer courses in a given topic. Hopefully it is obvious that you do not need to be a college student to read this essay!&lt;/p&gt;
+&lt;p&gt;Computer graphics draws upon many different areas of mathematics for tools that help accomplish various computational tasks. For as long as you want to pursue computer graphics, you should also plan to continue to learn more mathematical techniques. There are very few corners of computer graphics that do not make use of some form of mathematics.&lt;/p&gt;
+&lt;p&gt;The most important point that I want to convey in this essay is the following. The mathematical topics that are often the most useful to graphics are so-called Numerical Methods. These are the tools that take abstract mathematical concepts (differentiation, integration, matrix inversion, etc.) and turn them into concrete algorithms that we can use to find numerical results to the problem at hand. When you first learn in calculus class how to differentiate and integrate, you start by doing this symbolically. (For example, the derivative of the sine function is cosine.) In graphics, we need to be able to translate the symbolic answer to a given problem into a numerical technique that can be implemented on the computer. For this reason, it is most often the applied mathematics courses (not those in pure mathematics)that are the most relevant to graphics.&lt;/p&gt;
+&lt;p&gt;The numerical methods that are useful for graphics are frequently the same tools that various engineers use. This means that sometimes the most useful courses for graphics may not be in the math department. They may instead be found in other departments such as electrical engineering or mechanical engineering.&lt;/p&gt;
+&lt;p&gt;In this essay I am going to refer the four core areas of computer graphics. These areas are:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Modeling - creating 3D shape descriptions of objects&lt;/li&gt;
+&lt;li&gt;Animation - making objects move&lt;/li&gt;
+&lt;li&gt;Image Synthesis, also called Rendering - making pictures from 3D shapes&lt;/li&gt;
+&lt;li&gt;Image and Video Manipulation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I am going to visit the mathematics useful to graphics in an order that (approximately) lines up with the order of the four topics listed above. Note that modeling and animation often make use of similar mathematics. The same is true of the other pair — image synthesis and image/video manipulation often use similar math tools. Before I visit any of these topics, however, I am going to start with the math needed for a first course in graphics.&lt;/p&gt;
+&lt;h2 id=&#34;mathematical-basics-linear-algebra-and-trigonometry&#34;&gt;Mathematical Basics: Linear Algebra and Trigonometry&lt;/h2&gt;
+&lt;p&gt;The most important topics for starting out in graphics are Linear Algebra and Trigonometry. We usually describe the location of a 3D graphics object according to its x, y and z coordinates. We can then apply the following operations on a 3D object: translate (move), scale (change size), and rotate. Translation and scale are accomplished using addition and multiplication, respectively. Rotation is done using sine and cosine, hence the need for trigonometry. The x, y and z coordinates of an object can be conveniently represented as a 3D vector, and the translate, scale and rotate operations can be described as multiplication by a matrix (of size 3x3 or 4x4). This is one of the reasons that a background in linear algebra is important for starting in graphics. Several other concepts from linear algebra also are useful, including matrix inversion, dot product, and cross product.&lt;/p&gt;
+&lt;h2 id=&#34;multivariable-calculus&#34;&gt;Multivariable Calculus&lt;/h2&gt;
+&lt;p&gt;Many of the more advanced topics in computer graphics make use of the tools of Multivariable Calculus. These topics are usually saved for a second or third course in calculus. Many of the representations that are used in computer graphics are functions of multiple variables, and thus require tools to reason about derivatives and integrals of such functions. If you want to study computer graphics beyond a first course in the area, I strongly recommend taking the full sequence of calculus classes that your school offers.&lt;/p&gt;
+&lt;h2 id=&#34;differential-geometry&#34;&gt;Differential Geometry&lt;/h2&gt;
+&lt;p&gt;Differential Geometry is the measurement of properties of curves and surfaces, and these techniques are very important for modeling in graphics. Common graphics-related tasks that fall under this domain include determining tangents, measuring curvature, evaluating lengths and areas, and finding shortest paths. Often differential geometry techniques are combined with optimization methods (more on this below). Fortunately, many math departments offer an undergraduate course in differential geometry.&lt;/p&gt;
+&lt;h2 id=&#34;computational-geometry&#34;&gt;Computational Geometry&lt;/h2&gt;
+&lt;p&gt;Computational Geometry is the study of algorithms that efficiently and robustly solve geometric problems. Some common problems in this area include find convex hulls, finding nearest neighbors to a given query point, determining the intersection between two surfaces,and triangulating a polygon. The tools of computational geometry are frequently used in both modeling and animation (e.g for collision detection). Strictly speaking, computational geometry is a branch of computer science theory, not mathematics. You are more likely to find a course in computational geometry in a computer science department rather than in a math department.&lt;/p&gt;
+&lt;h2 id=&#34;numerical-linear-algebra&#34;&gt;Numerical Linear Algebra&lt;/h2&gt;
+&lt;p&gt;The one topic in applied mathematics that is perhaps the most important across a wide array of graphics problems is Numerical Linear Algebra. Usually the study of numerical methods for linear algebra is typically not covered in a first course in linear algebra. The linear algebra problems that arise from computer graphics often require setting up and solving large linear systems of equations, with very large matrices and thousands or tens of thousands of unknowns. The simple methods that you learn for solving matrix equations in a first linear algebra course do not work for such problems. Instead, you need to learn to describe the linear systems in a sparse matrix form (much more memory efficient) and learn about iterative techniques for solving such systems. Some of these methods used include Jacobi, Gauss-Seidel, and the conjugate gradient method. Occasionally you may run into other related numerical problems such as finding eigenvectors and eigenvalues.&lt;/p&gt;
+&lt;h2 id=&#34;optimization&#34;&gt;Optimization&lt;/h2&gt;
+&lt;p&gt;Many problems in both modeling and animation describe a given task as an Optimization problem. Say we wish to create a smooth object that passes
+through a given set of points. First, the object in question is represented numerically, such as a collection of triangles that describes the shape of the surface. Next, we represent a desired quality of the object numerically, such as the smoothness of the surface. The problem is now to find the positions of the triangles’ vertices that maximizes the smoothness measure, while still passing through the given set of points. Such a minimization problem is described as a large linear system of equations, and iterative numerical techniques are used to solve such a system.&lt;/p&gt;
+&lt;h2 id=&#34;partial-differential-equations&#34;&gt;Partial Differential Equations&lt;/h2&gt;
+&lt;p&gt;Animation of materials such as water, rubber and snow require numerical methods for Partial Differential Equations (PDE’s). The equations that arise from these problems include diffusion equations, transport equations, Laplace equations and Poisson equations. These are often solved by turning the problem into a large linear system of equations, or formulating the problem as one of constrained optimization. You are unlikely to learn much about these techniques in a calculus class. The techniques for solving such problems are more often studied in engineering courses and numerical methods courses. A well-known method for solving some of these problems is know as the Finite Element Method (FEM). Although it is by no means the only method for solving some of these problems, it is one of the more important techniques, and there are often courses devoted to this approach. Not only are these numerical techniques important for computer animation, they also arise frequently in 3D modeling problems.&lt;/p&gt;
+&lt;h2 id=&#34;ordinary-differential-equations&#34;&gt;Ordinary Differential Equations&lt;/h2&gt;
+&lt;p&gt;The animation of characters (people, animals, robots) is often performed by representing the character as a collection of rigid objects that are connected by joints. For example, a person’s arm can be described as an upper arm segment, a lower arm segment, and an elbow joint that connects these two segments. The motion of a character described in this way is governed by the numerical integration of Ordinary Differential Equations (ODE’s). Alas, a typical course in ODE’s will most likely give you very little in the way of help for this, because such courses are heavy on symbolic solutions instead of numerical solutions. A course on numerical methods is much more likely to discuss the relevant numerical methods (forward Euler, midpoint method, implicit integration, Runge-Kutta, etc.)&lt;/p&gt;
+&lt;h2 id=&#34;signal-processing&#34;&gt;Signal Processing&lt;/h2&gt;
+&lt;p&gt;Many areas in image synthesis and image manipulation touch upon signal processing. Indeed, these techniques are sometimes also relevant to modeling and animation as well. We usually represent an image as 2D grid of pixels, where each pixel is given a color. This regular array of color values can be thought of as a digital representation of a 2D function, and this is a “signal”. We can perform operations on our image (the signal) such as contrast modification, blurring, warping, sharpening, and so on. The shape of a surface or the motion of an animated character can also be thought of as a signal, making these techniques relevant to modeling and animation as well. Often the best way to analyze and process signals is to convert them into another representation by using tools such as the Fourier transform. Signal processing is heavily used in the study of electronics and audio, so courses on this topic are often taught in an electrical engineering department.&lt;/p&gt;
+&lt;h2 id=&#34;monte-carlo-integration-methods&#34;&gt;Monte Carlo Integration Methods&lt;/h2&gt;
+&lt;p&gt;While the problems in animation usually lead to differential equations, those of image synthesis are usually integral equations. The amount of light that reaches a light-detecting element in a camera or our eye is the sum of all the light coming from all different directions, and that light may have come from several different light sources and bounced off a number of different materials. Such as sum of light paths can be written as an integral equation. While you may learn of basic quadrature methods for calculating integrals in an introductory calculus class, it turns out that such methods do not work well for light transport problems. Instead, random sampling of many different light paths is a much better way to go. These techniques are referred to as Monte Carlo Methods, and these randomization techniques were named for the resort of the same name where gambling casinos are big business. Unfortunately, courses on Monte Carlo techniques are pretty rare.&lt;/p&gt;
+&lt;h2 id=&#34;the-rise-of-machine-learning&#34;&gt;The Rise of Machine Learning&lt;/h2&gt;
+&lt;p&gt;If you are studying computer science, you are undoubtably aware that the area of machine learning has recently become huge. (I am writing this in 2019.) In particular, the methods of deep neural networks have seen an explosion of activity. It probably comes as no surprise that deep learning has had a large impact in computer graphics. Neural networks are used for numerous graphics tasks, including: where to shoot rays for better lighting calculations, denoising images, controlling the motion of virtual characters, classifying 3D models, and for image editing. If you want to study graphics, it is important to learn the tools of machine learning, and especially to learn about neural networks. Note that machine learning is closely related the mathematical topics of probability and statistics.&lt;/p&gt;
+&lt;h2 id=&#34;off-the-beaten-path&#34;&gt;Off The Beaten Path&lt;/h2&gt;
+&lt;p&gt;Some topics in mathematics are not as commonly used in graphics as those that I have mentioned above. In the old version of this essay, I said that Topology and Abstract Algebrawere not useful for graphics. Now I have to correct myself.&lt;/p&gt;
+&lt;h2 id=&#34;topology&#34;&gt;Topology&lt;/h2&gt;
+&lt;p&gt;As it turns out, one of my own PhD students, Eugene Zhang, did his dissertation work in computer graphics that drew primarily from the area of topology. He studied how to create and edit vector and tensor fields based on the critical points of the fields. Analyzing the connections between these critical points is very much a problem of topology. His work is not the only such case, and there are several other techniques in graphics that draw heavily upon ideas from topology.&lt;/p&gt;
+&lt;h2 id=&#34;abstract-algebra&#34;&gt;Abstract Algebra&lt;/h2&gt;
+&lt;p&gt;Abstract algebra is the study of objects such as groups, rings and fields. While many of these mathematical constructs are not particularly useful to computer graphics, a researcher named Ken Turkowski pointed out to me that group theory does in fact play an important role in graphics. When we describe the orientation of a 3D object, and when we want to change its orientation, we are using group theory. The space of all 3D orientations is known as the group SO(3), and it turns out this is a fairly counter-intuitive mathematical object. Researchers in graphics have used several different ways of describing elements in this group and operations over these elements, including 3x3 matrices, quaternions, and exponential maps. Describing smooth changes in orientation often leads graphics researchers to study SO(3).&lt;/p&gt;
+&lt;h2 id=&#34;number-theory&#34;&gt;Number Theory&lt;/h2&gt;
+&lt;p&gt;The topic of number theory is the study of the integers, and researchers in this area investigates questions such as the distribution of prime numbers. Famously, Fermat’s Last Theorem (now solved!) is a problem in number theory. The mathematician G. H. Hardy wrote a book entitled “A Mathematician’s Apology”, in which he describes the beauty of pure mathematics. One of the themes of his book is that his own area of expertise, number theory, is a topic that is to be appreciated in and of itself. He goes on to say that number theory really doesn’t have much in the way of practical applications to real-world problems. So far as I know, number theory is not particularly useful in computer graphics. If you choose to study number theory, you should do it for the beauty of the topic and not for any possible application in graphics.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Related papers</title>
+      <link>https://dante-su.github.io/notes/computer_graphics/papers/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/computer_graphics/papers/</guid>
+      <description>&lt;p&gt;Related papers of Computer Graphics&lt;/p&gt;
+&lt;h2 id=&#34;3dv&#34;&gt;3DV&lt;/h2&gt;
+&lt;h3 id=&#34;detailed-human-avatars-from-monocular-video&#34;&gt;Detailed Human Avatars from Monocular Video&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; 3DV&#39;2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1808.01338.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/semantic_human_texture_stitching&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;wacv&#34;&gt;WACV&lt;/h2&gt;
+&lt;h3 id=&#34;smplpix-neural-avatars-from-3d-human-models&#34;&gt;SMPLpix: Neural Avatars from 3D Human Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; WACV&#39;2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ps.is.mpg.de/code/smplpix-neural-avatars-from-3d-human-models&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2008.06872.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/sergeyprokudin/smplpix&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;iccv&#34;&gt;ICCV&lt;/h2&gt;
+&lt;h3 id=&#34;tex2shape&#34;&gt;Tex2shape&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://virtualhumans.mpi-inf.mpg.de/tex2shape/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1904.08645v2.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/tex2shape&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
+&lt;p&gt;Generate 3D human body model with details of garment from an RGB image(without depth information)&lt;/p&gt;
+&lt;h4 id=&#34;motivation&#34;&gt;Motivation&lt;/h4&gt;
+&lt;p&gt;Regression from image pixels directly to 3D mesh displacements is not so good:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ignoring the rich illumination and shading information contained in RGB values&lt;/li&gt;
+&lt;li&gt;inputs and outputs are not aligned&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;novelity&#34;&gt;Novelity&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;propose to regress shape as UV-space displacement and normal map&lt;/li&gt;
+&lt;li&gt;turn a hard full-body shape reconstruction problem into an easier 3D pose-independent image-to-image translation problem&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;cons&#34;&gt;Cons&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;the photo must taken from the front&lt;/li&gt;
+&lt;li&gt;pose is strictly to A pose&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;liquid-warping-gan-a-unified-framework-for-human-motion-imitation-appearance-transfer-and-novel-view-synthesis&#34;&gt;Liquid Warping GAN: A Unified Framework for Human Motion Imitation, Appearance Transfer and Novel View Synthesis&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://svip-lab.github.io/project/impersonator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1909.12224.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/svip-lab/impersonator&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://svip-lab.github.io/dataset/iPER_dataset.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-power-of-points-for-modeling-humans-in-clothing&#34;&gt;The Power of Points for Modeling Humans in Clothing&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICCV&#39;2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://qianlim.github.io/POP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2109.01137.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/qianlim/POP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://pop.is.tue.mpg.de/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;eccv&#34;&gt;ECCV&lt;/h2&gt;
+&lt;h3 id=&#34;keep-it-smpl-automatic-estimation-of-3d-human-pose-and-shape-from-a-single-image&#34;&gt;Keep it SMPL: Automatic Estimation of 3D Human Pose and Shape from a Single Image&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ECCV&#39;2016&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1607.08128.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; or &lt;a href=&#34;https://files.is.tue.mpg.de/black/papers/BogoECCV2016.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/RhythmJnh/TF_SMPL&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;bodynet-volumetric-inference-of-3d-human-bodyshapes&#34;&gt;Bodynet: Volumetric inference of 3D human bodyshapes&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ECCV&#39;2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.di.ens.fr/willow/research/bodynet/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1804.04875.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/gulvarol/bodynet&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cvpr&#34;&gt;CVPR&lt;/h2&gt;
+&lt;h3 id=&#34;video-based-reconstruction-of-3d-people-models&#34;&gt;Video Based Reconstruction of 3D People Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2018&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://vcai.mpi-inf.mpg.de/projects/wxu/VideoAvatar/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/1803.04758.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/videoavatars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://graphics.tu-bs.de/people-snapshot&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;learning-to-reconstruct-people-in-clothing-from-a-single-rgb-camera&#34;&gt;Learning to reconstruct people in clothing from a single RGB camera&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2019&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/pdf/1903.05885.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/thmoa/octopus&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;intro&#34;&gt;Intro&lt;/h4&gt;
+&lt;p&gt;Max Planck Institute for Informatics, Germany&lt;/p&gt;
+&lt;p&gt;Octopus, a learning-based model to infer the personalized 3D shape of people from a few frames (1-8) of a monocular video in which the person is moving with a reconstruction accuracy of 4 to 5mm&lt;/p&gt;
+&lt;h4 id=&#34;human-representation&#34;&gt;Human Representation&lt;/h4&gt;
+&lt;img src=&#39;../img/4.png&#39; style=&#39;zoom:0.25&#39;&gt;
+&lt;p&gt;While D here is free-form deformations&lt;/p&gt;
+&lt;h4 id=&#34;dataset&#34;&gt;Dataset&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;163 scans from renderpeople.com&lt;/li&gt;
+&lt;li&gt;54 from axyzdesign.com&lt;/li&gt;
+&lt;li&gt;1826 scans from Twindom&lt;/li&gt;
+&lt;li&gt;generate synthetic 3D data by non-rigidly registering SMPL+D to each of the scans&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;method&#34;&gt;Method&lt;/h4&gt;
+&lt;img src=&#39;../img/5.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/6.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/7.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;h3 id=&#34;function4d-real-time-human-volumetric-capture-from-very-sparse-consumer-rgbd-sensors&#34;&gt;Function4D: Real-time Human Volumetric Capture from Very Sparse Consumer RGBD Sensors&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2021&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.liuyebin.com/Function4D/Function4D.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2105.01859.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/ytrock/THuman2.0-Dataset&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;high-fidelity-human-avatars-from-a-single-rgb-camera&#34;&gt;High-Fidelity Human Avatars from a Single RGB Camera&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; CVPR&#39;2022&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;http://cic.tju.edu.cn/faculty/likun/projects/HF-Avatar/assets/main.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/hzhao1997/HF-Avatar&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; | &lt;a href=&#34;https://drive.google.com/file/d/1qh1dj5ZoUBst_02UJY7IWstQMhb8L5IA/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;dataset&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id=&#34;intro-1&#34;&gt;Intro&lt;/h4&gt;
+&lt;p&gt;A coarse-to-fine framework to reconstruct a personalized high-fidelity human avatar from a monocular video&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A single RGB camera&lt;/li&gt;
+&lt;li&gt;A single video&lt;/li&gt;
+&lt;li&gt;300 frames&lt;/li&gt;
+&lt;li&gt;A single person&lt;/li&gt;
+&lt;li&gt;Rotate with A-pose&lt;/li&gt;
+&lt;li&gt;relieve the misalignment caused by changed pose and shape in different frames&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;methods&#34;&gt;Methods&lt;/h4&gt;
+&lt;img src=&#39;../img/1.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/2.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;img src=&#39;../img/3.png&#39; style=&#39;zoom:0.4&#39;&gt;
+&lt;h2 id=&#34;siggraph&#34;&gt;SIGGRAPH&lt;/h2&gt;
+&lt;h3 id=&#34;posevocab-learning-joint-structured-pose-embeddings-for-human-avatar-modeling&#34;&gt;PoseVocab: Learning Joint-structured Pose Embeddings for Human Avatar Modeling&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; SOGGRAPH&#39;2023 (Conference Track)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lizhe00.github.io/projects/posevocab/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2304.13006.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/lizhe00/posevocab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;icml&#34;&gt;ICML&lt;/h2&gt;
+&lt;h3 id=&#34;glide-towards-photorealistic-image-generation-and-editing-with-text-guided-diffusion-models&#34;&gt;GLIDE: Towards Photorealistic Image Generation and Editing with Text-Guided Diffusion Models&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;From:&lt;/em&gt; ICML&#39;2022&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gpt3demo.com/apps/openai-glide&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://proceedings.mlr.press/v162/nichol22a/nichol22a.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/openai/glide-text2im?tab=readme-ov-file&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

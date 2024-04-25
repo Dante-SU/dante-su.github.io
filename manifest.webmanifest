@@ -1,0 +1,18 @@
+{
+  "name": "Dante's notebook",
+  "short_name": "Dante's notebook",
+  "lang": "en-us",
+  "theme_color": "#0072ff",
+  "background_color": "#0072ff",
+  "icons": [{
+    "src": "/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_192x192_fill_lanczos_center_3.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
