@@ -732,15 +732,19 @@
 
       <nav id="TableOfContents">
   <ul>
+    <li><a href="#code-highlight">Code Highlight</a></li>
     <li><a href="#links">Links</a></li>
+    <li><a href="#maths-symbols-and-functions">Maths symbols and functions</a>
+      <ul>
+        <li><a href="#tag-of-functions">Tag of functions</a></li>
+      </ul>
+    </li>
     <li><a href="#table">Table</a>
       <ul>
         <li><a href="#line-break-within-a-cell">Line break within a cell</a></li>
         <li><a href="#special-usage-of-html">Special usage of HTML</a></li>
       </ul>
     </li>
-    <li><a href="#maths-symbols-and-functions">Maths symbols and functions</a></li>
-    <li><a href="#code-highlight">Code Highlight</a></li>
   </ul>
 </nav>
 
@@ -829,141 +833,6 @@
             
 
             <p>Several markdown&rsquo;s rule and quick command code</p>
-<h2 id="links">Links</h2>
-<pre><code>&lt;span id=&quot;jump&quot;&gt;address&lt;/span&gt;
-</code></pre>
-<p>or</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">[<span class="nt">links</span>](<span class="na">#jump</span>)
-</span></span></code></pre></div><h2 id="table">Table</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Head_1 | Head_2 | Head_3 |
-</span></span><span class="line"><span class="cl">| :- | :-: | -: |
-</span></span><span class="line"><span class="cl">| Content_1 | Content_2 | Content_3 |
-</span></span></code></pre></div><p>Example:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Head_1</th>
-<th style="text-align:center">Head_2</th>
-<th style="text-align:right">Head_3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Content_1</td>
-<td style="text-align:center">Content_2</td>
-<td style="text-align:right">Content_3</td>
-</tr>
-</tbody>
-</table>
-<h3 id="line-break-within-a-cell">Line break within a cell</h3>
-<h4 id="with-markdown-language">With markdown language</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Head_1 | Head_2 |
-</span></span><span class="line"><span class="cl">| :-: | :-: |
-</span></span><span class="line"><span class="cl">| Content_1 | Content_2 <span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span> Content_3 |
-</span></span></code></pre></div><p>Example:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Head_1</th>
-<th style="text-align:center">Head_2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Content_1</td>
-<td style="text-align:center">Content_2 <br> Content_3</td>
-</tr>
-</tbody>
-</table>
-<h4 id="with-html-language">With HTML language</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">rowspan</span><span class="o">=</span><span class="s">&#34;2&#34;</span><span class="p">&gt;</span>Content_1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Content_2-1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Content_2-2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>Example:</p>
-<table>
-<tr>
-  <th>Head_1</th>
-  <th>Head_2</th>
-</tr>
-<tr>
-  <td rowspan="2">Content_1</td>
-  <td>Content_2-1</td>
-</tr>
-<tr>
-  <td>Content_2-2</td>
-</tr>
-</table>
-<h3 id="special-usage-of-html">Special usage of HTML</h3>
-<h4 id="change-alignment">Change alignment</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span>  <span class="na">align</span><span class="o">=</span><span class="s">&#34;right&#34;</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;left&#34;</span><span class="p">&gt;</span>Head_3<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;right&#34;</span><span class="p">&gt;</span>Content_1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>Content_2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;left&#34;</span><span class="p">&gt;</span>Content_3<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>Example:</p>
-<table>
-<tr  align="right">
-  <th>Head_1</th>
-  <th>Head_2</th>
-  <th align="left">Head_3</th>
-</tr>
-<tr>
-  <td align="right">Content_1</td>
-  <td align="center">Content_2</td>
-  <td align="left">Content_3</td>
-</tr>
-</table>
-<h4 id="tables-header">Table&rsquo;s header</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">caption</span><span class="p">&gt;</span> Header <span class="p">&lt;/</span><span class="nt">caption</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>Example:</p>
-<table>
-<caption> Header </caption>
-</table>
-<h4 id="multipie-columns-within-one-grid">Multipie columns within one grid</h4>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_3<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Content_1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&#34;2&#34;</span><span class="p">&gt;</span>Content_2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
-</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
-</span></span></code></pre></div><p>Example:</p>
-<table>
-<tr>
-  <th>Head_1</th>
-  <th>Head_2</th>
-  <th>Head_3</th>
-</tr>
-<tr>
-  <td>Content_1</td>
-  <td colspan="2">Content_2</td>
-</tr>
-</table>
-<h2 id="maths-symbols-and-functions">Maths symbols and functions</h2>
-<p>Updating soon.</p>
 <h2 id="code-highlight">Code Highlight</h2>
 <p>Use the below code in markdown to highlight the emphasizing code</p>
 <pre><code>```shell
@@ -1445,6 +1314,153 @@ code is set here
 </table>
 </p>
 </details>
+<h2 id="links">Links</h2>
+<pre><code>&lt;span id=&quot;jump&quot;&gt;address&lt;/span&gt;
+</code></pre>
+<p>or</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">[<span class="nt">links</span>](<span class="na">#jump</span>)
+</span></span></code></pre></div><h2 id="maths-symbols-and-functions">Maths symbols and functions</h2>
+<h3 id="tag-of-functions">Tag of functions</h3>
+<p>To name the functions with tag like below, we could us <code>\tag{1.1}</code> or <code>\begin{equation}</code> &amp; <code>\end{equation}</code></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">$$ x = y \tag{1.1} $$
+</span></span></code></pre></div><p>Example:</p>
+<p>$$ x = y \tag{1.1} $$</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">$$ \begin{equation}
+</span></span><span class="line"><span class="cl">  x = y
+</span></span><span class="line"><span class="cl">\end{equation} $$
+</span></span></code></pre></div><p>Example:</p>
+<p>$$ \begin{equation}
+x = y
+\end{equation} $$</p>
+<p>(As this website is build by hugo and the style file has not listed this rule, so the effect couldn&rsquo;t be show well.)</p>
+<h2 id="table">Table</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Head_1 | Head_2 | Head_3 |
+</span></span><span class="line"><span class="cl">| :- | :-: | -: |
+</span></span><span class="line"><span class="cl">| Content_1 | Content_2 | Content_3 |
+</span></span></code></pre></div><p>Example:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Head_1</th>
+<th style="text-align:center">Head_2</th>
+<th style="text-align:right">Head_3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Content_1</td>
+<td style="text-align:center">Content_2</td>
+<td style="text-align:right">Content_3</td>
+</tr>
+</tbody>
+</table>
+<h3 id="line-break-within-a-cell">Line break within a cell</h3>
+<h4 id="with-markdown-language">With markdown language</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl">| Head_1 | Head_2 |
+</span></span><span class="line"><span class="cl">| :-: | :-: |
+</span></span><span class="line"><span class="cl">| Content_1 | Content_2 <span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span> Content_3 |
+</span></span></code></pre></div><p>Example:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Head_1</th>
+<th style="text-align:center">Head_2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Content_1</td>
+<td style="text-align:center">Content_2 <br> Content_3</td>
+</tr>
+</tbody>
+</table>
+<h4 id="with-html-language">With HTML language</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">rowspan</span><span class="o">=</span><span class="s">&#34;2&#34;</span><span class="p">&gt;</span>Content_1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Content_2-1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Content_2-2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Example:</p>
+<table>
+<tr>
+  <th>Head_1</th>
+  <th>Head_2</th>
+</tr>
+<tr>
+  <td rowspan="2">Content_1</td>
+  <td>Content_2-1</td>
+</tr>
+<tr>
+  <td>Content_2-2</td>
+</tr>
+</table>
+<h3 id="special-usage-of-html">Special usage of HTML</h3>
+<h4 id="change-alignment">Change alignment</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span>  <span class="na">align</span><span class="o">=</span><span class="s">&#34;right&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;left&#34;</span><span class="p">&gt;</span>Head_3<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;right&#34;</span><span class="p">&gt;</span>Content_1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>Content_2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;left&#34;</span><span class="p">&gt;</span>Content_3<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Example:</p>
+<table>
+<tr  align="right">
+  <th>Head_1</th>
+  <th>Head_2</th>
+  <th align="left">Head_3</th>
+</tr>
+<tr>
+  <td align="right">Content_1</td>
+  <td align="center">Content_2</td>
+  <td align="left">Content_3</td>
+</tr>
+</table>
+<h4 id="tables-header">Table&rsquo;s header</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">caption</span><span class="p">&gt;</span> Header <span class="p">&lt;/</span><span class="nt">caption</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Example:</p>
+<table>
+<caption> Header </caption>
+</table>
+<h4 id="multipie-columns-within-one-grid">Multipie columns within one grid</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_1<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_2<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>Head_3<span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>Content_1<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">td</span> <span class="na">colspan</span><span class="o">=</span><span class="s">&#34;2&#34;</span><span class="p">&gt;</span>Content_2<span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span></code></pre></div><p>Example:</p>
+<table>
+<tr>
+  <th>Head_1</th>
+  <th>Head_2</th>
+  <th>Head_3</th>
+</tr>
+<tr>
+  <td>Content_1</td>
+  <td colspan="2">Content_2</td>
+</tr>
+</table>
 
           </div>
 

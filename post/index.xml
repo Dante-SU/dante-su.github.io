@@ -5,12 +5,102 @@
     <link>https://dante-su.github.io/post/</link>
       <atom:link href="https://dante-su.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Latest News</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>Latest News</title>
       <link>https://dante-su.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>Standard written mathematical format</title>
+      <link>https://dante-su.github.io/post/24-04-26-standard-math-format/</link>
+      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/post/24-04-26-standard-math-format/</guid>
+      <description>&lt;p&gt;In the field of mathematics, we always need to use proper, suitable and standard written format to express our solution for the given mathematical question. The below are some frequently used written mathematical manners and formats.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Cited from &lt;a href=&#34;https://www.zhihu.com/question/21793184&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.zhihu.com/question/21793184&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;lists-of-usually-used-words&#34;&gt;Lists of usually-used words&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;中文&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;English&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;解&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;SOLUTION&lt;/br&gt;sol&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;证明&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;PROOF&lt;/br&gt;pf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;因为&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Since&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;所以&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;So&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;即&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;i.e.&lt;/br&gt;id est(Latin)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;由此得知&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Consequently/Therefore/Thus/Hence&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;使&amp;hellip;满足&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;s.t.&lt;/br&gt;subject to/such that&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;假设&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Suppose&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;当且仅当&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;iff&lt;/br&gt;If and only if&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;令/设&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Let&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;同理&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Similarly&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;此外&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Morever&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;且&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;And&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;这表明&amp;hellip;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;This implies that&amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;综上所述&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Summarizing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;得出&amp;hellip;的结论&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;We conclude that&amp;hellip;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;证毕&lt;/br&gt;证明完毕&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Q.E.D.&lt;/br&gt;quod erat demonstrandum(Latin)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;example-from-the-book-calculus-written-by-prof-michael-spivak&#34;&gt;Example from the book &lt;em&gt;Calculus&lt;/em&gt; written by Prof. Michael Spivak&lt;/h2&gt;
+&lt;img src=&#39;./math_format_demo.png&#39; style=&#39;zoom:1&#39;&gt;</description>
+    </item>
     
     <item>
       <title>Norms</title>
