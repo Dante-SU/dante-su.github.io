@@ -315,10 +315,10 @@
     
       <meta
         property="article:published_time"
-        content="2024-04-09T00:00:00&#43;00:00"
+        content="2025-01-16T00:00:00&#43;00:00"
       />
     
-    <meta property="article:modified_time" content="2024-04-09T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-01-16T00:00:00&#43;00:00">
   
 
   
@@ -735,14 +735,15 @@
     <li><a href="#basic-command">Basic command</a>
       <ul>
         <li><a href="#clear-the-screen">Clear the screen</a></li>
-        <li><a href="#permissions">Permissions</a></li>
         <li><a href="#copy">Copy</a></li>
+        <li><a href="#folder">Folder</a></li>
+        <li><a href="#kill">Kill</a></li>
+        <li><a href="#link">Link</a></li>
         <li><a href="#move">Move</a></li>
         <li><a href="#pathway">Pathway</a></li>
-        <li><a href="#folder">Folder</a></li>
+        <li><a href="#permissions">Permissions</a></li>
         <li><a href="#search-file">Search file</a></li>
-        <li><a href="#kill">kill</a></li>
-        <li><a href="#touch">touch</a></li>
+        <li><a href="#touch">Touch</a></li>
       </ul>
     </li>
     <li><a href="#apt">Apt</a>
@@ -767,6 +768,7 @@
         <li><a href="#network-interface-controllercard">Network interface controller/card</a></li>
         <li><a href="#kernel">Kernel</a></li>
         <li><a href="#ubuntu-version">Ubuntu version</a></li>
+        <li><a href="#language-setting">Language setting</a></li>
       </ul>
     </li>
     <li><a href="#offline-program">Offline program</a>
@@ -780,6 +782,7 @@
         <li><a href="#wget">wget</a></li>
         <li><a href="#curl">curl</a></li>
         <li><a href="#scp">scp</a></li>
+        <li><a href="#gdown">gdown</a></li>
       </ul>
     </li>
     <li><a href="#compression">Compression</a>
@@ -894,14 +897,15 @@
     <li><a href="#basic-command">Basic command</a>
       <ul>
         <li><a href="#clear-the-screen">Clear the screen</a></li>
-        <li><a href="#permissions">Permissions</a></li>
         <li><a href="#copy">Copy</a></li>
+        <li><a href="#folder">Folder</a></li>
+        <li><a href="#kill">Kill</a></li>
+        <li><a href="#link">Link</a></li>
         <li><a href="#move">Move</a></li>
         <li><a href="#pathway">Pathway</a></li>
-        <li><a href="#folder">Folder</a></li>
+        <li><a href="#permissions">Permissions</a></li>
         <li><a href="#search-file">Search file</a></li>
-        <li><a href="#kill">kill</a></li>
-        <li><a href="#touch">touch</a></li>
+        <li><a href="#touch">Touch</a></li>
       </ul>
     </li>
     <li><a href="#apt">Apt</a>
@@ -926,6 +930,7 @@
         <li><a href="#network-interface-controllercard">Network interface controller/card</a></li>
         <li><a href="#kernel">Kernel</a></li>
         <li><a href="#ubuntu-version">Ubuntu version</a></li>
+        <li><a href="#language-setting">Language setting</a></li>
       </ul>
     </li>
     <li><a href="#offline-program">Offline program</a>
@@ -939,6 +944,7 @@
         <li><a href="#wget">wget</a></li>
         <li><a href="#curl">curl</a></li>
         <li><a href="#scp">scp</a></li>
+        <li><a href="#gdown">gdown</a></li>
       </ul>
     </li>
     <li><a href="#compression">Compression</a>
@@ -964,18 +970,10 @@
 <h4 id="problem">problem</h4>
 <p>When <code>terminals database is inaccessible</code> happened.</p>
 <p>Add <code>xport TERMINFO=/usr/share/terminfo</code> to <code>.bashrc</code></p>
-<h3 id="permissions">Permissions</h3>
-<h4 id="give-read-write-and-execute-permissions-for-everyone">Give read, write, and execute permissions for everyone</h4>
-<p><code>chmod -R 777 &lt;dir&gt;/&lt;folder_name&gt;</code></p>
 <h3 id="copy">Copy</h3>
 <p><code>cp &lt;dir&gt;/file_name&gt; &lt;dir&gt;/&lt;new_name&gt;</code>
 </br>
 <code>cp -r &lt;dir&gt;/* &lt;dir&gt;</code></p>
-<h3 id="move">Move</h3>
-<p><code>mv &lt;dir&gt;/&lt;file_name&gt; &lt;dir&gt;/&lt;new_name&gt;</code></p>
-<p>It also could be used to change the name of file when two <code>&lt;dir&gt;</code> are same.</p>
-<h3 id="pathway">Pathway</h3>
-<p><code>pwd</code></p>
 <h3 id="folder">Folder</h3>
 <h4 id="create-folder">Create folder</h4>
 <p><code>mkdir &lt;dir&gt;/&lt;name&gt;</code></p>
@@ -990,11 +988,7 @@
 <code>ls -lR| grep &quot;^-&quot; | wc -l</code> (Count files number in this path, containing subpath)
 </br>
 <code>ls -lR | grep &quot;^d&quot; | wc -l</code> (Count folders number in this path, containing subpath)</p>
-<h3 id="search-file">Search file</h3>
-<p><code>locate &lt;name&gt;</code>
-</br>
-<code>find &lt;name&gt;</code></p>
-<h3 id="kill">kill</h3>
+<h3 id="kill">Kill</h3>
 <p><code>kill &lt;pid&gt;</code>
 </br>
 <code>kill -9 &lt;pid&gt;</code> (-9 stands for mandatory)
@@ -1004,7 +998,49 @@
 <code>pkill &lt;program_name&gt;</code>
 </br>
 <code>xkill</code> (Available on graphical interface)</p>
-<h3 id="touch">touch</h3>
+<h3 id="link">Link</h3>
+<p><code>ln -s &lt;path_source&gt; &lt;path_link&gt;</code></p>
+<p>e.g.</p>
+<p><code>ln -s /usr/local/cuda-11.8 /usr/local/cuda</code></p>
+<h4 id="delete-existed-soft-link">Delete existed soft link</h4>
+<p><code>unlink &lt;path_link&gt;</code></p>
+<p>or</p>
+<p><code>rm &lt;path_link&gt;</code></p>
+<div class="alert alert-note">
+  <div>
+    Please be kindly notified that <code>-rf</code> is NOT allowed to add when using <code>rm</code>. Otherwise, the source file would be deleted, leading a disaster.
+  </div>
+</div>
+
+<h3 id="move">Move</h3>
+<p><code>mv &lt;dir&gt;/&lt;file_name&gt; &lt;dir&gt;/&lt;new_name&gt;</code></p>
+<p>It also could be used to change the name of file when two <code>&lt;dir&gt;</code> are same.</p>
+<h3 id="pathway">Pathway</h3>
+<h4 id="show-the-full-path-of-this-windows">Show the full path of this windows</h4>
+<p><code>pwd</code></p>
+<h4 id="basename">basename</h4>
+<p><code>basename &lt;path&gt;</code></p>
+<p><code>basename -s &lt;suffix&gt; &lt;path&gt;</code></p>
+<p>e.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nv">path_test</span><span class="o">=</span>/usr/local/cuda/version.json
+</span></span><span class="line"><span class="cl">basename <span class="nv">$path_test</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Expected result: version.json</span>
+</span></span><span class="line"><span class="cl">basename -s .json <span class="nv">$path_test</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Expected result: version</span>
+</span></span></code></pre></div><h4 id="dirname">dirname</h4>
+<p><code>dirname &lt;path&gt;</code></p>
+<p>e.g.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="nv">path_test</span><span class="o">=</span>/usr/local/cuda/version.json
+</span></span><span class="line"><span class="cl">dirname <span class="nv">$path_test</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Expected result: /usr/local/cuda</span>
+</span></span></code></pre></div><h3 id="permissions">Permissions</h3>
+<h4 id="give-read-write-and-execute-permissions-for-everyone">Give read, write, and execute permissions for everyone</h4>
+<p><code>chmod -R 777 &lt;dir&gt;/&lt;folder_name&gt;</code></p>
+<h3 id="search-file">Search file</h3>
+<p><code>locate &lt;name&gt;</code>
+</br>
+<code>find &lt;name&gt;</code></p>
+<h3 id="touch">Touch</h3>
 <p><code>touch &lt;file_name&gt;</code></p>
 <p>Create a new file(Do nothing if the file already exists)</p>
 <h2 id="apt">Apt</h2>
@@ -1092,6 +1128,16 @@
 <p><code>uname -a</code></p>
 <h3 id="ubuntu-version">Ubuntu version</h3>
 <p><code>lsb_release -a</code></p>
+<p>If this isn&rsquo;t installed, plz use <code>apt update &amp;&amp; apt install -y lsb-release</code>, or use <code>cat /etc/os-release</code> instead.</p>
+<h3 id="language-setting">Language setting</h3>
+<h4 id="show-the-using-language">Show the using language</h4>
+<p><code>locale</code></p>
+<h4 id="show-the-available-languages">Show the available languages</h4>
+<p><code>locale -a</code></p>
+<h4 id="modify-the-using-language">Modify the using language</h4>
+<p><code>export LANG=&lt;language_code&gt;</code></p>
+<p><code>localectl set-locale LANG=&lt;language_code&gt;</code></p>
+<p><code>&lt;language_code&gt;</code> should be one in the available language list, e.g. <code>en_US.utf8</code></p>
 <h2 id="offline-program">Offline program</h2>
 <h3 id="screen">screen</h3>
 <h4 id="installation">Installation</h4>
@@ -1168,17 +1214,40 @@
   </div>
 </div>
 
+<h3 id="gdown">gdown</h3>
+<p>If you need to downloads items from <strong>Google Drive</strong> (on remote server), but have no idea to make it. This command might help you.</p>
+<p><code>pip install gdown</code></p>
+<p>Set the sharing mode of the aiming file on Google Drive as &lsquo;anyone could edit&rsquo;, and then copy the sharing link with a format like below:</p>
+<p><code>https://drive.google.com/file/d/&lt;file_id&gt;/view?usp=sharing</code></p>
+<p>And then use the command below to download:</p>
+<p><code>gdown --id &lt;file_id&gt;</code></p>
 <h2 id="compression">Compression</h2>
 <h3 id="zip">zip</h3>
+<h4 id="zip-1">zip</h4>
+<p><code>zip [options] &lt;output_name&gt;.zip &lt;input_name_1&gt; &lt;input_name_2&gt; ...</code></p>
+<p><strong>Example</strong></p>
+<p><code>zip -e archive.zip /path-to-dir</code></p>
+<details class="spoiler "  id="spoiler-6">
+  <summary>Detailed info</summary>
+  <p><p>-r：递归压缩目录及其子目录中的所有文件。</p>
+<p>-e：为压缩文件设置密码保护。</p>
+<p>-q：静默模式，不显示压缩过程。</p>
+<p>-v：显示详细的压缩过程。</p>
+<p>-x：排除某些文件或目录，不进行压缩。</p>
+<p>-m：压缩后删除原始文件。</p>
+<p>-0 到 -9：指定压缩级别，-0 表示存储不压缩，-9 表示最高压缩率，默认是 -6。</p>
+</p>
+</details>
+<h4 id="unzip">unzip</h4>
 <p><code>unzip [-cflptuvz][-agCjLMnoqsVX][-P &lt;password&gt;][.zip][file_name][-d &lt;dir&gt;][-x &lt;file&gt;]</code></p>
 <p><code>unzip [-Z]</code></p>
-<h4 id="example">Example</h4>
+<p><strong>Example</strong></p>
 <p><code>unzip test.zip</code>
 </br>
 <code>unzip -n test.zip -d /tmp</code>
 </br>
 <code>unzip -o test.zip -d tmp/</code></p>
-<details class="spoiler "  id="spoiler-5">
+<details class="spoiler "  id="spoiler-7">
   <summary>Detailed info</summary>
   <p><p>-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。</p>
 <p>-f 更新现有的文件。</p>
@@ -1215,7 +1284,7 @@
 <p>And then, the file with &lsquo;.bin&rsquo; suffix could be executed by the following.</p>
 <p><code>./filename.bin</code></p>
 <h3 id="cmake">cmake</h3>
-<details class="spoiler "  id="spoiler-6">
+<details class="spoiler "  id="spoiler-8">
   <summary>在Linux上安装其他版本的cmake 或 升级cmake</summary>
   <p><a href="https://blog.csdn.net/weixin_41010198/article/details/109343347" target="_blank" rel="noopener">https://blog.csdn.net/weixin_41010198/article/details/109343347</a></p>
 </details>
@@ -1248,6 +1317,16 @@
 <code>&amp;&amp;</code> stands for executing the command of this line and next line one by one.
 </br>
 <code>||</code> stands for terminating the execution of next command when command of this line successfully executed.</p>
+<h4 id="example-obtaining-the-name-list-of-files-in-a-folder">Example: Obtaining the name list of files in a folder</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sh" data-lang="sh"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="nv">path</span><span class="o">=</span>/path/of/folder
+</span></span><span class="line"><span class="cl"><span class="nv">files</span><span class="o">=</span><span class="k">$(</span>ls <span class="nv">$path</span><span class="k">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> filename in <span class="nv">$files</span>
+</span></span><span class="line"><span class="cl"><span class="k">do</span>
+</span></span><span class="line"><span class="cl">   <span class="nb">echo</span> -e <span class="s1">&#39;\nFilename: &#39;</span> &gt;&gt; filename.txt
+</span></span><span class="line"><span class="cl">   <span class="nb">echo</span> <span class="nv">$filename</span> &gt;&gt; filename.txt
+</span></span><span class="line"><span class="cl"><span class="k">done</span>
+</span></span></code></pre></div>
 
           </div>
 
@@ -1281,7 +1360,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Apr 9, 2024</p>
+          <p>Last updated on Jan 16, 2025</p>
 
           
 
@@ -1343,7 +1422,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Dante
+    © 2025 Dante
   </p>
   
 

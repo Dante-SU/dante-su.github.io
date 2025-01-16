@@ -18,7 +18,22 @@
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/paper_reading/neurips/</guid>
       <description>&lt;p&gt;The Annual Conference on Neural Information Processing System&lt;/p&gt;
-&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;</description>
+&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;Learning Adaptive Tensorial Density Fields for Clean Cryo-ET Reconstruction&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://vccimaging.org/Publications/Wang2023LearningAdaptiveTDF/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://vccimaging.org/Publications/Wang2023LearningAdaptiveTDF/Wang2023LearningAdaptiveTDF.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/yuanhaowang1213/adaptivetensordf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;Deblur, 3DGS, Camera Motion Deblurring&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;
+&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/arxiv/2024_3.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
     </item>
     
   </channel>

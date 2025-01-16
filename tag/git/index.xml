@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/git/</link>
       <atom:link href="https://dante-su.github.io/tag/git/index.xml" rel="self" type="application/rss+xml" />
     <description>git</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>git</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Git</title>
       <link>https://dante-su.github.io/notes/shell/git/</link>
-      <pubDate>Fri, 26 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/shell/git/</guid>
       <description>&lt;p&gt;Usage and debug experience of &amp;lsquo;Git&amp;rsquo;&lt;/p&gt;
 &lt;figure  &gt;
@@ -29,9 +29,11 @@
     &lt;li&gt;&lt;a href=&#34;#installation&#34;&gt;Installation&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;
       &lt;ul&gt;
-        &lt;li&gt;&lt;a href=&#34;#clone&#34;&gt;Clone&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#push&#34;&gt;push&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#clone&#34;&gt;clone&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#config&#34;&gt;config&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#pull&#34;&gt;pull&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#push&#34;&gt;push&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#reset&#34;&gt;reset&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#gitignore&#34;&gt;.gitignore&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
@@ -41,16 +43,24 @@
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
-&lt;h3 id=&#34;clone&#34;&gt;Clone&lt;/h3&gt;
+&lt;h3 id=&#34;clone&#34;&gt;clone&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;git clone &amp;lt;repo_address&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;config&#34;&gt;config&lt;/h3&gt;
+&lt;p&gt;In default, when uploading, the limitation of the single file size is set to 100MB. The command below could adjust that limitation to 500MB for all repositories under global username.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git config --global http.postBuffer 524288000&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Or only for the local repository with below command.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git config http.postBuffer 524288000&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;pull&#34;&gt;pull&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;cd path/to/repo&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;push&#34;&gt;push&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;cd path/to/repo&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git commit -m &#39;&amp;lt;update_info&amp;gt;&#39;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;pull&#34;&gt;pull&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;cd path/to/repo&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;git push&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;reset&#34;&gt;reset&lt;/h3&gt;
+&lt;p&gt;When there is something wrong happened after &lt;code&gt;git add .&lt;/code&gt;, you could use the below command to withdraw last adding.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git reset&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;gitignore&#34;&gt;.gitignore&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; path/to/repo
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -58,7 +68,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git rm --cached &amp;lt;file_name&amp;gt;  &lt;span class=&#34;c1&#34;&gt;# For those already in repo&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example:&lt;/p&gt;
-&lt;p&gt;For repo used on Mac system, there is always a srange file called &lt;em&gt;.DS_Store&lt;/em&gt; added. So we could add the lines below to &lt;em&gt;.gitignore&lt;/em&gt; file to avoid this.&lt;/p&gt;
+&lt;p&gt;For repo used on Mac system, there is always a srange file called &lt;em&gt;.DS_Store&lt;/em&gt; added. So we could add below lines to &lt;em&gt;.gitignore&lt;/em&gt; file to avoid this.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.DS_Store
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;**/.DS_Store
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;.DS_Store?

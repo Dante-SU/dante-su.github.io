@@ -742,6 +742,7 @@
   <ul>
     <li><a href="#usage">Usage</a>
       <ul>
+        <li><a href="#cache">Cache</a></li>
         <li><a href="#install-package">Install package</a></li>
         <li><a href="#requirementstxt">requirements.txt</a></li>
       </ul>
@@ -839,6 +840,19 @@
     <div class="w-100" ><img src="../img/pip.png" alt="" loading="lazy" data-zoomable /></div>
   </div></figure>
 <h2 id="usage">Usage</h2>
+<h3 id="cache">Cache</h3>
+<h4 id="info">Info</h4>
+<p><code>pip cache info</code></p>
+<p><code>pip cache list</code></p>
+<p><code>pip cache dir</code></p>
+<h4 id="clean-cache-folder">Clean cache folder</h4>
+<p><code>pip cache purge</code></p>
+<p><em>For Linux</em></p>
+<p><code>sudo rm -rf ~/.cache/pip/*</code></p>
+<p><em>For Windows</em></p>
+<p><code>del C:\Users\&lt;user_name&gt;\AppData\Local\pip\cache</code></p>
+<h4 id="install-wo-cache">Install w/o cache</h4>
+<p><code>pip install &lt;package_name&gt; --no-cache-dir</code></p>
 <h3 id="install-package">Install package</h3>
 <p><code>pip install &lt;package_name&gt;</code></p>
 <p><code>pip install &lt;package_name&gt;==&lt;version&gt;</code></p>
@@ -949,7 +963,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2024 Dante
+    © 2025 Dante
   </p>
   
 

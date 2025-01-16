@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/linux/</link>
       <atom:link href="https://dante-su.github.io/tag/linux/index.xml" rel="self" type="application/rss+xml" />
     <description>Linux</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>Linux</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Linux</title>
       <link>https://dante-su.github.io/notes/shell/linux/</link>
-      <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/shell/linux/</guid>
       <description>&lt;p&gt;Some shell command when using Anaconda&lt;/p&gt;
 &lt;figure  &gt;
@@ -29,14 +29,15 @@
     &lt;li&gt;&lt;a href=&#34;#basic-command&#34;&gt;Basic command&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#clear-the-screen&#34;&gt;Clear the screen&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#copy&#34;&gt;Copy&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#folder&#34;&gt;Folder&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#kill&#34;&gt;Kill&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#link&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#move&#34;&gt;Move&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#pathway&#34;&gt;Pathway&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#folder&#34;&gt;Folder&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#permissions&#34;&gt;Permissions&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#search-file&#34;&gt;Search file&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#kill&#34;&gt;kill&lt;/a&gt;&lt;/li&gt;
-        &lt;li&gt;&lt;a href=&#34;#touch&#34;&gt;touch&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#touch&#34;&gt;Touch&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#apt&#34;&gt;Apt&lt;/a&gt;
@@ -61,6 +62,7 @@
         &lt;li&gt;&lt;a href=&#34;#network-interface-controllercard&#34;&gt;Network interface controller/card&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#kernel&#34;&gt;Kernel&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#ubuntu-version&#34;&gt;Ubuntu version&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#language-setting&#34;&gt;Language setting&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#offline-program&#34;&gt;Offline program&lt;/a&gt;
@@ -74,6 +76,7 @@
         &lt;li&gt;&lt;a href=&#34;#wget&#34;&gt;wget&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#curl&#34;&gt;curl&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href=&#34;#scp&#34;&gt;scp&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#gdown&#34;&gt;gdown&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#compression&#34;&gt;Compression&lt;/a&gt;
@@ -99,18 +102,10 @@
 &lt;h4 id=&#34;problem&#34;&gt;problem&lt;/h4&gt;
 &lt;p&gt;When &lt;code&gt;terminals database is inaccessible&lt;/code&gt; happened.&lt;/p&gt;
 &lt;p&gt;Add &lt;code&gt;xport TERMINFO=/usr/share/terminfo&lt;/code&gt; to &lt;code&gt;.bashrc&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
-&lt;h4 id=&#34;give-read-write-and-execute-permissions-for-everyone&#34;&gt;Give read, write, and execute permissions for everyone&lt;/h4&gt;
-&lt;p&gt;&lt;code&gt;chmod -R 777 &amp;lt;dir&amp;gt;/&amp;lt;folder_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;copy&#34;&gt;Copy&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;cp &amp;lt;dir&amp;gt;/file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;
 &lt;/br&gt;
 &lt;code&gt;cp -r &amp;lt;dir&amp;gt;/* &amp;lt;dir&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;move&#34;&gt;Move&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;mv &amp;lt;dir&amp;gt;/&amp;lt;file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;It also could be used to change the name of file when two &lt;code&gt;&amp;lt;dir&amp;gt;&lt;/code&gt; are same.&lt;/p&gt;
-&lt;h3 id=&#34;pathway&#34;&gt;Pathway&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;folder&#34;&gt;Folder&lt;/h3&gt;
 &lt;h4 id=&#34;create-folder&#34;&gt;Create folder&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;mkdir &amp;lt;dir&amp;gt;/&amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
@@ -125,11 +120,7 @@
 &lt;code&gt;ls -lR| grep &amp;quot;^-&amp;quot; | wc -l&lt;/code&gt; (Count files number in this path, containing subpath)
 &lt;/br&gt;
 &lt;code&gt;ls -lR | grep &amp;quot;^d&amp;quot; | wc -l&lt;/code&gt; (Count folders number in this path, containing subpath)&lt;/p&gt;
-&lt;h3 id=&#34;search-file&#34;&gt;Search file&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;locate &amp;lt;name&amp;gt;&lt;/code&gt;
-&lt;/br&gt;
-&lt;code&gt;find &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;kill&#34;&gt;kill&lt;/h3&gt;
+&lt;h3 id=&#34;kill&#34;&gt;Kill&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;kill &amp;lt;pid&amp;gt;&lt;/code&gt;
 &lt;/br&gt;
 &lt;code&gt;kill -9 &amp;lt;pid&amp;gt;&lt;/code&gt; (-9 stands for mandatory)
@@ -139,7 +130,49 @@
 &lt;code&gt;pkill &amp;lt;program_name&amp;gt;&lt;/code&gt;
 &lt;/br&gt;
 &lt;code&gt;xkill&lt;/code&gt; (Available on graphical interface)&lt;/p&gt;
-&lt;h3 id=&#34;touch&#34;&gt;touch&lt;/h3&gt;
+&lt;h3 id=&#34;link&#34;&gt;Link&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ln -s &amp;lt;path_source&amp;gt; &amp;lt;path_link&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ln -s /usr/local/cuda-11.8 /usr/local/cuda&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;delete-existed-soft-link&#34;&gt;Delete existed soft link&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;unlink &amp;lt;path_link&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;rm &amp;lt;path_link&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Please be kindly notified that &lt;code&gt;-rf&lt;/code&gt; is NOT allowed to add when using &lt;code&gt;rm&lt;/code&gt;. Otherwise, the source file would be deleted, leading a disaster.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;move&#34;&gt;Move&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;mv &amp;lt;dir&amp;gt;/&amp;lt;file_name&amp;gt; &amp;lt;dir&amp;gt;/&amp;lt;new_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;It also could be used to change the name of file when two &lt;code&gt;&amp;lt;dir&amp;gt;&lt;/code&gt; are same.&lt;/p&gt;
+&lt;h3 id=&#34;pathway&#34;&gt;Pathway&lt;/h3&gt;
+&lt;h4 id=&#34;show-the-full-path-of-this-windows&#34;&gt;Show the full path of this windows&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;pwd&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;basename&#34;&gt;basename&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;basename &amp;lt;path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;basename -s &amp;lt;suffix&amp;gt; &amp;lt;path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;path_test&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/usr/local/cuda/version.json
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;basename &lt;span class=&#34;nv&#34;&gt;$path_test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Expected result: version.json&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;basename -s .json &lt;span class=&#34;nv&#34;&gt;$path_test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Expected result: version&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;dirname&#34;&gt;dirname&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;dirname &amp;lt;path&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;e.g.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;path_test&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/usr/local/cuda/version.json
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;dirname &lt;span class=&#34;nv&#34;&gt;$path_test&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Expected result: /usr/local/cuda&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;permissions&#34;&gt;Permissions&lt;/h3&gt;
+&lt;h4 id=&#34;give-read-write-and-execute-permissions-for-everyone&#34;&gt;Give read, write, and execute permissions for everyone&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;chmod -R 777 &amp;lt;dir&amp;gt;/&amp;lt;folder_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;search-file&#34;&gt;Search file&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;locate &amp;lt;name&amp;gt;&lt;/code&gt;
+&lt;/br&gt;
+&lt;code&gt;find &amp;lt;name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;touch&#34;&gt;Touch&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;touch &amp;lt;file_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Create a new file(Do nothing if the file already exists)&lt;/p&gt;
 &lt;h2 id=&#34;apt&#34;&gt;Apt&lt;/h2&gt;
@@ -227,6 +260,16 @@
 &lt;p&gt;&lt;code&gt;uname -a&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;ubuntu-version&#34;&gt;Ubuntu version&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;lsb_release -a&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;If this isn&amp;rsquo;t installed, plz use &lt;code&gt;apt update &amp;amp;&amp;amp; apt install -y lsb-release&lt;/code&gt;, or use &lt;code&gt;cat /etc/os-release&lt;/code&gt; instead.&lt;/p&gt;
+&lt;h3 id=&#34;language-setting&#34;&gt;Language setting&lt;/h3&gt;
+&lt;h4 id=&#34;show-the-using-language&#34;&gt;Show the using language&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;locale&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;show-the-available-languages&#34;&gt;Show the available languages&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;locale -a&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;modify-the-using-language&#34;&gt;Modify the using language&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;export LANG=&amp;lt;language_code&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;localectl set-locale LANG=&amp;lt;language_code&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;&amp;lt;language_code&amp;gt;&lt;/code&gt; should be one in the available language list, e.g. &lt;code&gt;en_US.utf8&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;offline-program&#34;&gt;Offline program&lt;/h2&gt;
 &lt;h3 id=&#34;screen&#34;&gt;screen&lt;/h3&gt;
 &lt;h4 id=&#34;installation&#34;&gt;Installation&lt;/h4&gt;
@@ -303,17 +346,40 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
+&lt;h3 id=&#34;gdown&#34;&gt;gdown&lt;/h3&gt;
+&lt;p&gt;If you need to downloads items from &lt;strong&gt;Google Drive&lt;/strong&gt; (on remote server), but have no idea to make it. This command might help you.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pip install gdown&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Set the sharing mode of the aiming file on Google Drive as &amp;lsquo;anyone could edit&amp;rsquo;, and then copy the sharing link with a format like below:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;https://drive.google.com/file/d/&amp;lt;file_id&amp;gt;/view?usp=sharing&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;And then use the command below to download:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gdown --id &amp;lt;file_id&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;compression&#34;&gt;Compression&lt;/h2&gt;
 &lt;h3 id=&#34;zip&#34;&gt;zip&lt;/h3&gt;
+&lt;h4 id=&#34;zip-1&#34;&gt;zip&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;zip [options] &amp;lt;output_name&amp;gt;.zip &amp;lt;input_name_1&amp;gt; &amp;lt;input_name_2&amp;gt; ...&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;zip -e archive.zip /path-to-dir&lt;/code&gt;&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+  &lt;summary&gt;Detailed info&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;-r：递归压缩目录及其子目录中的所有文件。&lt;/p&gt;
+&lt;p&gt;-e：为压缩文件设置密码保护。&lt;/p&gt;
+&lt;p&gt;-q：静默模式，不显示压缩过程。&lt;/p&gt;
+&lt;p&gt;-v：显示详细的压缩过程。&lt;/p&gt;
+&lt;p&gt;-x：排除某些文件或目录，不进行压缩。&lt;/p&gt;
+&lt;p&gt;-m：压缩后删除原始文件。&lt;/p&gt;
+&lt;p&gt;-0 到 -9：指定压缩级别，-0 表示存储不压缩，-9 表示最高压缩率，默认是 -6。&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;h4 id=&#34;unzip&#34;&gt;unzip&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;unzip [-cflptuvz][-agCjLMnoqsVX][-P &amp;lt;password&amp;gt;][.zip][file_name][-d &amp;lt;dir&amp;gt;][-x &amp;lt;file&amp;gt;]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;unzip [-Z]&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;example&#34;&gt;Example&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;unzip test.zip&lt;/code&gt;
 &lt;/br&gt;
 &lt;code&gt;unzip -n test.zip -d /tmp&lt;/code&gt;
 &lt;/br&gt;
 &lt;code&gt;unzip -o test.zip -d tmp/&lt;/code&gt;&lt;/p&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-5&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-7&#34;&gt;
   &lt;summary&gt;Detailed info&lt;/summary&gt;
   &lt;p&gt;&lt;p&gt;-c 将解压缩的结果显示到屏幕上，并对字符做适当的转换。&lt;/p&gt;
 &lt;p&gt;-f 更新现有的文件。&lt;/p&gt;
@@ -350,7 +416,7 @@
 &lt;p&gt;And then, the file with &amp;lsquo;.bin&amp;rsquo; suffix could be executed by the following.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;./filename.bin&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;cmake&#34;&gt;cmake&lt;/h3&gt;
-&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-6&#34;&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-8&#34;&gt;
   &lt;summary&gt;在Linux上安装其他版本的cmake 或 升级cmake&lt;/summary&gt;
   &lt;p&gt;&lt;a href=&#34;https://blog.csdn.net/weixin_41010198/article/details/109343347&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://blog.csdn.net/weixin_41010198/article/details/109343347&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
@@ -382,7 +448,17 @@
 &lt;/br&gt;
 &lt;code&gt;&amp;amp;&amp;amp;&lt;/code&gt; stands for executing the command of this line and next line one by one.
 &lt;/br&gt;
-&lt;code&gt;||&lt;/code&gt; stands for terminating the execution of next command when command of this line successfully executed.&lt;/p&gt;</description>
+&lt;code&gt;||&lt;/code&gt; stands for terminating the execution of next command when command of this line successfully executed.&lt;/p&gt;
+&lt;h4 id=&#34;example-obtaining-the-name-list-of-files-in-a-folder&#34;&gt;Example: Obtaining the name list of files in a folder&lt;/h4&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#!/bin/bash
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;/path/of/folder
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;files&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;$(&lt;/span&gt;ls &lt;span class=&#34;nv&#34;&gt;$path&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;for&lt;/span&gt; filename in &lt;span class=&#34;nv&#34;&gt;$files&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; -e &lt;span class=&#34;s1&#34;&gt;&amp;#39;\nFilename: &amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; filename.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;nb&#34;&gt;echo&lt;/span&gt; &lt;span class=&#34;nv&#34;&gt;$filename&lt;/span&gt; &amp;gt;&amp;gt; filename.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
   </channel>

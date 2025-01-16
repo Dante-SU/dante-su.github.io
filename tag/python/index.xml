@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/python/</link>
       <atom:link href="https://dante-su.github.io/tag/python/index.xml" rel="self" type="application/rss+xml" />
     <description>python</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>python</title>
@@ -303,6 +303,67 @@
     </item>
     
     <item>
+      <title>Messy</title>
+      <link>https://dante-su.github.io/notes/others/messy/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://dante-su.github.io/notes/others/messy/</guid>
+      <description>&lt;p&gt;Notes&lt;/p&gt;
+&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
+&lt;h3 id=&#34;colab&#34;&gt;Colab&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/iErics/gd-utils/blob/master/Colab_gd_utils.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/github/iErics/gd-utils/blob/master/Colab_gd_utils.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ConnectButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Connect pushed&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#connect&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;click&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ConnectButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;60000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cutlassf-no-kernel-found-to-launch&#34;&gt;cutlassF: no kernel found to launch!&lt;/h3&gt;
+&lt;p&gt;Add below lines to the code&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;torch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;backends&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cuda&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;enable_mem_efficient_sdp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;torch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;backends&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cuda&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;enable_flash_sdp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;move-multipie-lines-rightleft&#34;&gt;Move multipie lines right/left&lt;/h3&gt;
+&lt;h4 id=&#34;left&#34;&gt;Left&lt;/h4&gt;
+&lt;p&gt;Select the needed content and press &lt;code&gt;Tab&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;right&#34;&gt;Right&lt;/h4&gt;
+&lt;p&gt;Select the needed content and press &lt;code&gt;Shift&lt;/code&gt; and &lt;code&gt;Tab&lt;/code&gt; at the same time&lt;/p&gt;
+&lt;h3 id=&#34;use-visdom-over-remote-server&#34;&gt;Use visdom over remote server&lt;/h3&gt;
+&lt;p&gt;This note is for those who need run their codes on remote server but finding that they could NOT be able to get access to visdom&amp;rsquo;s monitor as before. So we need to mapping the service of visdom to our local workspace over the remote server.&lt;/p&gt;
+&lt;p&gt;Steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open the remote server and type &lt;code&gt;tmux new -s &amp;lt;session-name&amp;gt;&lt;/code&gt; to open a new backstage process (screen could does this too)&lt;/li&gt;
+&lt;li&gt;Activate the specific conda env you are using (if your code runs on conda env) and type &lt;code&gt;python -m visdom.server&lt;/code&gt; to open a local visdom server&lt;/li&gt;
+&lt;li&gt;Open the terminal of local device and type &lt;code&gt;ssh -L 8097:127.0.0.1:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt; or &lt;code&gt;ssh -L 8097:localhost:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt; while 8097 is as an example of port id.&lt;/li&gt;
+&lt;li&gt;When you successfully get access to your remote server, open the page &lt;code&gt;127.0.0.1:8097&lt;/code&gt; or &lt;code&gt;localhost:8097&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;When you want to terminate the visdom&amp;rsquo;s mapping, just kill the process of visdom on the remote server, e.g. &lt;code&gt;tmux kill-session -t &amp;lt;session-name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
+&lt;h3 id=&#34;set-clock-into-utc-mode&#34;&gt;Set clock into UTC mode&lt;/h3&gt;
+&lt;p&gt;Make Windows 10&amp;rsquo;s BIOS hardware time treat Coordinated Universal Time (UTC) by changing the registry value RealTimeIsUniversal key&lt;/p&gt;
+&lt;h4 id=&#34;with-regedit&#34;&gt;With Regedit&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Press &lt;code&gt;Win&lt;/code&gt; + &lt;code&gt;R&lt;/code&gt; at the same time&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;regedit&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Find the path &lt;code&gt;\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Set &lt;code&gt;RealTimeIsUniversal&lt;/code&gt; to &lt;code&gt;1&lt;/code&gt; if this value already exists.&lt;/li&gt;
+&lt;li&gt;New a &lt;code&gt;QWORD&lt;/code&gt;(for system of 32-bit, use &lt;code&gt;DWORD&lt;/code&gt; instead) variable with a name of &lt;code&gt;RealTimeIsUniversal&lt;/code&gt; and whose value could also be set as &lt;code&gt;1&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;with-powershell&#34;&gt;With PowerShell&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Open terminal with Administrator rights&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;reg add &amp;quot;HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation&amp;quot; /v RealTimeIsUniversal /d 1 /t REG_QWORD /f&lt;/code&gt; (for system of 32-bit, use &lt;code&gt;DWORD&lt;/code&gt; instead)&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;Enter&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;using-multi-moniter-to-view-same-project-in-vs-code&#34;&gt;Using multi-moniter to view same project in VS Code&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;P&lt;/code&gt; and input the content below:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Workspace: Duplicate As Workspace in New Window&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;the-installation-of-windows11-is-stuck-by-connecting-to-network&#34;&gt;The installation of Windows11 is stuck by connecting to network&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Press &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;F10&lt;/code&gt; to open a terminal.&lt;/li&gt;
+&lt;li&gt;Input &lt;code&gt;oobe\bypassnro&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The computer will restart soon and there will be an option for &amp;lsquo;I haven&amp;rsquo;t Interest to connect&amp;rsquo;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Numpy</title>
       <link>https://dante-su.github.io/notes/python/numpy/</link>
       <pubDate>Tue, 09 Apr 2024 00:00:00 +0000</pubDate>
@@ -483,69 +544,12 @@
     </item>
     
     <item>
-      <title>Messy</title>
-      <link>https://dante-su.github.io/notes/others/messy/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://dante-su.github.io/notes/others/messy/</guid>
-      <description>&lt;p&gt;Notes&lt;/p&gt;
-&lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
-&lt;h3 id=&#34;move-multipie-lines-rightleft&#34;&gt;Move multipie lines right/left&lt;/h3&gt;
-&lt;h4 id=&#34;left&#34;&gt;Left&lt;/h4&gt;
-&lt;p&gt;Select the needed content and press &lt;code&gt;Tab&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;right&#34;&gt;Right&lt;/h4&gt;
-&lt;p&gt;Select the needed content and press &lt;code&gt;Shift&lt;/code&gt; and &lt;code&gt;Tab&lt;/code&gt; at the same time&lt;/p&gt;
-&lt;h3 id=&#34;colab&#34;&gt;Colab&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/iErics/gd-utils/blob/master/Colab_gd_utils.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/github/iErics/gd-utils/blob/master/Colab_gd_utils.ipynb&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ConnectButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;console&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;Connect pushed&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#connect&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;click&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ConnectButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;60000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;use-visdom-over-remote-server&#34;&gt;Use visdom over remote server&lt;/h3&gt;
-&lt;p&gt;This note is for those who need run their codes on remote server but finding that they could NOT be able to get access to visdom&amp;rsquo;s monitor as before. So we need to mapping the service of visdom to our local workspace over the remote server.&lt;/p&gt;
-&lt;p&gt;Steps:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Open the remote server and type &lt;code&gt;tmux new -s &amp;lt;session-name&amp;gt;&lt;/code&gt; to open a new backstage process (screen could does this too)&lt;/li&gt;
-&lt;li&gt;Activate the specific conda env you are using (if your code runs on conda env) and type &lt;code&gt;python -m visdom.server&lt;/code&gt; to open a local visdom server&lt;/li&gt;
-&lt;li&gt;Open the terminal of local device and type &lt;code&gt;ssh -L 8097:127.0.0.1:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt; or &lt;code&gt;ssh -L 8097:localhost:8097 &amp;lt;username&amp;gt;@&amp;lt;server_address&amp;gt;&lt;/code&gt; while 8097 is as an example of port id.&lt;/li&gt;
-&lt;li&gt;When you successfully get access to your remote server, open the page &lt;code&gt;127.0.0.1:8097&lt;/code&gt; or &lt;code&gt;localhost:8097&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;When you want to terminate the visdom&amp;rsquo;s mapping, just kill the process of visdom on the remote server, e.g. &lt;code&gt;tmux kill-session -t &amp;lt;session-name&amp;gt;&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id=&#34;windows&#34;&gt;Windows&lt;/h2&gt;
-&lt;h3 id=&#34;set-clock-into-utc-mode&#34;&gt;Set clock into UTC mode&lt;/h3&gt;
-&lt;p&gt;Make Windows 10&amp;rsquo;s BIOS hardware time treat Coordinated Universal Time (UTC) by changing the registry value RealTimeIsUniversal key&lt;/p&gt;
-&lt;h4 id=&#34;with-regedit&#34;&gt;With Regedit&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;Press &lt;code&gt;Win&lt;/code&gt; + &lt;code&gt;R&lt;/code&gt; at the same time&lt;/li&gt;
-&lt;li&gt;Input &lt;code&gt;regedit&lt;/code&gt; and press &lt;code&gt;Enter&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Find the path &lt;code&gt;\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Set &lt;code&gt;RealTimeIsUniversal&lt;/code&gt; to &lt;code&gt;1&lt;/code&gt; if this value already exists.&lt;/li&gt;
-&lt;li&gt;New a &lt;code&gt;QWORD&lt;/code&gt;(for system of 32-bit, use &lt;code&gt;DWORD&lt;/code&gt; instead) variable with a name of &lt;code&gt;RealTimeIsUniversal&lt;/code&gt; and whose value could also be set as &lt;code&gt;1&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h4 id=&#34;with-powershell&#34;&gt;With PowerShell&lt;/h4&gt;
-&lt;ol&gt;
-&lt;li&gt;Open terminal with Administrator rights&lt;/li&gt;
-&lt;li&gt;Input &lt;code&gt;reg add &amp;quot;HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation&amp;quot; /v RealTimeIsUniversal /d 1 /t REG_QWORD /f&lt;/code&gt; (for system of 32-bit, use &lt;code&gt;DWORD&lt;/code&gt; instead)&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;Enter&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&#34;using-multi-moniter-to-view-same-project-in-vs-code&#34;&gt;Using multi-moniter to view same project in VS Code&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;Ctrl&lt;/code&gt; + &lt;code&gt;Shift&lt;/code&gt; + &lt;code&gt;P&lt;/code&gt; and input the content below:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;Workspace: Duplicate As Workspace in New Window&lt;/code&gt;&lt;/p&gt;
-&lt;h3 id=&#34;the-installation-of-windows11-is-stuck-by-connecting-to-network&#34;&gt;The installation of Windows11 is stuck by connecting to network&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Press &lt;code&gt;Shift&lt;/code&gt;+&lt;code&gt;F10&lt;/code&gt; to open a terminal.&lt;/li&gt;
-&lt;li&gt;Input &lt;code&gt;oobe\bypassnro&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The computer will restart soon and there will be an option for &amp;lsquo;I haven&amp;rsquo;t Interest to connect&amp;rsquo;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>OS</title>
       <link>https://dante-su.github.io/notes/python/os/</link>
-      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 26 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/python/os/</guid>
       <description>&lt;p&gt;OS package in Python&lt;/p&gt;
-&lt;h2 id=&#34;osaccess&#34;&gt;os.access()&lt;/h2&gt;
+&lt;h2 id=&#34;osaccess&#34;&gt;os.access&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;access&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/file/path/foo.txt&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;F_OK&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
@@ -559,13 +563,19 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;access&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/file/path/foo.txt&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;X_OK&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;File is accessible to execute&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;osenviron&#34;&gt;os.environ&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os333&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;environ&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;CUDA_VISIBLE_DEVICES&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;0,1&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;PATH&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;environ&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;get&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;&amp;#39;PATH&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;oslistdir&#34;&gt;os.listdir&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;/home/dante/file&amp;#39;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;file_list&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;listdir&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;# list&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;file_list&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ospathexists&#34;&gt;os.path.exists()&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ospathexists&#34;&gt;os.path.exists&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;For folder&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
@@ -582,7 +592,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;os&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;path&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;exists&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;no_exist_file&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;txt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#False&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ospathisfile&#34;&gt;os.path.isfile()&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;ospathisfile&#34;&gt;os.path.isfile&lt;/h2&gt;
 &lt;p&gt;To check a file exists or not when there is a folder with the same name.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kn&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nn&#34;&gt;os&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;

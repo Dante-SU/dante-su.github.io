@@ -21,7 +21,23 @@
 &lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://games-cn.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GAMES&lt;/a&gt; is short for &amp;lsquo;Graphics And Mixed Environment Symposium&amp;rsquo;, which is a study platium designed for sharing knowledge about &amp;lsquo;Computer Graphics&amp;rsquo; for those who haven&amp;rsquo;t or won&amp;rsquo;t have been enrolled in related course but have ambition and interest to learn it by themselves.&lt;/p&gt;
 &lt;p&gt;And &lt;a href=&#34;https://sites.cs.ucsb.edu/~lingqi/teaching/games101.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GAMES101&lt;/a&gt; is one of them, at the same time, the basicest one. It&amp;rsquo;s taught by &lt;a href=&#34;https://sites.cs.ucsb.edu/~lingqi/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Dr. Lingqi YAN&lt;/a&gt;, an Assist. Prof. of UCSB.&lt;/p&gt;
-&lt;h2 id=&#34;updating-soon&#34;&gt;Updating soon.&lt;/h2&gt;</description>
+&lt;h2 id=&#34;transformations&#34;&gt;Transformations&lt;/h2&gt;
+&lt;h3 id=&#34;defination&#34;&gt;Defination&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Viewing transformation
+&lt;ul&gt;
+&lt;li&gt;View/Camera transformation&lt;/li&gt;
+&lt;li&gt;Projection transformation
+&lt;ul&gt;
+&lt;li&gt;Orthographic projection&lt;/li&gt;
+&lt;li&gt;Perspective projection&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rasterization&#34;&gt;Rasterization&lt;/h2&gt;
+&lt;p&gt;For perspective projection, define aspect radio = width / height and field-of-view(fov).&lt;/p&gt;</description>
     </item>
     
   </channel>

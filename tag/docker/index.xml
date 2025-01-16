@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/docker/</link>
       <atom:link href="https://dante-su.github.io/tag/docker/index.xml" rel="self" type="application/rss+xml" />
     <description>Docker</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 08 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Jul 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>Docker</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Docker</title>
       <link>https://dante-su.github.io/notes/shell/docker/</link>
-      <pubDate>Mon, 08 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/shell/docker/</guid>
       <description>&lt;p&gt;Some documents of docker&lt;/p&gt;
 &lt;figure  &gt;
@@ -26,23 +26,105 @@
   &lt;summary class=&#34;font-weight-bold&#34;&gt;Table of Contents&lt;/summary&gt;
   &lt;nav id=&#34;TableOfContents&#34;&gt;
   &lt;ul&gt;
-    &lt;li&gt;&lt;a href=&#34;#updating&#34;&gt;Updating&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#install&#34;&gt;Install&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#for-ubuntu&#34;&gt;&lt;em&gt;For Ubuntu&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#for-mac-os&#34;&gt;&lt;em&gt;For Mac OS&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#usage&#34;&gt;Usage&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#container&#34;&gt;Container&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#image&#34;&gt;Image&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#login&#34;&gt;Login&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#update-repository&#34;&gt;Update repository&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
     &lt;li&gt;&lt;a href=&#34;#bugs-record&#34;&gt;Bugs record&lt;/a&gt;
       &lt;ul&gt;
         &lt;li&gt;&lt;a href=&#34;#opencv-importerror&#34;&gt;Opencv ImportError&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#login-via-google-account&#34;&gt;Login via Google Account&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/nav&gt;
 &lt;/details&gt;
 
-&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+&lt;h3 id=&#34;for-ubuntu&#34;&gt;&lt;em&gt;For Ubuntu&lt;/em&gt;&lt;/h3&gt;
+&lt;h4 id=&#34;add-dockers-official-gpg-key&#34;&gt;Add Docker&amp;rsquo;s official GPG key&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install ca-certificates curl&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo install -m 0755 -d /etc/apt/keyrings&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo chmod a+r /etc/apt/keyrings/docker.asc&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;add-the-repository-to-apt-sources&#34;&gt;Add the repository to Apt sources&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;echo \ &amp;quot;deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \ $(. /etc/os-release &amp;amp;&amp;amp; echo &amp;quot;$VERSION_CODENAME&amp;quot;) stable&amp;quot; | \ sudo tee /etc/apt/sources.list.d/docker.list &amp;gt; /dev/null&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;install-the-docker-packages&#34;&gt;Install the Docker packages&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;verify-by-running-hello-world-image&#34;&gt;Verify by running &lt;em&gt;hello-world&lt;/em&gt; image&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;sudo docker run hello-world&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;for-mac-os&#34;&gt;&lt;em&gt;For Mac OS&lt;/em&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;brew install -cask docker&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;h3 id=&#34;container&#34;&gt;Container&lt;/h3&gt;
+&lt;h4 id=&#34;list-all-the-containers&#34;&gt;List all the containers&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;docker container ls&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker ps&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Add &lt;code&gt;-all&lt;/code&gt; or &lt;code&gt;-a&lt;/code&gt; to the above two commands to list all the containers, including those stopped.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;run&#34;&gt;Run&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;docker container run -it 3000:3000 &amp;lt;image&amp;gt; bash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker exec -it &amp;lt;container_id&amp;gt; bash&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-it&lt;/code&gt; is one usually-used example of &lt;code&gt;&amp;lt;opt_code&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;List of available &amp;lt;opt_code&amp;gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;/p&gt;
+&lt;/details&gt;
+&lt;h4 id=&#34;close-container&#34;&gt;Close container&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;docker kill &amp;lt;container_id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker stop &amp;lt;container_id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker rm &amp;lt;container_id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;image&#34;&gt;Image&lt;/h3&gt;
+&lt;h4 id=&#34;list-all-the-available-images&#34;&gt;List all the available images&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;docker images&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker image ls&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;pull-image-from-internet&#34;&gt;Pull image from Internet&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;docker image pull &amp;lt;library_name&amp;gt;/&amp;lt;repo_name&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;delete-image&#34;&gt;Delete image&lt;/h4&gt;
+&lt;p&gt;&lt;code&gt;docker rmi &amp;lt;image_id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker image rm &amp;lt;image_id&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Add &lt;code&gt;-f&lt;/code&gt; before &lt;code&gt;&amp;lt;image_id&amp;gt;&lt;/code&gt; to delete it on force.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;login&#34;&gt;Login&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;docker login -u &amp;lt;username&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker login&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    For those who create docker account via Google Account and skip password setting, you may create &lt;strong&gt;Access Tokens&lt;/strong&gt; in docker official website after logining in, with which you could have access to your docker account on terminal.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;update-repository&#34;&gt;Update repository&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;docker commit -a &#39;&amp;lt;username&amp;gt;&#39; -m &#39;&amp;lt;update_message&amp;gt;&#39; &amp;lt;container_id&amp;gt; &amp;lt;username&amp;gt;/&amp;lt;repo_name&amp;gt;:&amp;lt;tag&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;docker push &amp;lt;username&amp;gt;/&amp;lt;repo_name&amp;gt;:&amp;lt;tag&amp;gt;&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;bugs-record&#34;&gt;Bugs record&lt;/h2&gt;
 &lt;h3 id=&#34;opencv-importerror&#34;&gt;Opencv ImportError&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ImportError: libGL.so.1: cannot open shared object file: No such file or directory
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you install opencv by &lt;code&gt;pip install opencv-python&lt;/code&gt; before, you could use the below method.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;pip uninstall opencv-python&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;pip install opencv-python-headless&lt;/code&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;code&gt;pip install opencv-python-headless&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;login-via-google-account&#34;&gt;Login via Google Account&lt;/h3&gt;
+&lt;p&gt;When using &lt;code&gt;docker login&lt;/code&gt;, we may need to input&lt;/p&gt;</description>
     </item>
     
   </channel>

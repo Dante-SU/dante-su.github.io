@@ -5,7 +5,7 @@
     <link>https://dante-su.github.io/tag/arxiv/</link>
       <atom:link href="https://dante-su.github.io/tag/arxiv/index.xml" rel="self" type="application/rss+xml" />
     <description>arxiv</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 16 May 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://dante-su.github.io/media/icon_hu7efa9fb1b4c0d8b70215a0799cf2d372_307774_512x512_fill_lanczos_center_3.png</url>
       <title>arxiv</title>
@@ -15,10 +15,71 @@
     <item>
       <title>ArXiv</title>
       <link>https://dante-su.github.io/notes/paper_reading/arxiv/</link>
-      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 May 2024 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/paper_reading/arxiv/</guid>
       <description>&lt;p&gt;ArXiv&lt;/p&gt;
-&lt;h2 id=&#34;2023&#34;&gt;2023&lt;/h2&gt;</description>
+&lt;h2 id=&#34;2024&#34;&gt;2024&lt;/h2&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-0&#34;&gt;
+  &lt;summary&gt;DeblurGS: Gaussian Splatting for Camera Motion Blur&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://arxiv.org/pdf/2404.11358&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;Deblur, 3DGS, Camera Motion Deblurring&lt;/em&gt;
+*&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/arxiv/2024_1.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-1&#34;&gt;
+  &lt;summary&gt;Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://spectacularai.github.io/3dgs-deblur/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2403.13327&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/SpectacularAI/3dgs-deblur&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;Deblur, 3DGS, Camera Motion Deblurring&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;
+&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/arxiv/2024_2.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-2&#34;&gt;
+  &lt;summary&gt;BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://lingzhezhao.github.io/BAD-Gaussians/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2403.11831&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/WU-CVGL/BAD-Gaussians&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;Deblur, 3DGS, Camera Motion Deblurring&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;
+&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/arxiv/2024_3.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;
+&lt;details class=&#34;spoiler &#34;  id=&#34;spoiler-3&#34;&gt;
+  &lt;summary&gt;Deblurring 3D Gaussian Splatting&lt;/summary&gt;
+  &lt;p&gt;&lt;p&gt;[ &lt;a href=&#34;https://benhenryl.github.io/Deblurring-3D-Gaussian-Splatting/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt; | &lt;a href=&#34;https://arxiv.org/pdf/2401.00834&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt; | &lt;a href=&#34;https://github.com/benhenryL/Deblurring-3D-Gaussian-Splatting&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code&lt;/a&gt; ]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; &lt;em&gt;Deblur, 3DGS, Camera Motion Deblurring&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Aim:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Contribution:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;Motivation:&lt;/strong&gt;
+&lt;strong&gt;Architecture:&lt;/strong&gt;&lt;/p&gt;
+&lt;img src=&#39;../img/arxiv/2024_3.png&#39; style=&#39;zoom:1&#39;&gt;
+&lt;p&gt;&lt;strong&gt;Comparison models:&lt;/strong&gt;&lt;/p&gt;
+&lt;/p&gt;
+&lt;/details&gt;</description>
     </item>
     
   </channel>

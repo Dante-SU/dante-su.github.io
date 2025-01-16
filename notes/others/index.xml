@@ -850,15 +850,10 @@ x = y
     <item>
       <title>Messy</title>
       <link>https://dante-su.github.io/notes/others/messy/</link>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://dante-su.github.io/notes/others/messy/</guid>
       <description>&lt;p&gt;Notes&lt;/p&gt;
 &lt;h2 id=&#34;python&#34;&gt;Python&lt;/h2&gt;
-&lt;h3 id=&#34;move-multipie-lines-rightleft&#34;&gt;Move multipie lines right/left&lt;/h3&gt;
-&lt;h4 id=&#34;left&#34;&gt;Left&lt;/h4&gt;
-&lt;p&gt;Select the needed content and press &lt;code&gt;Tab&lt;/code&gt;&lt;/p&gt;
-&lt;h4 id=&#34;right&#34;&gt;Right&lt;/h4&gt;
-&lt;p&gt;Select the needed content and press &lt;code&gt;Shift&lt;/code&gt; and &lt;code&gt;Tab&lt;/code&gt; at the same time&lt;/p&gt;
 &lt;h3 id=&#34;colab&#34;&gt;Colab&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/github/iErics/gd-utils/blob/master/Colab_gd_utils.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://colab.research.google.com/github/iErics/gd-utils/blob/master/Colab_gd_utils.ipynb&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kd&#34;&gt;function&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;ConnectButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;
@@ -866,7 +861,16 @@ x = y
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nb&#34;&gt;document&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;querySelector&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;#connect&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;).&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;click&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt; 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nx&#34;&gt;setInterval&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;ConnectButton&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;60000&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;use-visdom-over-remote-server&#34;&gt;Use visdom over remote server&lt;/h3&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;cutlassf-no-kernel-found-to-launch&#34;&gt;cutlassF: no kernel found to launch!&lt;/h3&gt;
+&lt;p&gt;Add below lines to the code&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-py&#34; data-lang=&#34;py&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;torch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;backends&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cuda&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;enable_mem_efficient_sdp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;torch&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;backends&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cuda&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;enable_flash_sdp&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kc&#34;&gt;False&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;move-multipie-lines-rightleft&#34;&gt;Move multipie lines right/left&lt;/h3&gt;
+&lt;h4 id=&#34;left&#34;&gt;Left&lt;/h4&gt;
+&lt;p&gt;Select the needed content and press &lt;code&gt;Tab&lt;/code&gt;&lt;/p&gt;
+&lt;h4 id=&#34;right&#34;&gt;Right&lt;/h4&gt;
+&lt;p&gt;Select the needed content and press &lt;code&gt;Shift&lt;/code&gt; and &lt;code&gt;Tab&lt;/code&gt; at the same time&lt;/p&gt;
+&lt;h3 id=&#34;use-visdom-over-remote-server&#34;&gt;Use visdom over remote server&lt;/h3&gt;
 &lt;p&gt;This note is for those who need run their codes on remote server but finding that they could NOT be able to get access to visdom&amp;rsquo;s monitor as before. So we need to mapping the service of visdom to our local workspace over the remote server.&lt;/p&gt;
 &lt;p&gt;Steps:&lt;/p&gt;
 &lt;ol&gt;
